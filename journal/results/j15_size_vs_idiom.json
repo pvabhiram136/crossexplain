@@ -1,0 +1,236 @@
+{
+ "n_samples": 21,
+ "all_safe": true,
+ "grid": {
+  "SYNC2/small": {
+   "n": 3,
+   "mean_nodes": 14.0,
+   "ens_fpr": 0.0,
+   "textbook_fpr": 0.0,
+   "domain_fpr": 0.0
+  },
+  "SYNC2/large": {
+   "n": 3,
+   "mean_nodes": 69.0,
+   "ens_fpr": 0.0,
+   "textbook_fpr": 0.0,
+   "domain_fpr": 0.0
+  },
+  "MUX_HOLD/small": {
+   "n": 3,
+   "mean_nodes": 27.0,
+   "ens_fpr": 0.0,
+   "textbook_fpr": 1.0,
+   "domain_fpr": 1.0
+  },
+  "MUX_HOLD/large": {
+   "n": 12,
+   "mean_nodes": 409.5,
+   "ens_fpr": 1.0,
+   "textbook_fpr": 1.0,
+   "domain_fpr": 1.0
+  }
+ },
+ "marginal_by_size": {
+  "small": 0.0,
+  "large": 0.8
+ },
+ "marginal_by_idiom": {
+  "SYNC2": 0.0,
+  "MUX_HOLD": 0.8
+ },
+ "delta_size": 0.8,
+ "delta_idiom": 0.8,
+ "verdict": "neither factor dominates cleanly",
+ "samples": [
+  {
+   "design": "sz_uart16550_pin_sync2",
+   "level": "O0",
+   "core": "uart16550",
+   "idiom": "SYNC2",
+   "size": "small",
+   "n_nodes": 14,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_uart16550_sync2_deep",
+   "level": "O0",
+   "core": "uart16550",
+   "idiom": "SYNC2",
+   "size": "large",
+   "n_nodes": 69,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_uart16550_mux_hold_narrow",
+   "level": "O0",
+   "core": "uart16550",
+   "idiom": "MUX_HOLD",
+   "size": "small",
+   "n_nodes": 27,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_uart16550_sync2_held",
+   "level": "O0",
+   "core": "uart16550",
+   "idiom": "MUX_HOLD",
+   "size": "large",
+   "n_nodes": 448,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_uart16550_sync2_held",
+   "level": "O1",
+   "core": "uart16550",
+   "idiom": "MUX_HOLD",
+   "size": "large",
+   "n_nodes": 75,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_uart16550_sync2_held",
+   "level": "O2",
+   "core": "uart16550",
+   "idiom": "MUX_HOLD",
+   "size": "large",
+   "n_nodes": 72,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_uart16550_sync2_held",
+   "level": "O3",
+   "core": "uart16550",
+   "idiom": "MUX_HOLD",
+   "size": "large",
+   "n_nodes": 72,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_i2c_master_pin_sync2",
+   "level": "O0",
+   "core": "i2c_master",
+   "idiom": "SYNC2",
+   "size": "small",
+   "n_nodes": 14,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_i2c_master_sync2_deep",
+   "level": "O0",
+   "core": "i2c_master",
+   "idiom": "SYNC2",
+   "size": "large",
+   "n_nodes": 69,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_i2c_master_mux_hold_narrow",
+   "level": "O0",
+   "core": "i2c_master",
+   "idiom": "MUX_HOLD",
+   "size": "small",
+   "n_nodes": 27,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_i2c_master_sync2_held",
+   "level": "O0",
+   "core": "i2c_master",
+   "idiom": "MUX_HOLD",
+   "size": "large",
+   "n_nodes": 837,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_i2c_master_sync2_held",
+   "level": "O1",
+   "core": "i2c_master",
+   "idiom": "MUX_HOLD",
+   "size": "large",
+   "n_nodes": 564,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_i2c_master_sync2_held",
+   "level": "O2",
+   "core": "i2c_master",
+   "idiom": "MUX_HOLD",
+   "size": "large",
+   "n_nodes": 550,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_i2c_master_sync2_held",
+   "level": "O3",
+   "core": "i2c_master",
+   "idiom": "MUX_HOLD",
+   "size": "large",
+   "n_nodes": 550,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_simple_spi_pin_sync2",
+   "level": "O0",
+   "core": "simple_spi",
+   "idiom": "SYNC2",
+   "size": "small",
+   "n_nodes": 14,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_simple_spi_sync2_deep",
+   "level": "O0",
+   "core": "simple_spi",
+   "idiom": "SYNC2",
+   "size": "large",
+   "n_nodes": 69,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_simple_spi_mux_hold_narrow",
+   "level": "O0",
+   "core": "simple_spi",
+   "idiom": "MUX_HOLD",
+   "size": "small",
+   "n_nodes": 27,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_simple_spi_sync2_held",
+   "level": "O0",
+   "core": "simple_spi",
+   "idiom": "MUX_HOLD",
+   "size": "large",
+   "n_nodes": 527,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_simple_spi_sync2_held",
+   "level": "O1",
+   "core": "simple_spi",
+   "idiom": "MUX_HOLD",
+   "size": "large",
+   "n_nodes": 359,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_simple_spi_sync2_held",
+   "level": "O2",
+   "core": "simple_spi",
+   "idiom": "MUX_HOLD",
+   "size": "large",
+   "n_nodes": 430,
+   "label_safe": 1
+  },
+  {
+   "design": "sz_simple_spi_sync2_held",
+   "level": "O3",
+   "core": "simple_spi",
+   "idiom": "MUX_HOLD",
+   "size": "large",
+   "n_nodes": 430,
+   "label_safe": 1
+  }
+ ]
+}

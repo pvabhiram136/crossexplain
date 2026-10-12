@@ -1,0 +1,20 @@
+{
+ "clock_rule": {
+  "n_files": 880,
+  "n_checked": 632,
+  "n_not_netlist": 248,
+  "n_skipped": 0,
+  "agree": 632,
+  "disagree": 0,
+  "errors": [],
+  "examples": []
+ },
+ "relabel": {
+  "n_samples": 256,
+  "n_perms": 5,
+  "max_abs_diff": 1.4901161193847656e-08,
+  "decisions_changed": 0
+ },
+ "clock_confirmed": true,
+ "relabel_confirmed": true
+}

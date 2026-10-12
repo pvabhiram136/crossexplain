@@ -1,0 +1,16 @@
+{
+ "arch": "gat",
+ "pooling": "global_first",
+ "node_perm": null,
+ "epochs": 40,
+ "seed": 0,
+ "threads": 1,
+ "test_id_f1": 1.0,
+ "test_real_f1": 0.6896551724137931,
+ "conf_fpr": 1.0,
+ "conf_median_p": 0.9999950528144836,
+ "conf_min_margin": 0.49925094842910767,
+ "conf_n": 40,
+ "wrapped_recall": 1.0,
+ "wrapped_sep": 0.10382354259490967
+}

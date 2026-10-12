@@ -1,0 +1,114 @@
+{
+ "documents": [
+  {
+   "title": "journal",
+   "n_tables": 9,
+   "n_overflow": 0,
+   "problems": [],
+   "n_tight": 1,
+   "tables": [
+    {
+     "name": "tab_corpus.tex",
+     "starred": true,
+     "width_pt": 285.4,
+     "avail_pt": 516.0,
+     "pct": 55.3
+    },
+    {
+     "name": "tab_dispdist.tex",
+     "starred": false,
+     "width_pt": 229.6,
+     "avail_pt": 252.0,
+     "pct": 91.1
+    },
+    {
+     "name": "tab_dispersion.tex",
+     "starred": true,
+     "width_pt": 262.4,
+     "avail_pt": 516.0,
+     "pct": 50.9
+    },
+    {
+     "name": "tab_nullchange.tex",
+     "starred": false,
+     "width_pt": 209.9,
+     "avail_pt": 252.0,
+     "pct": 83.3
+    },
+    {
+     "name": "tab_nullchange_end.tex",
+     "starred": true,
+     "width_pt": 264.5,
+     "avail_pt": 516.0,
+     "pct": 51.3
+    },
+    {
+     "name": "tab_priorwork.tex",
+     "starred": true,
+     "width_pt": 461.3,
+     "avail_pt": 516.0,
+     "pct": 89.4
+    },
+    {
+     "name": "tab_saturation.tex",
+     "starred": false,
+     "width_pt": 250.9,
+     "avail_pt": 252.0,
+     "pct": 99.6
+    },
+    {
+     "name": "tab_templates.tex",
+     "starred": false,
+     "width_pt": 239.8,
+     "avail_pt": 252.0,
+     "pct": 95.1
+    },
+    {
+     "name": "tab_transfer.tex",
+     "starred": true,
+     "width_pt": 341.7,
+     "avail_pt": 516.0,
+     "pct": 66.2
+    }
+   ]
+  },
+  {
+   "title": "conference",
+   "n_tables": 4,
+   "n_overflow": 0,
+   "problems": [],
+   "n_tight": 0,
+   "tables": [
+    {
+     "name": "tab:templates",
+     "starred": false,
+     "width_pt": 239.8,
+     "avail_pt": 252.0,
+     "pct": 95.1
+    },
+    {
+     "name": "tab:detection",
+     "starred": false,
+     "width_pt": 243.5,
+     "avail_pt": 252.0,
+     "pct": 96.6
+    },
+    {
+     "name": "tab:seeds",
+     "starred": false,
+     "width_pt": 210.0,
+     "avail_pt": 252.0,
+     "pct": 83.3
+    },
+    {
+     "name": "tab:realtemplate",
+     "starred": false,
+     "width_pt": 229.1,
+     "avail_pt": 252.0,
+     "pct": 90.9
+    }
+   ]
+  }
+ ],
+ "n_overflow": 0
+}

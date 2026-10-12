@@ -1,0 +1,13 @@
+{
+ "n_bibitems": 24,
+ "n_cited": 24,
+ "orphan": [],
+ "missing": [],
+ "dangling": [],
+ "duplicate_labels": [],
+ "sections_never_input": [],
+ "unverified_citations": [],
+ "problems": [
+  "placeholder still in the LaTeX: 'ARTIFACT-URL-PENDING' -- fill it before submission"
+ ]
+}

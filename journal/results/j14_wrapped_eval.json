@@ -1,0 +1,165 @@
+{
+ "n_samples": 84,
+ "n_crossings": 24,
+ "n_designs": 12,
+ "mean_nodes": 254.25,
+ "detection": {
+  "crossexplain_ens": {
+   "accuracy": 0.7142857142857143,
+   "precision": 0.6363636363636364,
+   "recall": 1.0,
+   "f1": 0.7777777777777778,
+   "false_positive_rate": 0.5714285714285714,
+   "tp": 42,
+   "fp": 24,
+   "tn": 18,
+   "fn": 0,
+   "ci_design": {
+    "point": 0.7777777777777778,
+    "ci_lo": 0.5744680851063829,
+    "ci_hi": 0.911764705882353,
+    "width": 0.3372966207759701,
+    "n_clusters": 12,
+    "B": 3000
+   }
+  },
+  "matcher_textbook": {
+   "accuracy": 0.7142857142857143,
+   "precision": 0.6363636363636364,
+   "recall": 1.0,
+   "f1": 0.7777777777777778,
+   "false_positive_rate": 0.5714285714285714,
+   "tp": 42,
+   "fp": 24,
+   "tn": 18,
+   "fn": 0,
+   "ci_design": {
+    "point": 0.7777777777777778,
+    "ci_lo": 0.5744680851063829,
+    "ci_hi": 0.911764705882353,
+    "width": 0.3372966207759701,
+    "n_clusters": 12,
+    "B": 3000
+   }
+  },
+  "matcher_domain_aware": {
+   "accuracy": 0.7142857142857143,
+   "precision": 0.6363636363636364,
+   "recall": 1.0,
+   "f1": 0.7777777777777778,
+   "false_positive_rate": 0.5714285714285714,
+   "tp": 42,
+   "fp": 24,
+   "tn": 18,
+   "fn": 0,
+   "ci_design": {
+    "point": 0.7777777777777778,
+    "ci_lo": 0.5744680851063829,
+    "ci_hi": 0.911764705882353,
+    "width": 0.3372966207759701,
+    "n_clusters": 12,
+    "B": 3000
+   }
+  },
+  "random_forest": {
+   "accuracy": 0.6428571428571429,
+   "precision": 0.6071428571428571,
+   "recall": 0.8095238095238095,
+   "f1": 0.6938775510204083,
+   "false_positive_rate": 0.5238095238095238,
+   "tp": 34,
+   "fp": 22,
+   "tn": 20,
+   "fn": 8,
+   "ci_design": {
+    "point": 0.6938775510204083,
+    "ci_lo": 0.46153846153846156,
+    "ci_hi": 0.8571428571428571,
+    "width": 0.39560439560439553,
+    "n_clusters": 12,
+    "B": 3000
+   }
+  }
+ },
+ "safe_fpr_by_size": [
+  {
+   "lo": 0,
+   "hi": 50,
+   "n": 18,
+   "fpr": 0.0
+  },
+  {
+   "lo": 50,
+   "hi": 150,
+   "n": 6,
+   "fpr": 1.0
+  },
+  {
+   "lo": 150,
+   "hi": 400,
+   "n": 2,
+   "fpr": 1.0
+  },
+  {
+   "lo": 400,
+   "hi": 1000000000,
+   "n": 16,
+   "fpr": 1.0
+  }
+ ],
+ "safe_fpr_overall": 0.5714285714285714,
+ "old_real_split_fpr": 0.19444444444444445,
+ "unsafe_recall": 1.0,
+ "per_template": {
+  "BUS_NOSYNC": {
+   "n": 24,
+   "label": "unsafe",
+   "ens_acc": 1.0,
+   "mean_nodes": 436.4166666666667
+  },
+  "MUX_HOLD": {
+   "n": 24,
+   "label": "safe",
+   "ens_acc": 0.0,
+   "mean_nodes": 409.5
+  },
+  "NO_SYNC": {
+   "n": 18,
+   "label": "unsafe",
+   "ens_acc": 1.0,
+   "mean_nodes": 44.611111111111114
+  },
+  "SYNC2": {
+   "n": 18,
+   "label": "safe",
+   "ens_acc": 1.0,
+   "mean_nodes": 14.0
+  }
+ },
+ "method_predictions_identical": {
+  "ens_vs_textbook_matcher": true,
+  "ens_vs_domain_aware_matcher": true,
+  "note": "all three flag every crossing except SYNC2"
+ },
+ "size_template_confound": {
+  "SYNC2": {
+   "n": 18,
+   "nodes_min": 14,
+   "nodes_max": 14,
+   "flagged": 0.0
+  },
+  "MUX_HOLD": {
+   "n": 24,
+   "nodes_min": 72,
+   "nodes_max": 837,
+   "flagged": 1.0
+  },
+  "size_ranges_overlap": false,
+  "note": "size and idiom cannot be separated on this corpus: the two safe templates have disjoint size ranges"
+ },
+ "mux_hold_degradation": {
+  "generated_test_id": 1.0,
+  "old_test_real": 0.637,
+  "wrapped": 0.0
+ }
+}

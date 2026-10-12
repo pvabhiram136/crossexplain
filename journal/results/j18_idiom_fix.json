@@ -1,0 +1,183 @@
+{
+ "frozen": "2026-08-23T07:08:24.579666+00:00",
+ "arms": {
+  "baseline": {
+   "n_train": 1435,
+   "test_id_f1": 1.0,
+   "test_real": {
+    "accuracy": 0.8088235294117647,
+    "precision": 0.8275862068965517,
+    "recall": 0.75,
+    "f1": 0.7868852459016394,
+    "false_positive_rate": 0.1388888888888889,
+    "tp": 24,
+    "fp": 5,
+    "tn": 31,
+    "fn": 8
+   },
+   "test_real_ci": {
+    "point": 0.7868852459016394,
+    "ci_lo": 0.5384615384615385,
+    "ci_hi": 0.9411764705882353,
+    "width": 0.40271493212669673,
+    "n_clusters": 12,
+    "B": 2000
+   },
+   "conf_fpr_all": 0.9354838709677419,
+   "conf_fpr_fresh": 0.95,
+   "conf_fpr_used": 0.9090909090909091,
+   "per_design": {
+    "axis_async_adapter": 1.0,
+    "axis_async_fifo": 1.0,
+    "ot_prim_fifo_async": 1.0,
+    "ot_prim_fifo_async_simple": 1.0,
+    "ot_prim_pulse_sync": 0.0,
+    "ot_prim_reg_cdc": 1.0,
+    "ot_prim_sync_reqack": 1.0,
+    "ot_prim_sync_reqack_data": 1.0,
+    "pulp_cdc_2phase": 0.5,
+    "pulp_cdc_2phase_clearable": 1.0,
+    "pulp_cdc_4phase": 1.0,
+    "pulp_cdc_fifo_2phase": 1.0,
+    "pulp_cdc_fifo_gray": 1.0,
+    "pulp_cdc_fifo_gray_clearable": 1.0,
+    "pulp_cdc_reset_ctrlr": 1.0,
+    "wb2axip_afifo": 1.0
+   }
+  },
+  "ctx": {
+   "n_train": 1859,
+   "test_id_f1": 1.0,
+   "test_real": {
+    "accuracy": 0.7352941176470589,
+    "precision": 0.6944444444444444,
+    "recall": 0.78125,
+    "f1": 0.7352941176470588,
+    "false_positive_rate": 0.3055555555555556,
+    "tp": 25,
+    "fp": 11,
+    "tn": 25,
+    "fn": 7
+   },
+   "test_real_ci": {
+    "point": 0.7352941176470588,
+    "ci_lo": 0.43898628048780486,
+    "ci_hi": 0.9105771552765032,
+    "width": 0.4715908747886983,
+    "n_clusters": 12,
+    "B": 2000
+   },
+   "conf_fpr_all": 0.8064516129032258,
+   "conf_fpr_fresh": 0.85,
+   "conf_fpr_used": 0.7272727272727273,
+   "per_design": {
+    "axis_async_adapter": 1.0,
+    "axis_async_fifo": 1.0,
+    "ot_prim_fifo_async": 1.0,
+    "ot_prim_fifo_async_simple": 1.0,
+    "ot_prim_pulse_sync": 0.0,
+    "ot_prim_reg_cdc": 0.0,
+    "ot_prim_sync_reqack": 1.0,
+    "ot_prim_sync_reqack_data": 1.0,
+    "pulp_cdc_2phase": 0.5,
+    "pulp_cdc_2phase_clearable": 1.0,
+    "pulp_cdc_4phase": 1.0,
+    "pulp_cdc_fifo_2phase": 1.0,
+    "pulp_cdc_fifo_gray": 0.5,
+    "pulp_cdc_fifo_gray_clearable": 0.5,
+    "pulp_cdc_reset_ctrlr": 1.0,
+    "wb2axip_afifo": 1.0
+   }
+  },
+  "idiom": {
+   "n_train": 1847,
+   "test_id_f1": 1.0,
+   "test_real": {
+    "accuracy": 0.5735294117647058,
+    "precision": 0.5272727272727272,
+    "recall": 0.90625,
+    "f1": 0.6666666666666665,
+    "false_positive_rate": 0.7222222222222222,
+    "tp": 29,
+    "fp": 26,
+    "tn": 10,
+    "fn": 3
+   },
+   "test_real_ci": {
+    "point": 0.6666666666666665,
+    "ci_lo": 0.31165472458575905,
+    "ci_hi": 0.9,
+    "width": 0.588345275414241,
+    "n_clusters": 12,
+    "B": 2000
+   },
+   "conf_fpr_all": 1.0,
+   "conf_fpr_fresh": 1.0,
+   "conf_fpr_used": 1.0,
+   "per_design": {
+    "axis_async_adapter": 1.0,
+    "axis_async_fifo": 1.0,
+    "ot_prim_fifo_async": 1.0,
+    "ot_prim_fifo_async_simple": 1.0,
+    "ot_prim_pulse_sync": 1.0,
+    "ot_prim_reg_cdc": 1.0,
+    "ot_prim_sync_reqack": 1.0,
+    "ot_prim_sync_reqack_data": 1.0,
+    "pulp_cdc_2phase": 1.0,
+    "pulp_cdc_2phase_clearable": 1.0,
+    "pulp_cdc_4phase": 1.0,
+    "pulp_cdc_fifo_2phase": 1.0,
+    "pulp_cdc_fifo_gray": 1.0,
+    "pulp_cdc_fifo_gray_clearable": 1.0,
+    "pulp_cdc_reset_ctrlr": 1.0,
+    "wb2axip_afifo": 1.0
+   }
+  },
+  "both": {
+   "n_train": 2271,
+   "test_id_f1": 1.0,
+   "test_real": {
+    "accuracy": 0.6617647058823529,
+    "precision": 0.5849056603773585,
+    "recall": 0.96875,
+    "f1": 0.7294117647058823,
+    "false_positive_rate": 0.6111111111111112,
+    "tp": 31,
+    "fp": 22,
+    "tn": 14,
+    "fn": 1
+   },
+   "test_real_ci": {
+    "point": 0.7294117647058823,
+    "ci_lo": 0.4072222222222222,
+    "ci_hi": 0.9247379032258064,
+    "width": 0.5175156810035841,
+    "n_clusters": 12,
+    "B": 2000
+   },
+   "conf_fpr_all": 0.8387096774193549,
+   "conf_fpr_fresh": 0.75,
+   "conf_fpr_used": 1.0,
+   "per_design": {
+    "axis_async_adapter": 1.0,
+    "axis_async_fifo": 1.0,
+    "ot_prim_fifo_async": 1.0,
+    "ot_prim_fifo_async_simple": 1.0,
+    "ot_prim_pulse_sync": 1.0,
+    "ot_prim_reg_cdc": 1.0,
+    "ot_prim_sync_reqack": 1.0,
+    "ot_prim_sync_reqack_data": 1.0,
+    "pulp_cdc_2phase": 0.5,
+    "pulp_cdc_2phase_clearable": 1.0,
+    "pulp_cdc_4phase": 0.5,
+    "pulp_cdc_fifo_2phase": 0.0,
+    "pulp_cdc_fifo_gray": 0.5,
+    "pulp_cdc_fifo_gray_clearable": 1.0,
+    "pulp_cdc_reset_ctrlr": 1.0,
+    "wb2axip_afifo": 1.0
+   }
+  }
+ },
+ "n_conf": 31,
+ "n_fresh": 20
+}

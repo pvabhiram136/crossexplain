@@ -1,0 +1,37 @@
+{
+ "arch": "gcn",
+ "epochs": 40,
+ "seed": 0,
+ "n_conf": 39,
+ "n_conf_designs": 20,
+ "models": {
+  "reference": {
+   "test_id_f1": 1.0,
+   "conf_fpr": 0.10256410256410256,
+   "ci": [
+    0.0,
+    0.23076923076923078
+   ],
+   "agree_with_reference": 1.0
+  },
+  "fixed": {
+   "test_id_f1": 1.0,
+   "conf_fpr": 0.10256410256410256,
+   "ci": [
+    0.0,
+    0.23076923076923078
+   ],
+   "agree_with_reference": 1.0
+  },
+  "legacy": {
+   "test_id_f1": 1.0,
+   "conf_fpr": 0.9743589743589743,
+   "ci": [
+    0.9210526315789473,
+    1.0
+   ],
+   "agree_with_reference": 0.1282051282051282
+  }
+ },
+ "fix_verified": true
+}

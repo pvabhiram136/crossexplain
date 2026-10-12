@@ -1,0 +1,12 @@
+{
+ "saturation": {
+  "n_configs": 18,
+  "gen_range": 0.003712871287128716,
+  "real_range": 0.18277883427137165
+ },
+ "transfer": {
+  "n_methods": 9,
+  "n_at_ceiling": 6,
+  "real_range": 0.8974358974358975
+ }
+}

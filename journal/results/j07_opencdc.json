@@ -1,0 +1,56 @@
+{
+ "test_real": {
+  "unmodified_ff_count": 0,
+  "crossing_discovery_recall": 0.8823529411764706,
+  "n_flagged_capture_ffs": 252,
+  "n_our_capture_ffs": 328,
+  "detector": {
+   "accuracy": 0.35294117647058826,
+   "precision": 0.4,
+   "recall": 0.75,
+   "f1": 0.5217391304347827,
+   "false_positive_rate": 1.0,
+   "tp": 24,
+   "fp": 36,
+   "tn": 0,
+   "fn": 8
+  },
+  "detector_ci_design": {
+   "point": 0.5217391304347827,
+   "ci_lo": 0.125,
+   "ci_hi": 0.7826863354037262,
+   "width": 0.6576863354037262,
+   "n_clusters": 12,
+   "B": 2000
+  },
+  "flag_rate": 0.8823529411764706,
+  "unsafe_base_rate": 0.47058823529411764
+ },
+ "test_id": {
+  "unmodified_ff_count": 0,
+  "crossing_discovery_recall": 0.8448979591836735,
+  "n_flagged_capture_ffs": 1494,
+  "n_our_capture_ffs": 1891,
+  "detector": {
+   "accuracy": 0.3986394557823129,
+   "precision": 0.4718196457326892,
+   "recall": 0.7199017199017199,
+   "f1": 0.5700389105058365,
+   "false_positive_rate": 1.0,
+   "tp": 293,
+   "fp": 328,
+   "tn": 0,
+   "fn": 114
+  },
+  "detector_ci_design": {
+   "point": 0.5700389105058365,
+   "ci_lo": 0.48907258324142555,
+   "ci_hi": 0.6442810771563413,
+   "width": 0.15520849391491576,
+   "n_clusters": 40,
+   "B": 2000
+  },
+  "flag_rate": 0.8448979591836735,
+  "unsafe_base_rate": 0.5537414965986395
+ }
+}

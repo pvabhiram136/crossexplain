@@ -1,0 +1,86 @@
+{
+ "per_template_test_id": {
+  "BUS_NOSYNC": {
+   "textbook rules": 0.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "COMB_BEFORE_SYNC": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "GRAY2": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "MUX_HOLD": {
+   "textbook rules": 0.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "MUX_UNSYNC_QUAL": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "NO_SYNC": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "RECONV": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "SINGLE_FF": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "SYNC2": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "SYNC2_DEEPSRC": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "SYNC2_LEAK": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "SYNC3": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  }
+ },
+ "mux_hold_by_level": {
+  "O0": {
+   "rules_unoptimized_shape_only": 1.0,
+   "rules_both_shapes": 1.0,
+   "crossexplain": 1.0
+  },
+  "O1": {
+   "rules_unoptimized_shape_only": 0.0,
+   "rules_both_shapes": 1.0,
+   "crossexplain": 1.0
+  },
+  "O2": {
+   "rules_unoptimized_shape_only": 0.0,
+   "rules_both_shapes": 1.0,
+   "crossexplain": 1.0
+  },
+  "O3": {
+   "rules_unoptimized_shape_only": 0.0,
+   "rules_both_shapes": 1.0,
+   "crossexplain": 1.0
+  }
+ }
+}

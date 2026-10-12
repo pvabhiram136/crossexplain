@@ -1,0 +1,518 @@
+[
+ {
+  "name": "axis_async_fifo",
+  "repo": "https://github.com/alexforencich/verilog-axis",
+  "top": "axis_async_fifo",
+  "fetch": "cached",
+  "n_files": 1,
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 3405,
+  "n_ff": 244,
+  "clock_names": [
+   "m_clk",
+   "s_clk"
+  ],
+  "usable": true,
+  "secs": 3.4,
+  "cell_hash": "64607481d468"
+ },
+ {
+  "name": "axis_async_adapter",
+  "repo": "https://github.com/alexforencich/verilog-axis",
+  "top": "axis_async_fifo_adapter",
+  "fetch": "cached",
+  "n_files": 3,
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 3406,
+  "n_ff": 244,
+  "clock_names": [
+   "m_clk",
+   "s_clk"
+  ],
+  "usable": true,
+  "secs": 0.7,
+  "cell_hash": "bf773ab8e13b"
+ },
+ {
+  "name": "wb2axip_afifo",
+  "repo": "https://github.com/ZipCPU/wb2axip",
+  "top": "afifo",
+  "fetch": "cached",
+  "n_files": 1,
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 222,
+  "n_ff": 49,
+  "clock_names": [
+   "i_rclk",
+   "i_wclk"
+  ],
+  "usable": true,
+  "secs": 0.4,
+  "cell_hash": "60e9fce37732"
+ },
+ {
+  "name": "eth_axis_async",
+  "repo": "https://github.com/alexforencich/verilog-ethernet",
+  "top": "axis_async_fifo",
+  "fetch": "cached",
+  "n_files": 1,
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 3405,
+  "n_ff": 244,
+  "clock_names": [
+   "m_clk",
+   "s_clk"
+  ],
+  "usable": true,
+  "secs": 0.6,
+  "cell_hash": "64607481d468",
+  "duplicate_of": "axis_async_fifo"
+ },
+ {
+  "name": "bsg_async_fifo",
+  "repo": "https://github.com/bespoke-silicon-group/basejump_stl",
+  "top": "bsg_async_fifo",
+  "fetch": "cached",
+  "n_files": 10,
+  "sv2v": "ok",
+  "status": "blackboxed",
+  "detail": "{'bsg_launch_sync_sync': 2}",
+  "n_cells": 37,
+  "n_ff": 2
+ },
+ {
+  "name": "bsg_async_ptr_gray",
+  "repo": "https://github.com/bespoke-silicon-group/basejump_stl",
+  "top": "bsg_async_ptr_gray",
+  "fetch": "cached",
+  "n_files": 6,
+  "sv2v": "ok",
+  "status": "blackboxed",
+  "detail": "{'bsg_launch_sync_sync': 1}",
+  "n_cells": 32,
+  "n_ff": 4
+ },
+ {
+  "name": "bsg_launch_sync_sync",
+  "repo": "https://github.com/bespoke-silicon-group/basejump_stl",
+  "top": "bsg_launch_sync_sync",
+  "fetch": "cached",
+  "n_files": 4,
+  "sv2v": "ok",
+  "status": "empty netlist",
+  "detail": "top 'bsg_launch_sync_sync' resolved to 0 cells / 0 FFs",
+  "n_cells": 0,
+  "n_ff": 0
+ },
+ {
+  "name": "bsg_sync_sync",
+  "repo": "https://github.com/bespoke-silicon-group/basejump_stl",
+  "top": "bsg_sync_sync",
+  "fetch": "cached",
+  "n_files": 1,
+  "sv2v": "ok",
+  "status": "empty netlist",
+  "detail": "top 'bsg_sync_sync' resolved to 0 cells / 0 FFs",
+  "n_cells": 0,
+  "n_ff": 0
+ },
+ {
+  "name": "bsg_async_credit_counter",
+  "repo": "https://github.com/bespoke-silicon-group/basejump_stl",
+  "top": "bsg_async_credit_counter",
+  "fetch": "cached",
+  "missing_sources": [
+   "bsg_misc/bsg_counter_w_overflow.sv"
+  ],
+  "n_files": 8,
+  "sv2v": "ok",
+  "status": "blackboxed",
+  "detail": "{'bsg_launch_sync_sync': 1, 'bsg_scan': 1}",
+  "n_cells": 54,
+  "n_ff": 4
+ },
+ {
+  "name": "pulp_cdc_2phase",
+  "repo": "https://github.com/pulp-platform/common_cells",
+  "top": "cc_cdc_2phase",
+  "fetch": "cached",
+  "n_files": 2,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 27,
+  "n_ff": 9,
+  "clock_names": [
+   "dst_clk_i",
+   "src_clk_i"
+  ],
+  "usable": true,
+  "secs": 0.5,
+  "cell_hash": "bf740d8e9929"
+ },
+ {
+  "name": "pulp_cdc_4phase",
+  "repo": "https://github.com/pulp-platform/common_cells",
+  "top": "cc_cdc_4phase",
+  "fetch": "cached",
+  "n_files": 5,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 223,
+  "n_ff": 15,
+  "clock_names": [
+   "dst_clk_i",
+   "src_clk_i"
+  ],
+  "usable": true,
+  "secs": 0.6,
+  "cell_hash": "787affad8eb4"
+ },
+ {
+  "name": "pulp_cdc_fifo_gray",
+  "repo": "https://github.com/pulp-platform/common_cells",
+  "top": "cc_cdc_fifo_gray",
+  "fetch": "cached",
+  "n_files": 7,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 2567,
+  "n_ff": 36,
+  "clock_names": [
+   "dst_clk_i",
+   "src_clk_i"
+  ],
+  "usable": true,
+  "secs": 0.8,
+  "cell_hash": "0397e54f42da"
+ },
+ {
+  "name": "pulp_cdc_fifo_2phase",
+  "repo": "https://github.com/pulp-platform/common_cells",
+  "top": "cc_cdc_fifo_2phase",
+  "fetch": "cached",
+  "n_files": 5,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 262,
+  "n_ff": 46,
+  "clock_names": [
+   "dst_clk_i",
+   "src_clk_i"
+  ],
+  "usable": true,
+  "secs": 0.6,
+  "cell_hash": "7f51cb3fa5fa"
+ },
+ {
+  "name": "pulp_cdc_2phase_clearable",
+  "repo": "https://github.com/pulp-platform/common_cells",
+  "top": "cc_cdc_2phase_clearable",
+  "fetch": "cached",
+  "n_files": 6,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 1937,
+  "n_ff": 55,
+  "clock_names": [
+   "dst_clk_i",
+   "src_clk_i"
+  ],
+  "usable": true,
+  "secs": 0.9,
+  "cell_hash": "ec42f97d3afa"
+ },
+ {
+  "name": "pulp_cdc_reset_ctrlr",
+  "repo": "https://github.com/pulp-platform/common_cells",
+  "top": "cc_cdc_reset_ctrlr",
+  "fetch": "cached",
+  "n_files": 5,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 1888,
+  "n_ff": 40,
+  "clock_names": [
+   "a_clk_i",
+   "b_clk_i"
+  ],
+  "usable": true,
+  "secs": 0.7,
+  "cell_hash": "118fbfe3dca4"
+ },
+ {
+  "name": "pulp_cdc_fifo_gray_clearable",
+  "repo": "https://github.com/pulp-platform/common_cells",
+  "top": "cc_cdc_fifo_gray_clearable",
+  "fetch": "cached",
+  "n_files": 10,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 4486,
+  "n_ff": 88,
+  "clock_names": [
+   "dst_clk_i",
+   "src_clk_i"
+  ],
+  "usable": true,
+  "secs": 1.3,
+  "cell_hash": "85b9cf4b6582"
+ },
+ {
+  "name": "ot_prim_fifo_async",
+  "repo": "https://github.com/lowRISC/opentitan",
+  "top": "prim_fifo_async",
+  "fetch": "cached",
+  "n_files": 3,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 457,
+  "n_ff": 27,
+  "clock_names": [
+   "clk_rd_i",
+   "clk_wr_i"
+  ],
+  "usable": true,
+  "secs": 0.6,
+  "cell_hash": "77d1d6f395bd"
+ },
+ {
+  "name": "ot_prim_fifo_async_simple",
+  "repo": "https://github.com/lowRISC/opentitan",
+  "top": "prim_fifo_async_simple",
+  "fetch": "cached",
+  "n_files": 5,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 145,
+  "n_ff": 43,
+  "clock_names": [
+   "clk_rd_i",
+   "clk_wr_i"
+  ],
+  "usable": true,
+  "secs": 0.6,
+  "cell_hash": "b18862c08c6d"
+ },
+ {
+  "name": "ot_prim_sync_reqack",
+  "repo": "https://github.com/lowRISC/opentitan",
+  "top": "prim_sync_reqack",
+  "fetch": "cached",
+  "n_files": 3,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 64,
+  "n_ff": 8,
+  "clock_names": [
+   "clk_dst_i",
+   "clk_src_i"
+  ],
+  "usable": true,
+  "secs": 0.5,
+  "cell_hash": "5963ebda1ed1"
+ },
+ {
+  "name": "ot_prim_sync_reqack_data",
+  "repo": "https://github.com/lowRISC/opentitan",
+  "top": "prim_sync_reqack_data",
+  "fetch": "cached",
+  "n_files": 4,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 65,
+  "n_ff": 8,
+  "clock_names": [
+   "clk_dst_i",
+   "clk_src_i"
+  ],
+  "usable": true,
+  "secs": 0.5,
+  "cell_hash": "e4d35c7f36cd"
+ },
+ {
+  "name": "ot_prim_pulse_sync",
+  "repo": "https://github.com/lowRISC/opentitan",
+  "top": "prim_pulse_sync",
+  "fetch": "cached",
+  "n_files": 3,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 9,
+  "n_ff": 4,
+  "clock_names": [
+   "clk_dst_i",
+   "clk_src_i"
+  ],
+  "usable": true,
+  "secs": 0.5,
+  "cell_hash": "ce8f9f5ffe39"
+ },
+ {
+  "name": "ot_prim_reg_cdc",
+  "repo": "https://github.com/lowRISC/opentitan",
+  "top": "prim_reg_cdc",
+  "fetch": "cached",
+  "n_files": 5,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 2,
+  "n_cells": 134,
+  "n_ff": 44,
+  "clock_names": [
+   "clk_dst_i",
+   "clk_src_i"
+  ],
+  "usable": true,
+  "secs": 0.5,
+  "cell_hash": "a25d38c003f4"
+ },
+ {
+  "name": "ot_prim_multibit_sync",
+  "repo": "https://github.com/lowRISC/opentitan",
+  "top": "prim_multibit_sync",
+  "fetch": "cached",
+  "n_files": 3,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 1,
+  "n_cells": 59,
+  "n_ff": 32,
+  "clock_names": [
+   "clk_i"
+  ],
+  "usable": false,
+  "secs": 0.5,
+  "cell_hash": "4878c9ebed4d"
+ },
+ {
+  "name": "ot_prim_sync_slow_fast",
+  "repo": "https://github.com/lowRISC/opentitan",
+  "top": "prim_sync_slow_fast",
+  "fetch": "cached",
+  "n_files": 3,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 1,
+  "n_cells": 72,
+  "n_ff": 35,
+  "clock_names": [
+   "clk_fast_i"
+  ],
+  "usable": false,
+  "secs": 0.5,
+  "cell_hash": "ec7f3a8920b0"
+ },
+ {
+  "name": "ot_prim_lc_sync",
+  "repo": "https://github.com/lowRISC/opentitan",
+  "top": "prim_lc_sync",
+  "fetch": "cached",
+  "n_files": 8,
+  "sv2v": "sv2v.exe: could not find package \"lc_ctrl_reg_pkg\" | error, called at src\\Convert\\Package.hs:685:42 in main:Convert.Package",
+  "status": "sv2v failed",
+  "detail": "sv2v.exe: could not find package \"lc_ctrl_reg_pkg\" | error, called at src\\Convert\\Package.hs:685:42 in main:Convert.Package"
+ },
+ {
+  "name": "ot_prim_mubi4_sync",
+  "repo": "https://github.com/lowRISC/opentitan",
+  "top": "prim_mubi4_sync",
+  "fetch": "cached",
+  "n_files": 7,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 1,
+  "n_cells": 15,
+  "n_ff": 8,
+  "clock_names": [
+   "clk_i"
+  ],
+  "usable": false,
+  "secs": 0.6,
+  "cell_hash": "a17b218d11a6"
+ },
+ {
+  "name": "ot_prim_clock_gating_sync",
+  "repo": "https://github.com/lowRISC/opentitan",
+  "top": "prim_clock_gating_sync",
+  "fetch": "cached",
+  "n_files": 4,
+  "sv2v": "ok",
+  "status": "elaborated",
+  "n_clocks": 1,
+  "n_cells": 9,
+  "n_ff": 3,
+  "clock_names": [
+   "clk_i"
+  ],
+  "usable": false,
+  "secs": 0.5,
+  "cell_hash": "54e37f962ce2"
+ },
+ {
+  "name": "uart16550",
+  "repo": "https://github.com/freecores/uart16550",
+  "top": "uart_top",
+  "fetch": "cached",
+  "n_files": 12,
+  "status": "elaborated",
+  "n_clocks": 1,
+  "n_cells": 7972,
+  "n_ff": 349,
+  "clock_names": [
+   "wb_clk_i"
+  ],
+  "usable": false,
+  "secs": 1.0,
+  "cell_hash": "40340cd39b67"
+ },
+ {
+  "name": "i2c_master",
+  "repo": "https://github.com/freecores/i2c",
+  "top": "i2c_master_top",
+  "fetch": "cached",
+  "n_files": 4,
+  "status": "elaborated",
+  "n_clocks": 1,
+  "n_cells": 6769,
+  "n_ff": 200,
+  "clock_names": [
+   "wb_clk_i"
+  ],
+  "usable": false,
+  "secs": 0.8,
+  "cell_hash": "2b332bd092b3"
+ },
+ {
+  "name": "simple_spi",
+  "repo": "https://github.com/freecores/simple_spi",
+  "top": "simple_spi_top",
+  "fetch": "cached",
+  "n_files": 2,
+  "status": "elaborated",
+  "n_clocks": 1,
+  "n_cells": 1156,
+  "n_ff": 68,
+  "clock_names": [
+   "clk_i"
+  ],
+  "usable": false,
+  "secs": 0.5,
+  "cell_hash": "65d59f90fd51"
+ }
+]

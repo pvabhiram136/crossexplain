@@ -1,0 +1,9 @@
+{
+ "n_methods": 9,
+ "n_tied": 6,
+ "tied_real_min": 0.10256410256410256,
+ "tied_real_max": 0.9743589743589743,
+ "tied_real_span": 0.8717948717948718,
+ "spearman_rho": -0.3744387624692208,
+ "spearman_p": 0.32079513048338537
+}

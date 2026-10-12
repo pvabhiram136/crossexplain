@@ -1,0 +1,82 @@
+{
+ "arch": "gcn",
+ "epochs": 8,
+ "init_identical": true,
+ "forward_max_diff": 0.0,
+ "first_loss_fixed": 2.30238676071167,
+ "first_loss_legacy": 2.30238676071167,
+ "trace": [
+  {
+   "epoch": 0,
+   "checksum_fixed": 1463.3783795151394,
+   "checksum_legacy": 1463.3771110515809,
+   "abs_delta": 0.0012684635585173965,
+   "rel_delta": 8.668049058765485e-07,
+   "val_f1_fixed": 0.77,
+   "val_f1_legacy": 0.77
+  },
+  {
+   "epoch": 1,
+   "checksum_fixed": 1390.8747066506185,
+   "checksum_legacy": 1390.979367472697,
+   "abs_delta": 0.10466082207858562,
+   "rel_delta": 7.524820285978208e-05,
+   "val_f1_fixed": 0.8064516129032259,
+   "val_f1_legacy": 0.8
+  },
+  {
+   "epoch": 2,
+   "checksum_fixed": 1390.2203575823223,
+   "checksum_legacy": 1400.0460788514465,
+   "abs_delta": 9.825721269124188,
+   "rel_delta": 0.007067743768485533,
+   "val_f1_fixed": 0.8959276018099547,
+   "val_f1_legacy": 0.8959276018099547
+  },
+  {
+   "epoch": 3,
+   "checksum_fixed": 1434.3071372266859,
+   "checksum_legacy": 1450.3986947014928,
+   "abs_delta": 16.091557474806905,
+   "rel_delta": 0.011219045807664908,
+   "val_f1_fixed": 0.9406392694063928,
+   "val_f1_legacy": 0.9532710280373833
+  },
+  {
+   "epoch": 4,
+   "checksum_fixed": 1476.293661179021,
+   "checksum_legacy": 1479.0521660540253,
+   "abs_delta": 2.7585048750042915,
+   "rel_delta": 0.0018685339831380505,
+   "val_f1_fixed": 0.9547738693467336,
+   "val_f1_legacy": 0.9753694581280788
+  },
+  {
+   "epoch": 5,
+   "checksum_fixed": 1519.053424531594,
+   "checksum_legacy": 1508.0501479078084,
+   "abs_delta": 11.003276623785496,
+   "rel_delta": 0.0072435086522242625,
+   "val_f1_fixed": 0.9758454106280192,
+   "val_f1_legacy": 0.9758454106280192
+  },
+  {
+   "epoch": 6,
+   "checksum_fixed": 1532.8252704991028,
+   "checksum_legacy": 1539.8968096096069,
+   "abs_delta": 7.071539110504091,
+   "rel_delta": 0.004613401962117658,
+   "val_f1_fixed": 0.9758454106280192,
+   "val_f1_legacy": 0.9714285714285714
+  },
+  {
+   "epoch": 7,
+   "checksum_fixed": 1542.8899275651202,
+   "checksum_legacy": 1560.9990543299355,
+   "abs_delta": 18.1091267648153,
+   "rel_delta": 0.01173714757046463,
+   "val_f1_fixed": 0.9853658536585367,
+   "val_f1_legacy": 0.9665071770334929
+  }
+ ]
+}

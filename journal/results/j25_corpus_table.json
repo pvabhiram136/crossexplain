@@ -1,0 +1,31 @@
+{
+ "n_designs": 22,
+ "n_crossings": 40,
+ "ff_min": 4,
+ "ff_max": 518,
+ "cells_min": 9,
+ "cells_max": 9807,
+ "crossings_per_design": {
+  "axis_async_fifo": 2,
+  "axis_async_adapter": 2,
+  "wb2axip_afifo": 2,
+  "pulp_cdc_2phase": 2,
+  "pulp_cdc_4phase": 2,
+  "pulp_cdc_fifo_gray": 2,
+  "pulp_cdc_fifo_2phase": 2,
+  "pulp_cdc_2phase_clearable": 2,
+  "pulp_cdc_reset_ctrlr": 2,
+  "pulp_cdc_fifo_gray_clearable": 2,
+  "ot_prim_fifo_async": 2,
+  "ot_prim_fifo_async_simple": 2,
+  "ot_prim_sync_reqack": 2,
+  "ot_prim_sync_reqack_data": 2,
+  "ot_prim_pulse_sync": 1,
+  "ot_prim_reg_cdc": 2,
+  "wb2axip_wbxclk": 2,
+  "wb2axip_axixclk": 2,
+  "wb2axip_apbxclk": 2,
+  "ot_prim_fifo_async_sram_adapter": 2,
+  "ot_prim_reg_cdc_arb": 1
+ }
+}

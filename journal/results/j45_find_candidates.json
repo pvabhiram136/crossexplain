@@ -1,0 +1,2381 @@
+{
+ "n_files": 1795,
+ "n_candidates": 247,
+ "by_repo": {
+  "axi": [
+   {
+    "module": "axi_cdc_intf",
+    "file": "axi\\src\\axi_cdc.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "axi_lite_cdc_intf",
+    "file": "axi\\src\\axi_cdc.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "axi_chan_compare",
+    "file": "axi\\src\\axi_chan_compare.sv",
+    "clocks": [
+     "clk_a_i",
+     "clk_b_i"
+    ]
+   }
+  ],
+  "basejump_stl": [
+   {
+    "module": "bsg_rp_clk_gen_osc_v3_row",
+    "file": "basejump_stl\\hard\\tsmc_28\\bsg_clk_gen\\bsg_rp_clk_gen_osc_unit_v3.v",
+    "clocks": [
+     "clkdly_i",
+     "clkfb_i"
+    ]
+   },
+   {
+    "module": "bsg_rp_clk_gen_osc_v3_col",
+    "file": "basejump_stl\\hard\\tsmc_28\\bsg_clk_gen\\bsg_rp_clk_gen_osc_unit_v3.v",
+    "clocks": [
+     "clkdly_i",
+     "clkfb_i"
+    ]
+   },
+   {
+    "module": "bsg_fsb_node_async_buffer",
+    "file": "basejump_stl\\bsg_legacy\\bsg_fsb\\bsg_fsb_node_async_buffer.v",
+    "clocks": [
+     "l_clk_i",
+     "r_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_fsb_node_async_buffer",
+    "file": "basejump_stl\\bsg_legacy\\bsg_fsb\\bsg_fsb_node_async_buffer.v",
+    "clocks": [
+     "l_clk_i",
+     "r_clk_i"
+    ]
+   },
+   {
+    "module": "cfgtag",
+    "file": "basejump_stl\\bsg_legacy\\bsg_tag\\config_net\\tests\\cfgtaggw_test\\cfgtag.v",
+    "clocks": [
+     "cfg_clk_i",
+     "clk"
+    ]
+   },
+   {
+    "module": "bsg_chip_rocket",
+    "file": "basejump_stl\\bsg_legacy\\bsg_chip\\bsg_rocket\\bsg_chip_rocket.v",
+    "clocks": [
+     "core_clk_i",
+     "io_clk_tline_i",
+     "io_master_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_nonsynth_chipset_rocket",
+    "file": "basejump_stl\\bsg_legacy\\bsg_chip\\bsg_rocket\\bsg_nonsynth_chipset_rocket_fsb.v",
+    "clocks": [
+     "core_clk_i",
+     "io_clk_tline_i",
+     "io_master_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_launch_sync_sync_",
+    "file": "basejump_stl\\bsg_async\\bsg_launch_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "iclk_i",
+     "iclk_reset_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_launch_sync_sync_async_reset_",
+    "file": "basejump_stl\\bsg_async\\bsg_launch_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "iclk_i",
+     "iclk_reset_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_sync_sync_",
+    "file": "basejump_stl\\bsg_async\\bsg_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_cache_to_test_dram",
+    "file": "basejump_stl\\bsg_cache\\bsg_cache_to_test_dram.sv",
+    "clocks": [
+     "core_clk_i",
+     "dram_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_cache_to_test_dram_rx",
+    "file": "basejump_stl\\bsg_cache\\bsg_cache_to_test_dram_rx.sv",
+    "clocks": [
+     "core_clk_i",
+     "dram_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_cache_to_test_dram_tx",
+    "file": "basejump_stl\\bsg_cache\\bsg_cache_to_test_dram_tx.sv",
+    "clocks": [
+     "core_clk_i",
+     "dram_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_comm_link",
+    "file": "basejump_stl\\bsg_comm_link\\bsg_comm_link.sv",
+    "clocks": [
+     "core_clk_i",
+     "io_clk_tline_i",
+     "io_master_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_source_sync_channel_control_master",
+    "file": "basejump_stl\\bsg_comm_link\\bsg_source_sync_channel_control_master.sv",
+    "clocks": [
+     "in_clk_i",
+     "out_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_source_sync_channel_control_slave",
+    "file": "basejump_stl\\bsg_comm_link\\bsg_source_sync_channel_control_slave.sv",
+    "clocks": [
+     "core_clk_i",
+     "in_clk_i",
+     "out_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_source_sync_input",
+    "file": "basejump_stl\\bsg_comm_link\\bsg_source_sync_input.sv",
+    "clocks": [
+     "core_clk_i",
+     "io_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_source_sync_output",
+    "file": "basejump_stl\\bsg_comm_link\\bsg_source_sync_output.sv",
+    "clocks": [
+     "core_clk_i",
+     "io_clk_init_i",
+     "io_master_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_dmc",
+    "file": "basejump_stl\\bsg_dmc\\bsg_dmc.sv",
+    "clocks": [
+     "ext_dfi_clk_2x_i",
+     "ui_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_dmc_clk_rst_gen",
+    "file": "basejump_stl\\bsg_dmc\\bsg_dmc_clk_rst_gen.sv",
+    "clocks": [
+     "dqs_clk_i",
+     "ext_dfi_clk_2x_i",
+     "ui_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_dmc_controller",
+    "file": "basejump_stl\\bsg_dmc\\bsg_dmc_controller.sv",
+    "clocks": [
+     "dfi_clk_i",
+     "dfi_clk_sync_rst_i",
+     "ui_clk_i",
+     "ui_clk_sync_rst_i"
+    ]
+   },
+   {
+    "module": "bsg_dmc_phy_bit_slice",
+    "file": "basejump_stl\\bsg_dmc\\bsg_dmc_phy.sv",
+    "clocks": [
+     "clk_1x_i",
+     "clk_2x_i"
+    ]
+   },
+   {
+    "module": "bsg_dmc_phy_byte_lane",
+    "file": "basejump_stl\\bsg_dmc\\bsg_dmc_phy.sv",
+    "clocks": [
+     "clk_1x_i",
+     "clk_2x_i"
+    ]
+   },
+   {
+    "module": "bsg_dmc_phy",
+    "file": "basejump_stl\\bsg_dmc\\bsg_dmc_phy.sv",
+    "clocks": [
+     "dfi_clk_1x_i",
+     "dfi_clk_2x_i"
+    ]
+   },
+   {
+    "module": "bsg_link_ddr_downstream",
+    "file": "basejump_stl\\bsg_link\\bsg_link_ddr_downstream.sv",
+    "clocks": [
+     "core_clk_i",
+     "io_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_link_ddr_upstream",
+    "file": "basejump_stl\\bsg_link\\bsg_link_ddr_upstream.sv",
+    "clocks": [
+     "core_clk_i",
+     "io_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_link_sdr",
+    "file": "basejump_stl\\bsg_link\\bsg_link_sdr.sv",
+    "clocks": [
+     "core_clk_i",
+     "link_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_link_sdr_downstream",
+    "file": "basejump_stl\\bsg_link\\bsg_link_sdr_downstream.sv",
+    "clocks": [
+     "core_clk_i",
+     "io_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_link_source_sync_downstream",
+    "file": "basejump_stl\\bsg_link\\bsg_link_source_sync_downstream.sv",
+    "clocks": [
+     "core_clk_i",
+     "io_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_link_source_sync_upstream",
+    "file": "basejump_stl\\bsg_link\\bsg_link_source_sync_upstream.sv",
+    "clocks": [
+     "core_clk_i",
+     "io_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_ready_and_link_async_to_wormhole",
+    "file": "basejump_stl\\bsg_noc\\bsg_ready_and_link_async_to_wormhole.sv",
+    "clocks": [
+     "ral_clk_i",
+     "wh_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_nonsynth_dramsim3",
+    "file": "basejump_stl\\bsg_test\\bsg_nonsynth_dramsim3.sv",
+    "clocks": [
+     "clk_i",
+     "print_stat_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_nonsynth_clk_gen_tester",
+    "file": "basejump_stl\\testing\\bsg_clk_gen\\bsg_nonsynth_clk_gen_tester.sv",
+    "clocks": [
+     "bsg_clk_gen_i",
+     "bsg_tag_clk_i",
+     "ext_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_dmc_tester",
+    "file": "basejump_stl\\testing\\bsg_dmc\\bsg_dmc_tester.sv",
+    "clocks": [
+     "asic_link_upstream_edge_clk_i",
+     "fpga_link_clk_i",
+     "fpga_link_io_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_nonsynth_dmc_clock_monitor",
+    "file": "basejump_stl\\testing\\bsg_dmc\\bsg_nonsynth_dmc_clock_monitor.sv",
+    "clocks": [
+     "ddr_clk_i",
+     "fpga_clk"
+    ]
+   },
+   {
+    "module": "traffic_generator",
+    "file": "basejump_stl\\testing\\bsg_dmc\\traffic_generator.sv",
+    "clocks": [
+     "clock_monitor_clk_i",
+     "irritate_clock_i",
+     "ui_clk_sync_rst_i"
+    ]
+   },
+   {
+    "module": "bsg_link_ddr_downstream_encode",
+    "file": "basejump_stl\\testing\\bsg_link\\bsg_link_ddr_downstream_encode.sv",
+    "clocks": [
+     "core_clk_i",
+     "io_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_link_ddr_test_node",
+    "file": "basejump_stl\\testing\\bsg_link\\bsg_link_ddr_test_node.sv",
+    "clocks": [
+     "clk_i",
+     "node_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_wormhole_concentrator_test_node",
+    "file": "basejump_stl\\testing\\bsg_noc\\bsg_wormhole_concentrator\\bsg_wormhole_concentrator_test_node.sv",
+    "clocks": [
+     "clk_i",
+     "node_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_wormhole_router_test_node",
+    "file": "basejump_stl\\testing\\bsg_noc\\bsg_wormhole_router\\bsg_wormhole_router_test_node.sv",
+    "clocks": [
+     "clk_i",
+     "mc_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_link_sdr_test_node",
+    "file": "basejump_stl\\testing\\bsg_link\\bsg_link_sdr\\bsg_link_sdr_test_node.sv",
+    "clocks": [
+     "clk_i",
+     "node_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_fifo_1r1w_small_hardened_test_node",
+    "file": "basejump_stl\\testing\\bsg_dataflow\\bsg_fifo_1r1w_small_hardened\\bsg_fifo_1r1w_small_hardened_test_node.sv",
+    "clocks": [
+     "clk_i",
+     "node_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_parallel_in_serial_out_test_node",
+    "file": "basejump_stl\\testing\\bsg_dataflow\\bsg_parallel_in_serial_out\\bsg_parallel_in_serial_out_test_node.sv",
+    "clocks": [
+     "clk_i",
+     "node_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_launch_sync_sync_",
+    "file": "basejump_stl\\hard\\ultrascale_plus\\bsg_async\\bsg_launch_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "iclk_i",
+     "iclk_reset_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_launch_sync_sync_async_reset_",
+    "file": "basejump_stl\\hard\\ultrascale_plus\\bsg_async\\bsg_launch_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "iclk_i",
+     "iclk_reset_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_link_ddr_upstream",
+    "file": "basejump_stl\\hard\\ultrascale_plus\\bsg_link\\bsg_link_ddr_upstream.sv",
+    "clocks": [
+     "core_clk_i",
+     "io_clk90_i",
+     "io_clk_i"
+    ]
+   },
+   {
+    "module": "bsg_link_oddr_phy",
+    "file": "basejump_stl\\hard\\ultrascale_plus\\bsg_link\\bsg_link_oddr_phy.sv",
+    "clocks": [
+     "clk90_i",
+     "clk_i"
+    ]
+   },
+   {
+    "module": "bsg_launch_sync_sync_",
+    "file": "basejump_stl\\hard\\tsmc_28\\bsg_async\\bsg_launch_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "iclk_i",
+     "iclk_reset_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_launch_sync_sync_async_reset_",
+    "file": "basejump_stl\\hard\\tsmc_28\\bsg_async\\bsg_launch_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "iclk_i",
+     "iclk_reset_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_sync_sync_",
+    "file": "basejump_stl\\hard\\tsmc_28\\bsg_async\\bsg_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_sync_sync_async_reset_unit",
+    "file": "basejump_stl\\hard\\tsmc_28\\bsg_async\\bsg_sync_sync_async_reset_unit.sv",
+    "clocks": [
+     "iclk_data_i",
+     "iclk_reset_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_sync_sync_unit",
+    "file": "basejump_stl\\hard\\tsmc_28\\bsg_async\\bsg_sync_sync_unit.sv",
+    "clocks": [
+     "iclk_data_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_launch_sync_sync_",
+    "file": "basejump_stl\\hard\\tsmc_16\\bsg_async\\bsg_launch_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "iclk_i",
+     "iclk_reset_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_sync_sync_",
+    "file": "basejump_stl\\hard\\tsmc_16\\bsg_async\\bsg_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_launch_sync_sync_",
+    "file": "basejump_stl\\hard\\gf_14\\bsg_async\\bsg_launch_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "iclk_i",
+     "iclk_reset_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_launch_sync_sync_async_reset_",
+    "file": "basejump_stl\\hard\\gf_14\\bsg_async\\bsg_launch_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "iclk_i",
+     "iclk_reset_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_sync_sync_",
+    "file": "basejump_stl\\hard\\gf_14\\bsg_async\\bsg_sync_sync.sv",
+    "clocks": [
+     "iclk_data_i",
+     "oclk_i"
+    ]
+   },
+   {
+    "module": "bsg_source_sync_channel_control_master",
+    "file": "basejump_stl\\bsg_comm_link\\master_calib_skip\\bsg_source_sync_channel_control_master.sv",
+    "clocks": [
+     "in_clk_i",
+     "out_clk_i"
+    ]
+   }
+  ],
+  "common_cells": [
+   {
+    "module": "cc_cdc_reset_ctrlr_composed_harness",
+    "file": "common_cells\\formal\\cc_cdc_reset_ctrlr_properties.sv",
+    "clocks": [
+     "a_clk_i",
+     "b_clk_i"
+    ]
+   },
+   {
+    "module": "cc_edge_propagator",
+    "file": "common_cells\\src\\cc_edge_propagator.sv",
+    "clocks": [
+     "clk_rx_i",
+     "clk_tx_i"
+    ]
+   },
+   {
+    "module": "cc_edge_propagator_ack",
+    "file": "common_cells\\src\\cc_edge_propagator_ack.sv",
+    "clocks": [
+     "clk_rx_i",
+     "clk_tx_i"
+    ]
+   },
+   {
+    "module": "cc_isochronous_4phase_handshake",
+    "file": "common_cells\\src\\cc_isochronous_4phase_handshake.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cc_isochronous_spill_register",
+    "file": "common_cells\\src\\cc_isochronous_spill_register.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cc_cdc_2phase_clearable_tb_delay_injector",
+    "file": "common_cells\\test\\cc_cdc_2phase_clearable_tb.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cc_cdc_2phase_synth",
+    "file": "common_cells\\test\\cc_cdc_2phase_synth.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cc_cdc_2phase_tb_delay_injector",
+    "file": "common_cells\\test\\cc_cdc_2phase_tb.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cc_cdc_4phase_tb_delay_injector",
+    "file": "common_cells\\test\\cc_cdc_4phase_tb.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cc_cdc_fifo_2phase_tb_delay_injector",
+    "file": "common_cells\\test\\cc_cdc_fifo_2phase_tb.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cc_cdc_fifo_clearable_tb_delay_injector",
+    "file": "common_cells\\test\\cc_cdc_fifo_clearable_tb.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cc_cdc_fifo_gray_tb_delay_injector",
+    "file": "common_cells\\test\\cc_cdc_fifo_gray_tb.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cc_synth_bench",
+    "file": "common_cells\\test\\cc_synth_bench.sv",
+    "clocks": [
+     "clk_i",
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cdc_2phase",
+    "file": "common_cells\\src\\deprecated\\cdc_2phase.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cdc_2phase_clearable",
+    "file": "common_cells\\src\\deprecated\\cdc_2phase_clearable.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cdc_4phase",
+    "file": "common_cells\\src\\deprecated\\cdc_4phase.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cdc_fifo_2phase",
+    "file": "common_cells\\src\\deprecated\\cdc_fifo_2phase.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cdc_fifo_gray",
+    "file": "common_cells\\src\\deprecated\\cdc_fifo_gray.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cdc_fifo_gray_clearable",
+    "file": "common_cells\\src\\deprecated\\cdc_fifo_gray_clearable.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "cdc_reset_ctrlr",
+    "file": "common_cells\\src\\deprecated\\cdc_reset_ctrlr.sv",
+    "clocks": [
+     "a_clk_i",
+     "b_clk_i"
+    ]
+   },
+   {
+    "module": "edge_propagator",
+    "file": "common_cells\\src\\deprecated\\edge_propagator.sv",
+    "clocks": [
+     "clk_rx_i",
+     "clk_tx_i"
+    ]
+   },
+   {
+    "module": "edge_propagator_ack",
+    "file": "common_cells\\src\\deprecated\\edge_propagator_ack.sv",
+    "clocks": [
+     "clk_rx_i",
+     "clk_tx_i"
+    ]
+   },
+   {
+    "module": "isochronous_4phase_handshake",
+    "file": "common_cells\\src\\deprecated\\isochronous_4phase_handshake.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   },
+   {
+    "module": "isochronous_spill_register",
+    "file": "common_cells\\src\\deprecated\\isochronous_spill_register.sv",
+    "clocks": [
+     "dst_clk_i",
+     "src_clk_i"
+    ]
+   }
+  ],
+  "opentitan": [
+   {
+    "module": "prim_ram_1r1w",
+    "file": "opentitan\\hw\\ip\\prim_generic\\rtl\\prim_ram_1r1w.sv",
+    "clocks": [
+     "clk_a_i",
+     "clk_b_i"
+    ]
+   },
+   {
+    "module": "prim_ram_2p",
+    "file": "opentitan\\hw\\ip\\prim_generic\\rtl\\prim_ram_2p.sv",
+    "clocks": [
+     "clk_a_i",
+     "clk_b_i"
+    ]
+   },
+   {
+    "module": "prim_clock_meas",
+    "file": "opentitan\\hw\\ip\\prim\\rtl\\prim_clock_meas.sv",
+    "clocks": [
+     "clk_i",
+     "clk_ref_i"
+    ]
+   },
+   {
+    "module": "prim_clock_timeout",
+    "file": "opentitan\\hw\\ip\\prim\\rtl\\prim_clock_timeout.sv",
+    "clocks": [
+     "clk_chk_i",
+     "clk_i"
+    ]
+   },
+   {
+    "module": "prim_edn_req",
+    "file": "opentitan\\hw\\ip\\prim\\rtl\\prim_edn_req.sv",
+    "clocks": [
+     "clk_edn_i",
+     "clk_i"
+    ]
+   },
+   {
+    "module": "prim_fifo_async_sram_adapter",
+    "file": "opentitan\\hw\\ip\\prim\\rtl\\prim_fifo_async_sram_adapter.sv",
+    "clocks": [
+     "clk_rd_i",
+     "clk_wr_i"
+    ]
+   },
+   {
+    "module": "prim_ram_1r1w_async_adv",
+    "file": "opentitan\\hw\\ip\\prim\\rtl\\prim_ram_1r1w_async_adv.sv",
+    "clocks": [
+     "clk_a_i",
+     "clk_b_i"
+    ]
+   },
+   {
+    "module": "prim_ram_2p_async_adv",
+    "file": "opentitan\\hw\\ip\\prim\\rtl\\prim_ram_2p_async_adv.sv",
+    "clocks": [
+     "clk_a_i",
+     "clk_b_i"
+    ]
+   },
+   {
+    "module": "prim_reg_cdc_arb",
+    "file": "opentitan\\hw\\ip\\prim\\rtl\\prim_reg_cdc_arb.sv",
+    "clocks": [
+     "clk_dst_i",
+     "clk_src_i"
+    ]
+   },
+   {
+    "module": "lc_ctrl",
+    "file": "opentitan\\hw\\ip\\lc_ctrl\\rtl\\lc_ctrl.sv",
+    "clocks": [
+     "clk_i",
+     "clk_kmac_i"
+    ]
+   },
+   {
+    "module": "lc_ctrl_fsm",
+    "file": "opentitan\\hw\\ip\\lc_ctrl\\rtl\\lc_ctrl_fsm.sv",
+    "clocks": [
+     "clk_i",
+     "lc_clk_byp_ack_i",
+     "use_ext_clock_i"
+    ]
+   },
+   {
+    "module": "lc_ctrl_kmac_if",
+    "file": "opentitan\\hw\\ip\\lc_ctrl\\rtl\\lc_ctrl_kmac_if.sv",
+    "clocks": [
+     "clk_i",
+     "clk_kmac_i"
+    ]
+   }
+  ],
+  "verilog-ethernet": [
+   {
+    "module": "eth_mac_10g",
+    "file": "verilog-ethernet\\rtl\\eth_mac_10g.v",
+    "clocks": [
+     "rx_clk",
+     "tx_clk"
+    ]
+   },
+   {
+    "module": "eth_mac_10g_fifo",
+    "file": "verilog-ethernet\\rtl\\eth_mac_10g_fifo.v",
+    "clocks": [
+     "logic_clk",
+     "ptp_sample_clk",
+     "rx_clk",
+     "tx_clk"
+    ]
+   },
+   {
+    "module": "eth_mac_1g",
+    "file": "verilog-ethernet\\rtl\\eth_mac_1g.v",
+    "clocks": [
+     "rx_clk",
+     "tx_clk"
+    ]
+   },
+   {
+    "module": "eth_mac_1g_fifo",
+    "file": "verilog-ethernet\\rtl\\eth_mac_1g_fifo.v",
+    "clocks": [
+     "logic_clk",
+     "rx_clk",
+     "tx_clk"
+    ]
+   },
+   {
+    "module": "eth_mac_1g_gmii",
+    "file": "verilog-ethernet\\rtl\\eth_mac_1g_gmii.v",
+    "clocks": [
+     "gmii_rx_clk",
+     "gtx_clk",
+     "mii_tx_clk"
+    ]
+   },
+   {
+    "module": "eth_mac_1g_gmii_fifo",
+    "file": "verilog-ethernet\\rtl\\eth_mac_1g_gmii_fifo.v",
+    "clocks": [
+     "gmii_rx_clk",
+     "gtx_clk",
+     "logic_clk",
+     "mii_tx_clk"
+    ]
+   },
+   {
+    "module": "eth_mac_1g_rgmii",
+    "file": "verilog-ethernet\\rtl\\eth_mac_1g_rgmii.v",
+    "clocks": [
+     "gtx_clk",
+     "gtx_clk90",
+     "rgmii_rx_clk"
+    ]
+   },
+   {
+    "module": "eth_mac_1g_rgmii_fifo",
+    "file": "verilog-ethernet\\rtl\\eth_mac_1g_rgmii_fifo.v",
+    "clocks": [
+     "gtx_clk",
+     "gtx_clk90",
+     "logic_clk",
+     "rgmii_rx_clk"
+    ]
+   },
+   {
+    "module": "eth_mac_mii",
+    "file": "verilog-ethernet\\rtl\\eth_mac_mii.v",
+    "clocks": [
+     "mii_rx_clk",
+     "mii_tx_clk"
+    ]
+   },
+   {
+    "module": "eth_mac_mii_fifo",
+    "file": "verilog-ethernet\\rtl\\eth_mac_mii_fifo.v",
+    "clocks": [
+     "logic_clk",
+     "mii_rx_clk",
+     "mii_tx_clk"
+    ]
+   },
+   {
+    "module": "eth_mac_phy_10g",
+    "file": "verilog-ethernet\\rtl\\eth_mac_phy_10g.v",
+    "clocks": [
+     "rx_clk",
+     "tx_clk"
+    ]
+   },
+   {
+    "module": "eth_mac_phy_10g_fifo",
+    "file": "verilog-ethernet\\rtl\\eth_mac_phy_10g_fifo.v",
+    "clocks": [
+     "logic_clk",
+     "ptp_sample_clk",
+     "rx_clk",
+     "tx_clk"
+    ]
+   },
+   {
+    "module": "eth_phy_10g",
+    "file": "verilog-ethernet\\rtl\\eth_phy_10g.v",
+    "clocks": [
+     "rx_clk",
+     "tx_clk"
+    ]
+   },
+   {
+    "module": "gmii_phy_if",
+    "file": "verilog-ethernet\\rtl\\gmii_phy_if.v",
+    "clocks": [
+     "clk",
+     "phy_gmii_rx_clk",
+     "phy_mii_tx_clk"
+    ]
+   },
+   {
+    "module": "mii_phy_if",
+    "file": "verilog-ethernet\\rtl\\mii_phy_if.v",
+    "clocks": [
+     "phy_mii_rx_clk",
+     "phy_mii_tx_clk"
+    ]
+   },
+   {
+    "module": "ptp_clock_cdc",
+    "file": "verilog-ethernet\\rtl\\ptp_clock_cdc.v",
+    "clocks": [
+     "input_clk",
+     "output_clk",
+     "sample_clk"
+    ]
+   },
+   {
+    "module": "ptp_td_leaf",
+    "file": "verilog-ethernet\\rtl\\ptp_td_leaf.v",
+    "clocks": [
+     "clk",
+     "ptp_clk",
+     "sample_clk"
+    ]
+   },
+   {
+    "module": "ptp_td_rel2tod",
+    "file": "verilog-ethernet\\rtl\\ptp_td_rel2tod.v",
+    "clocks": [
+     "clk",
+     "ptp_clk"
+    ]
+   },
+   {
+    "module": "rgmii_phy_if",
+    "file": "verilog-ethernet\\rtl\\rgmii_phy_if.v",
+    "clocks": [
+     "clk",
+     "clk90",
+     "phy_rgmii_rx_clk"
+    ]
+   },
+   {
+    "module": "ssio_ddr_in_diff",
+    "file": "verilog-ethernet\\rtl\\ssio_ddr_in_diff.v",
+    "clocks": [
+     "input_clk_n",
+     "input_clk_p"
+    ]
+   },
+   {
+    "module": "ssio_ddr_out",
+    "file": "verilog-ethernet\\rtl\\ssio_ddr_out.v",
+    "clocks": [
+     "clk",
+     "clk90"
+    ]
+   },
+   {
+    "module": "ssio_ddr_out_diff",
+    "file": "verilog-ethernet\\rtl\\ssio_ddr_out_diff.v",
+    "clocks": [
+     "clk",
+     "clk90"
+    ]
+   },
+   {
+    "module": "ssio_sdr_in_diff",
+    "file": "verilog-ethernet\\rtl\\ssio_sdr_in_diff.v",
+    "clocks": [
+     "input_clk_n",
+     "input_clk_p"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\ZCU106\\fpga\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\ZCU106\\fpga\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\ZCU106\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "clk_125mhz_n",
+     "clk_125mhz_p",
+     "sfp_mgt_refclk_0_n",
+     "sfp_mgt_refclk_0_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\ZCU106\\fpga\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "sfp0_rx_clk",
+     "sfp0_tx_clk",
+     "sfp1_rx_clk",
+     "sfp1_tx_clk"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\ZCU102\\fpga\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\ZCU102\\fpga\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\ZCU102\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "clk_125mhz_n",
+     "clk_125mhz_p",
+     "sfp_mgt_refclk_0_n",
+     "sfp_mgt_refclk_0_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\ZCU102\\fpga\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "sfp0_rx_clk",
+     "sfp0_tx_clk",
+     "sfp1_rx_clk",
+     "sfp1_tx_clk",
+     "sfp2_rx_clk",
+     "sfp2_tx_clk",
+     "sfp3_rx_clk",
+     "sfp3_tx_clk"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\VCU118\\fpga_fmc_htg_6qsfp_25g\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\VCU118\\fpga_fmc_htg_6qsfp_25g\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\VCU118\\fpga_fmc_htg_6qsfp_25g\\rtl\\fpga.v",
+    "clocks": [
+     "clk_125mhz_n",
+     "clk_125mhz_p",
+     "fmcp_clk_intr_n",
+     "fmcp_clk_lol_n",
+     "fmcp_qsfp1_mgt_refclk_n",
+     "fmcp_qsfp1_mgt_refclk_p",
+     "fmcp_qsfp2_mgt_refclk_n",
+     "fmcp_qsfp2_mgt_refclk_p",
+     "fmcp_qsfp3_mgt_refclk_n",
+     "fmcp_qsfp3_mgt_refclk_p",
+     "fmcp_qsfp4_mgt_refclk_n",
+     "fmcp_qsfp4_mgt_refclk_p",
+     "fmcp_qsfp5_mgt_refclk_n",
+     "fmcp_qsfp5_mgt_refclk_p",
+     "fmcp_qsfp6_mgt_refclk_n",
+     "fmcp_qsfp6_mgt_refclk_p",
+     "phy_sgmii_clk_n",
+     "phy_sgmii_clk_p",
+     "qsfp1_mgt_refclk_0_n",
+     "qsfp1_mgt_refclk_0_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\VCU118\\fpga_fmc_htg_6qsfp_25g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "qsfp1_rx_clk_1",
+     "qsfp1_rx_clk_2",
+     "qsfp1_rx_clk_3",
+     "qsfp1_rx_clk_4",
+     "qsfp1_tx_clk_1",
+     "qsfp1_tx_clk_2",
+     "qsfp1_tx_clk_3",
+     "qsfp1_tx_clk_4",
+     "qsfp2_rx_clk_1",
+     "qsfp2_tx_clk_1",
+     "qsfp2_tx_clk_2"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\VCU118\\fpga_25g\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\VCU118\\fpga_25g\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\VCU118\\fpga_25g\\rtl\\fpga.v",
+    "clocks": [
+     "clk_125mhz_n",
+     "clk_125mhz_p",
+     "phy_sgmii_clk_n",
+     "phy_sgmii_clk_p",
+     "qsfp1_mgt_refclk_0_n",
+     "qsfp1_mgt_refclk_0_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\VCU118\\fpga_25g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "phy_gmii_clk",
+     "qsfp1_rx_clk_1",
+     "qsfp1_rx_clk_2",
+     "qsfp1_rx_clk_3",
+     "qsfp1_rx_clk_4",
+     "qsfp1_tx_clk_1",
+     "qsfp1_tx_clk_2",
+     "qsfp1_tx_clk_3",
+     "qsfp1_tx_clk_4",
+     "qsfp2_rx_clk_1",
+     "qsfp2_rx_clk_2",
+     "qsfp2_rx_clk_3",
+     "qsfp2_rx_clk_4",
+     "qsfp2_tx_clk_1",
+     "qsfp2_tx_clk_2",
+     "qsfp2_tx_clk_3",
+     "qsfp2_tx_clk_4"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\VCU118\\fpga_1g\\rtl\\fpga.v",
+    "clocks": [
+     "clk_125mhz_n",
+     "clk_125mhz_p",
+     "phy_sgmii_clk_n",
+     "phy_sgmii_clk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\VCU118\\fpga_1g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "phy_gmii_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\VCU108\\fpga_1g\\rtl\\fpga.v",
+    "clocks": [
+     "clk_125mhz_n",
+     "clk_125mhz_p",
+     "phy_sgmii_clk_n",
+     "phy_sgmii_clk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\VCU108\\fpga_1g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "phy_gmii_clk"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\VCU108\\fpga_10g\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\VCU108\\fpga_10g\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\VCU108\\fpga_10g\\rtl\\fpga.v",
+    "clocks": [
+     "clk_125mhz_n",
+     "clk_125mhz_p",
+     "phy_sgmii_clk_n",
+     "phy_sgmii_clk_p",
+     "qsfp_mgt_refclk_0_n",
+     "qsfp_mgt_refclk_0_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\VCU108\\fpga_10g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "phy_gmii_clk",
+     "qsfp_rx_clk_1",
+     "qsfp_rx_clk_2",
+     "qsfp_rx_clk_3",
+     "qsfp_rx_clk_4",
+     "qsfp_tx_clk_1",
+     "qsfp_tx_clk_2",
+     "qsfp_tx_clk_3",
+     "qsfp_tx_clk_4"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\S10MX_DK\\fpga_10g\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_ref_clk"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\S10MX_DK\\fpga_10g\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_rx_cdr_refclk",
+     "xcvr_tx_serial_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\S10MX_DK\\fpga_10g\\rtl\\fpga.v",
+    "clocks": [
+     "clk_sys_100m_p",
+     "refclk_qsfp0_p",
+     "refclk_qsfp1_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\S10MX_DK\\fpga_10g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "qsfp0_rx_clk_1",
+     "qsfp0_rx_clk_2",
+     "qsfp0_rx_clk_3",
+     "qsfp0_rx_clk_4",
+     "qsfp0_tx_clk_1",
+     "qsfp0_tx_clk_2",
+     "qsfp0_tx_clk_3",
+     "qsfp0_tx_clk_4",
+     "qsfp1_rx_clk_1",
+     "qsfp1_rx_clk_2",
+     "qsfp1_rx_clk_3",
+     "qsfp1_rx_clk_4",
+     "qsfp1_tx_clk_1",
+     "qsfp1_tx_clk_2",
+     "qsfp1_tx_clk_3",
+     "qsfp1_tx_clk_4"
+    ]
+   },
+   {
+    "module": "eth_mac_quad_wrapper",
+    "file": "verilog-ethernet\\example\\S10DX_DK\\fpga_10g\\rtl\\eth_mac_quad_wrapper.v",
+    "clocks": [
+     "ctrl_clk",
+     "ref_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\S10DX_DK\\fpga_10g\\rtl\\fpga.v",
+    "clocks": [
+     "clk2_100m_fpga_2i_p",
+     "clk_156p25m_qsfp0_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\S10DX_DK\\fpga_10g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "qsfp1_mac_1_rx_clk",
+     "qsfp1_mac_1_tx_clk",
+     "qsfp1_mac_2_rx_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\RV901T\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "clk_25mhz",
+     "phy_0_rx_clk",
+     "phy_1_rx_clk"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\RV901T\\fpga\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk90_125mhz",
+     "clk_125mhz",
+     "phy_0_rx_clk",
+     "phy_1_rx_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\NexysVideo\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "clk",
+     "phy_rx_clk"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\NexysVideo\\fpga\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "clk90",
+     "phy_rx_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\NetFPGA_SUME\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "clk_200mhz_n",
+     "clk_200mhz_p",
+     "sfp_mgt_refclk_n",
+     "sfp_mgt_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\NetFPGA_SUME\\fpga\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "sfp_1_rx_clk",
+     "sfp_1_tx_clk",
+     "sfp_2_rx_clk",
+     "sfp_2_tx_clk",
+     "sfp_3_rx_clk",
+     "sfp_3_tx_clk",
+     "sfp_4_rx_clk",
+     "sfp_4_tx_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\ML605\\fpga_sgmii\\rtl\\fpga.v",
+    "clocks": [
+     "phy_sgmii_clk_n",
+     "phy_sgmii_clk_p",
+     "sys_clk_n",
+     "sys_clk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\ML605\\fpga_sgmii\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk_125mhz",
+     "phy_gmii_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\ML605\\fpga_rgmii\\rtl\\fpga.v",
+    "clocks": [
+     "phy_rx_clk",
+     "sys_clk_n",
+     "sys_clk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\ML605\\fpga_rgmii\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk90_125mhz",
+     "clk_125mhz",
+     "phy_rx_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\ML605\\fpga_gmii\\rtl\\fpga.v",
+    "clocks": [
+     "phy_rx_clk",
+     "phy_tx_clk",
+     "sys_clk_n",
+     "sys_clk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\ML605\\fpga_gmii\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk_125mhz",
+     "phy_rx_clk",
+     "phy_tx_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\KC705\\fpga_sgmii\\rtl\\fpga.v",
+    "clocks": [
+     "clk_200mhz_n",
+     "clk_200mhz_p",
+     "phy_sgmii_clk_n",
+     "phy_sgmii_clk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\KC705\\fpga_sgmii\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "phy_gmii_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\KC705\\fpga_rgmii\\rtl\\fpga.v",
+    "clocks": [
+     "clk_200mhz_n",
+     "clk_200mhz_p",
+     "phy_rx_clk"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\KC705\\fpga_rgmii\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "clk90",
+     "phy_rx_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\KC705\\fpga_gmii\\rtl\\fpga.v",
+    "clocks": [
+     "clk_200mhz_n",
+     "clk_200mhz_p",
+     "phy_rx_clk",
+     "phy_tx_clk"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\KC705\\fpga_gmii\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "phy_rx_clk",
+     "phy_tx_clk"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\HTG9200\\fpga_fmc_htg_6qsfp_25g\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\HTG9200\\fpga_fmc_htg_6qsfp_25g\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\HTG9200\\fpga_fmc_htg_6qsfp_25g\\rtl\\fpga.v",
+    "clocks": [
+     "clk_gty2_intr_n",
+     "clk_gty2_lol_n",
+     "qsfp_1_mgt_refclk_n",
+     "qsfp_1_mgt_refclk_p",
+     "qsfp_2_mgt_refclk_n",
+     "qsfp_2_mgt_refclk_p",
+     "qsfp_3_mgt_refclk_n",
+     "qsfp_3_mgt_refclk_p",
+     "ref_clk_n",
+     "ref_clk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\HTG9200\\fpga_fmc_htg_6qsfp_25g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "qsfp_1_rx_clk_1",
+     "qsfp_1_rx_clk_2",
+     "qsfp_1_rx_clk_3",
+     "qsfp_1_rx_clk_4",
+     "qsfp_1_tx_clk_1",
+     "qsfp_1_tx_clk_2",
+     "qsfp_1_tx_clk_3",
+     "qsfp_1_tx_clk_4",
+     "qsfp_2_rx_clk_1",
+     "qsfp_2_tx_clk_1"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\HTG9200\\fpga_25g\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\HTG9200\\fpga_25g\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\HTG9200\\fpga_25g\\rtl\\fpga.v",
+    "clocks": [
+     "clk_gty2_intr_n",
+     "clk_gty2_lol_n",
+     "qsfp_1_mgt_refclk_n",
+     "qsfp_1_mgt_refclk_p",
+     "qsfp_2_mgt_refclk_n",
+     "qsfp_2_mgt_refclk_p",
+     "qsfp_3_mgt_refclk_n",
+     "qsfp_3_mgt_refclk_p",
+     "qsfp_4_mgt_refclk_n",
+     "qsfp_4_mgt_refclk_p",
+     "qsfp_5_mgt_refclk_n",
+     "qsfp_5_mgt_refclk_p",
+     "qsfp_6_mgt_refclk_n",
+     "qsfp_6_mgt_refclk_p",
+     "qsfp_7_mgt_refclk_n",
+     "qsfp_7_mgt_refclk_p",
+     "qsfp_8_mgt_refclk_n",
+     "qsfp_8_mgt_refclk_p",
+     "qsfp_9_mgt_refclk_n",
+     "qsfp_9_mgt_refclk_p",
+     "ref_clk_n",
+     "ref_clk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\HTG9200\\fpga_25g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "qsfp_1_rx_clk_1",
+     "qsfp_1_rx_clk_2",
+     "qsfp_1_rx_clk_3",
+     "qsfp_1_rx_clk_4",
+     "qsfp_1_tx_clk_1",
+     "qsfp_1_tx_clk_2",
+     "qsfp_1_tx_clk_3",
+     "qsfp_1_tx_clk_4",
+     "qsfp_2_rx_clk_1",
+     "qsfp_2_tx_clk_1"
+    ]
+   },
+   {
+    "module": "eth_gth_phy_quad",
+    "file": "verilog-ethernet\\example\\HTG640\\fpga_cxpt16\\rtl\\eth_gth_phy_quad.v",
+    "clocks": [
+     "clk156",
+     "dclk",
+     "dclk_reset",
+     "refclk_n",
+     "refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\HTG640\\fpga_cxpt16\\rtl\\fpga.v",
+    "clocks": [
+     "clk_gthl_alm",
+     "clk_gthl_lol",
+     "clk_gthr_alm",
+     "clk_gthr_lol",
+     "gth_quad_a_refclk_n",
+     "gth_quad_a_refclk_p",
+     "gth_quad_b_refclk_n",
+     "gth_quad_b_refclk_p",
+     "gth_quad_c_refclk_n",
+     "gth_quad_c_refclk_p",
+     "gth_quad_d_refclk_n",
+     "gth_quad_d_refclk_p",
+     "gth_quad_e_refclk_n",
+     "gth_quad_e_refclk_p",
+     "gth_quad_f_refclk_n",
+     "gth_quad_f_refclk_p",
+     "sys_clk"
+    ]
+   },
+   {
+    "module": "eth_gth_phy_quad",
+    "file": "verilog-ethernet\\example\\HTG640\\fpga\\rtl\\eth_gth_phy_quad.v",
+    "clocks": [
+     "clk156",
+     "dclk",
+     "dclk_reset",
+     "refclk_n",
+     "refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\HTG640\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "clk_gthl_alm",
+     "clk_gthl_lol",
+     "clk_gthr_alm",
+     "clk_gthr_lol",
+     "gth_quad_a_refclk_n",
+     "gth_quad_a_refclk_p",
+     "gth_quad_b_refclk_n",
+     "gth_quad_b_refclk_p",
+     "gth_quad_c_refclk_n",
+     "gth_quad_c_refclk_p",
+     "gth_quad_d_refclk_n",
+     "gth_quad_d_refclk_p",
+     "gth_quad_e_refclk_n",
+     "gth_quad_e_refclk_p",
+     "gth_quad_f_refclk_n",
+     "gth_quad_f_refclk_p",
+     "sys_clk"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\fb2CG\\fpga_25g\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\fb2CG\\fpga_25g\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\fb2CG\\fpga_25g\\rtl\\fpga.v",
+    "clocks": [
+     "init_clk",
+     "qsfp_0_mgt_refclk_n",
+     "qsfp_0_mgt_refclk_p",
+     "qsfp_1_mgt_refclk_n",
+     "qsfp_1_mgt_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\fb2CG\\fpga_25g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "qsfp_0_rx_clk_0",
+     "qsfp_0_rx_clk_1",
+     "qsfp_0_rx_clk_2",
+     "qsfp_0_rx_clk_3",
+     "qsfp_0_tx_clk_0",
+     "qsfp_0_tx_clk_1",
+     "qsfp_0_tx_clk_2",
+     "qsfp_0_tx_clk_3",
+     "qsfp_1_rx_clk_0",
+     "qsfp_1_rx_clk_1",
+     "qsfp_1_rx_clk_2",
+     "qsfp_1_rx_clk_3",
+     "qsfp_1_tx_clk_0",
+     "qsfp_1_tx_clk_1",
+     "qsfp_1_tx_clk_2",
+     "qsfp_1_tx_clk_3"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\ExaNIC_X25\\fpga_25g\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\ExaNIC_X25\\fpga_25g\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\ExaNIC_X25\\fpga_25g\\rtl\\fpga.v",
+    "clocks": [
+     "sfp_mgt_refclk_n",
+     "sfp_mgt_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\ExaNIC_X25\\fpga_25g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "sfp_1_rx_clk",
+     "sfp_1_tx_clk",
+     "sfp_2_rx_clk",
+     "sfp_2_tx_clk"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\ExaNIC_X10\\fpga\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\ExaNIC_X10\\fpga\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\ExaNIC_X10\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "clk_100mhz_n",
+     "clk_100mhz_p",
+     "sfp_mgt_refclk_n",
+     "sfp_mgt_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\ExaNIC_X10\\fpga\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "sfp_1_rx_clk",
+     "sfp_1_tx_clk",
+     "sfp_2_rx_clk",
+     "sfp_2_tx_clk"
+    ]
+   },
+   {
+    "module": "phy",
+    "file": "verilog-ethernet\\example\\DE5-Net\\fpga\\cores\\phy.v",
+    "clocks": [
+     "phy_mgmt_clk",
+     "phy_mgmt_clk_reset",
+     "pll_ref_clk",
+     "xgmii_tx_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\DE2-115\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "clock_50",
+     "enet0_rx_clk",
+     "enet1_rx_clk"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\DE2-115\\fpga\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "clk90",
+     "phy0_rx_clk",
+     "phy1_rx_clk"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\DCS7132LB\\fpga_25g\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\DCS7132LB\\fpga_25g\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\DCS7132LB\\fpga_25g\\rtl\\fpga.v",
+    "clocks": [
+     "eth_gt_pri_refclk_n",
+     "eth_gt_pri_refclk_p",
+     "refclk_user_n",
+     "refclk_user_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\DCS7132LB\\fpga_25g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "eth_rx_clk",
+     "eth_tx_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\C10LP\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "enet_clk_125m",
+     "enet_rx_clk"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\C10LP\\fpga\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "clk90",
+     "phy_rx_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\ATLYS\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "clk",
+     "phy_rx_clk",
+     "phy_tx_clk"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\ATLYS\\fpga\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "phy_rx_clk",
+     "phy_tx_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\Arty\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "clk",
+     "phy_rx_clk",
+     "phy_tx_clk"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\Arty\\fpga\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "phy_rx_clk",
+     "phy_tx_clk"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\Alveo\\fpga_25g\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\Alveo\\fpga_25g\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\Alveo\\fpga_25g\\rtl\\fpga_au200.v",
+    "clocks": [
+     "qsfp0_mgt_refclk_1_n",
+     "qsfp0_mgt_refclk_1_p",
+     "qsfp1_mgt_refclk_1_n",
+     "qsfp1_mgt_refclk_1_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\Alveo\\fpga_25g\\rtl\\fpga_au280.v",
+    "clocks": [
+     "qsfp0_mgt_refclk_1_n",
+     "qsfp0_mgt_refclk_1_p",
+     "qsfp1_mgt_refclk_1_n",
+     "qsfp1_mgt_refclk_1_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\Alveo\\fpga_25g\\rtl\\fpga_au50.v",
+    "clocks": [
+     "qsfp_mgt_refclk_0_n",
+     "qsfp_mgt_refclk_0_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\Alveo\\fpga_25g\\rtl\\fpga_au55.v",
+    "clocks": [
+     "qsfp0_mgt_refclk_n",
+     "qsfp0_mgt_refclk_p",
+     "qsfp1_mgt_refclk_n",
+     "qsfp1_mgt_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\Alveo\\fpga_25g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "eth_rx_clk",
+     "eth_tx_clk"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\ADM_PCIE_9V3\\fpga_25g\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\ADM_PCIE_9V3\\fpga_25g\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_gtrefclk00_in",
+     "xcvr_qpll0clk_in",
+     "xcvr_qpll0refclk_in"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\ADM_PCIE_9V3\\fpga_25g\\rtl\\fpga.v",
+    "clocks": [
+     "clk_300mhz_n",
+     "clk_300mhz_p",
+     "qsfp_0_mgt_refclk_n",
+     "qsfp_0_mgt_refclk_p",
+     "qsfp_1_mgt_refclk_n",
+     "qsfp_1_mgt_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\ADM_PCIE_9V3\\fpga_25g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "qsfp_0_rx_clk_0",
+     "qsfp_0_rx_clk_1",
+     "qsfp_0_rx_clk_2",
+     "qsfp_0_rx_clk_3",
+     "qsfp_0_tx_clk_0",
+     "qsfp_0_tx_clk_1",
+     "qsfp_0_tx_clk_2",
+     "qsfp_0_tx_clk_3",
+     "qsfp_1_rx_clk_0",
+     "qsfp_1_rx_clk_1",
+     "qsfp_1_rx_clk_2",
+     "qsfp_1_rx_clk_3",
+     "qsfp_1_tx_clk_0",
+     "qsfp_1_tx_clk_1",
+     "qsfp_1_tx_clk_2",
+     "qsfp_1_tx_clk_3"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_quad_wrapper",
+    "file": "verilog-ethernet\\example\\520N_MX\\fpga_10g\\rtl\\eth_xcvr_phy_quad_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_ref_clk"
+    ]
+   },
+   {
+    "module": "eth_xcvr_phy_wrapper",
+    "file": "verilog-ethernet\\example\\520N_MX\\fpga_10g\\rtl\\eth_xcvr_phy_wrapper.v",
+    "clocks": [
+     "xcvr_ctrl_clk",
+     "xcvr_rx_cdr_refclk",
+     "xcvr_tx_serial_clk"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-ethernet\\example\\520N_MX\\fpga_10g\\rtl\\fpga.v",
+    "clocks": [
+     "qsfp0_refclk",
+     "qsfp1_refclk",
+     "qsfp2_refclk",
+     "qsfp3_refclk",
+     "usr_refclk0"
+    ]
+   },
+   {
+    "module": "fpga_core",
+    "file": "verilog-ethernet\\example\\520N_MX\\fpga_10g\\rtl\\fpga_core.v",
+    "clocks": [
+     "clk",
+     "qsfp0_rx_clk_1",
+     "qsfp0_rx_clk_2",
+     "qsfp0_rx_clk_3",
+     "qsfp0_rx_clk_4",
+     "qsfp0_tx_clk_1",
+     "qsfp0_tx_clk_2",
+     "qsfp0_tx_clk_3",
+     "qsfp0_tx_clk_4",
+     "qsfp1_rx_clk_1",
+     "qsfp1_rx_clk_2",
+     "qsfp1_rx_clk_3",
+     "qsfp1_rx_clk_4",
+     "qsfp1_tx_clk_1",
+     "qsfp1_tx_clk_2",
+     "qsfp1_tx_clk_3",
+     "qsfp1_tx_clk_4",
+     "qsfp2_rx_clk_1",
+     "qsfp2_rx_clk_2",
+     "qsfp2_rx_clk_3",
+     "qsfp2_rx_clk_4",
+     "qsfp2_tx_clk_1",
+     "qsfp2_tx_clk_2",
+     "qsfp2_tx_clk_3",
+     "qsfp2_tx_clk_4",
+     "qsfp3_rx_clk_1",
+     "qsfp3_rx_clk_2",
+     "qsfp3_rx_clk_3",
+     "qsfp3_rx_clk_4",
+     "qsfp3_tx_clk_1",
+     "qsfp3_tx_clk_2",
+     "qsfp3_tx_clk_3",
+     "qsfp3_tx_clk_4"
+    ]
+   }
+  ],
+  "verilog-pcie": [
+   {
+    "module": "dma_psdpram_async",
+    "file": "verilog-pcie\\rtl\\dma_psdpram_async.v",
+    "clocks": [
+     "clk_rd",
+     "clk_wr"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\ZCU106\\fpga_axi\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_mgt_refclk_n",
+     "pcie_mgt_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\ZCU106\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_mgt_refclk_n",
+     "pcie_mgt_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\VCU118\\fpga_axi\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_refclk_2_n",
+     "pcie_refclk_2_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\VCU118\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_refclk_2_n",
+     "pcie_refclk_2_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\VCU108\\fpga_axi\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_mgt_refclk_n",
+     "pcie_mgt_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\VCU108\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_mgt_refclk_n",
+     "pcie_mgt_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\S10MX_DK\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "clk_sys_100m_p",
+     "refclk_pcie_ep_edge_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\S10DX_DK\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "clk_100m_pcie_0_p",
+     "clk_100m_pcie_1_p",
+     "clk_156p25m_qsfp0_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\fb2CG\\fpga_axi\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_refclk_n",
+     "pcie_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\fb2CG\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_refclk_n",
+     "pcie_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\ExaNIC_X25\\fpga_axi\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_refclk_n",
+     "pcie_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\ExaNIC_X25\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_refclk_n",
+     "pcie_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\ExaNIC_X10\\fpga_axi\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_mgt_refclk_n",
+     "pcie_mgt_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\ExaNIC_X10\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_mgt_refclk_n",
+     "pcie_mgt_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\DE10_Agilex\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_refclk_p",
+     "qsfpdda_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\Alveo\\fpga\\rtl\\fpga_au200.v",
+    "clocks": [
+     "pcie_refclk_n",
+     "pcie_refclk_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\Alveo\\fpga\\rtl\\fpga_au280.v",
+    "clocks": [
+     "pcie_refclk_1_n",
+     "pcie_refclk_1_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\Alveo\\fpga\\rtl\\fpga_au50.v",
+    "clocks": [
+     "pcie_refclk_1_n",
+     "pcie_refclk_1_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\Alveo\\fpga\\rtl\\fpga_au55.v",
+    "clocks": [
+     "pcie_refclk_1_n",
+     "pcie_refclk_1_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\ADM_PCIE_9V3\\fpga_axi\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_refclk_1_n",
+     "pcie_refclk_1_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\ADM_PCIE_9V3\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_refclk_1_n",
+     "pcie_refclk_1_p"
+    ]
+   },
+   {
+    "module": "fpga",
+    "file": "verilog-pcie\\example\\520N_MX\\fpga\\rtl\\fpga.v",
+    "clocks": [
+     "pcie_refclk",
+     "usr_refclk0"
+    ]
+   }
+  ],
+  "wb2axip": [
+   {
+    "module": "apbxclk",
+    "file": "wb2axip\\rtl\\apbxclk.v",
+    "clocks": [
+     "m_apb_pclk",
+     "s_apb_pclk"
+    ]
+   },
+   {
+    "module": "axixclk",
+    "file": "wb2axip\\rtl\\axixclk.v",
+    "clocks": [
+     "m_axi_aclk",
+     "s_axi_aclk"
+    ]
+   },
+   {
+    "module": "wbxclk",
+    "file": "wb2axip\\rtl\\wbxclk.v",
+    "clocks": [
+     "i_wb_clk",
+     "i_xclk_ack",
+     "i_xclk_clk",
+     "i_xclk_err",
+     "i_xclk_stall"
+    ]
+   }
+  ]
+ }
+}

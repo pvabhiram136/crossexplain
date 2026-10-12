@@ -1,0 +1,109 @@
+{
+ "archs": [
+  "gat",
+  "gcn",
+  "sage"
+ ],
+ "epochs": 40,
+ "seed": 0,
+ "rows": [
+  {
+   "arch": "gat",
+   "pooling": "global_first",
+   "test_id_f1": 1.0,
+   "conf_fpr": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "conf_median_p": 0.9999963045120239,
+   "conf_min_margin": 0.49925094842910767,
+   "wrapped_recall": 1.0
+  },
+  {
+   "arch": "gat",
+   "pooling": "seed_first",
+   "test_id_f1": 1.0,
+   "conf_fpr": 1.0,
+   "ci": [
+    1.0,
+    1.0
+   ],
+   "conf_median_p": 0.9999948740005493,
+   "conf_min_margin": 0.49474430084228516,
+   "wrapped_recall": 0.9523809523809523
+  },
+  {
+   "arch": "gcn",
+   "pooling": "global_first",
+   "test_id_f1": 1.0,
+   "conf_fpr": 0.10256410256410256,
+   "ci": [
+    0.0,
+    0.23076923076923078
+   ],
+   "conf_median_p": 0.1108844131231308,
+   "conf_min_margin": 0.10090583562850952,
+   "wrapped_recall": 1.0
+  },
+  {
+   "arch": "gcn",
+   "pooling": "seed_first",
+   "test_id_f1": 1.0,
+   "conf_fpr": 0.9743589743589743,
+   "ci": [
+    0.9210526315789473,
+    1.0
+   ],
+   "conf_median_p": 0.9096284508705139,
+   "conf_min_margin": 0.12913179397583008,
+   "wrapped_recall": 1.0
+  },
+  {
+   "arch": "sage",
+   "pooling": "global_first",
+   "test_id_f1": 1.0,
+   "conf_fpr": 0.7435897435897436,
+   "ci": [
+    0.5641025641025641,
+    0.9
+   ],
+   "conf_median_p": 0.9766052961349487,
+   "conf_min_margin": 0.02057775855064392,
+   "wrapped_recall": 0.8571428571428571
+  },
+  {
+   "arch": "sage",
+   "pooling": "seed_first",
+   "test_id_f1": 1.0,
+   "conf_fpr": 0.6923076923076923,
+   "ci": [
+    0.48717948717948717,
+    0.8717948717948718
+   ],
+   "conf_median_p": 0.9411647319793701,
+   "conf_min_margin": 0.004362910985946655,
+   "wrapped_recall": 0.8571428571428571
+  }
+ ],
+ "summary": {
+  "gat": {
+   "global_first": 1.0,
+   "seed_first": 1.0,
+   "swing": 0.0
+  },
+  "gcn": {
+   "global_first": 0.10256410256410256,
+   "seed_first": 0.9743589743589743,
+   "swing": 0.8717948717948718
+  },
+  "sage": {
+   "global_first": 0.7435897435897436,
+   "seed_first": 0.6923076923076923,
+   "swing": 0.05128205128205132
+  }
+ },
+ "max_null_swing": 0.8717948717948718,
+ "total_spread": 0.8974358974358975,
+ "verdict": "architecture effect is not separable from the null change"
+}

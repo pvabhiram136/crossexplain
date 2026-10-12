@@ -1,0 +1,126 @@
+{
+ "test_real": {
+  "n_named": 68,
+  "n_blind_labeled": 265,
+  "group_ratio": 3.9558823529411766,
+  "seed_purity": 0.9969811320754717,
+  "blind": {
+   "crossexplain": {
+    "accuracy": 0.6377358490566037,
+    "precision": 0.5238095238095238,
+    "recall": 0.5445544554455446,
+    "f1": 0.5339805825242719,
+    "false_positive_rate": 0.3048780487804878,
+    "tp": 55,
+    "fp": 50,
+    "tn": 114,
+    "fn": 46
+   },
+   "pattern_matcher": {
+    "accuracy": 0.5283018867924528,
+    "precision": 0.4318181818181818,
+    "recall": 0.7524752475247525,
+    "f1": 0.5487364620938628,
+    "false_positive_rate": 0.6097560975609756,
+    "tp": 76,
+    "fp": 100,
+    "tn": 64,
+    "fn": 25
+   },
+   "random_forest": {
+    "accuracy": 0.39622641509433965,
+    "precision": 0.3487179487179487,
+    "recall": 0.6732673267326733,
+    "f1": 0.45945945945945943,
+    "false_positive_rate": 0.774390243902439,
+    "tp": 68,
+    "fp": 127,
+    "tn": 37,
+    "fn": 33
+   }
+  },
+  "named_reference": {
+   "crossexplain": {
+    "accuracy": 0.7941176470588235,
+    "precision": 0.78125,
+    "recall": 0.78125,
+    "f1": 0.78125,
+    "false_positive_rate": 0.19444444444444445,
+    "tp": 25,
+    "fp": 7,
+    "tn": 29,
+    "fn": 7
+   }
+  },
+  "blind_ci_design": {
+   "point": 0.5339805825242719,
+   "ci_lo": 0.2092895476616407,
+   "ci_hi": 0.8121220492214969,
+   "width": 0.6028325015598561,
+   "n_clusters": 12,
+   "B": 2000
+  }
+ },
+ "test_id": {
+  "n_named": 735,
+  "n_blind_labeled": 1588,
+  "group_ratio": 2.160544217687075,
+  "seed_purity": 0.9959068010075567,
+  "blind": {
+   "crossexplain": {
+    "accuracy": 0.8986146095717884,
+    "precision": 0.9887640449438202,
+    "recall": 0.8214702450408401,
+    "f1": 0.8973868706182282,
+    "false_positive_rate": 0.01094391244870041,
+    "tp": 704,
+    "fp": 8,
+    "tn": 723,
+    "fn": 153
+   },
+   "pattern_matcher": {
+    "accuracy": 0.7103274559193955,
+    "precision": 0.7305458768873403,
+    "recall": 0.733955659276546,
+    "f1": 0.7322467986030267,
+    "false_positive_rate": 0.3173734610123119,
+    "tp": 629,
+    "fp": 232,
+    "tn": 499,
+    "fn": 228
+   },
+   "random_forest": {
+    "accuracy": 0.7292191435768262,
+    "precision": 0.6877748460861918,
+    "recall": 0.912485414235706,
+    "f1": 0.7843530591775325,
+    "false_positive_rate": 0.4856361149110807,
+    "tp": 782,
+    "fp": 355,
+    "tn": 376,
+    "fn": 75
+   }
+  },
+  "named_reference": {
+   "crossexplain": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "false_positive_rate": 0.0,
+    "tp": 407,
+    "fp": 0,
+    "tn": 328,
+    "fn": 0
+   }
+  },
+  "blind_ci_design": {
+   "point": 0.8973868706182282,
+   "ci_lo": 0.8732701575253757,
+   "ci_hi": 0.9243169731660781,
+   "width": 0.05104681564070235,
+   "n_clusters": 40,
+   "B": 2000
+  }
+ }
+}

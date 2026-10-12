@@ -1,0 +1,9 @@
+{
+ "added": [
+  "ot_prim_reg_cdc_arb"
+ ],
+ "designs_before": 21,
+ "designs_after": 22,
+ "n_crossings": 40,
+ "n_conf_designs": 21
+}

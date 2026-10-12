@@ -1,0 +1,39 @@
+CrossExplain report — test_id_0308 @ O2 (crossing cdc0)
+  verdict     : UNSAFE  (confidence 1.00)
+  hazard type : NO_SYNC
+  top nodes   : [1, 15, 2, 3, 16, 17]
+  ground truth: UNSAFE (NO_SYNC)
+
+CrossExplain report — test_id_0300 @ O2 (crossing cdc2)
+  verdict     : UNSAFE  (confidence 1.00)
+  hazard type : SINGLE_FF
+  top nodes   : [8, 7, 1, 6, 0, 2]
+  ground truth: UNSAFE (SINGLE_FF)
+
+CrossExplain report — test_id_0301 @ O2 (crossing cdc2)
+  verdict     : UNSAFE  (confidence 1.00)
+  hazard type : COMB_BEFORE_SYNC
+  top nodes   : [0, 1, 10, 2, 9, 11]
+  ground truth: UNSAFE (COMB_BEFORE_SYNC)
+
+CrossExplain report — test_id_0301 @ O2 (crossing cdc3)
+  verdict     : UNSAFE  (confidence 1.00)
+  hazard type : RECONV
+  top nodes   : [3, 2, 0, 4, 1, 5]
+  ground truth: UNSAFE (RECONV)
+
+CrossExplain report — test_id_0300 @ O2 (crossing cdc1)
+  verdict     : UNSAFE  (confidence 1.00)
+  hazard type : BUS_NOSYNC
+  top nodes   : [9, 10, 11, 8, 4, 5]
+  ground truth: UNSAFE (BUS_NOSYNC)
+
+CrossExplain report — test_id_0300 @ O2 (crossing cdc0)
+  verdict     : SAFE  (confidence 0.99)
+  top nodes   : [1, 0, 2, 6, 8, 10]
+  ground truth: SAFE (SYNC2)
+
+CrossExplain report — test_id_0309 @ O2 (crossing cdc0)
+  verdict     : SAFE  (confidence 1.00)
+  top nodes   : [1, 0, 10, 6, 7, 8]
+  ground truth: SAFE (MUX_HOLD)

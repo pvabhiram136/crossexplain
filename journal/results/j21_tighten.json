@@ -1,0 +1,111 @@
+{
+ "knn_per_seed": [
+  {
+   "seed": 0,
+   "unsafe_frac": 1.0,
+   "top_template": "MUX_UNSYNC_QUAL",
+   "top_frac": 1.0
+  },
+  {
+   "seed": 1,
+   "unsafe_frac": 0.9032258064516129,
+   "top_template": "MUX_UNSYNC_QUAL",
+   "top_frac": 0.4838709677419355
+  },
+  {
+   "seed": 2,
+   "unsafe_frac": 0.967741935483871,
+   "top_template": "MUX_UNSYNC_QUAL",
+   "top_frac": 0.967741935483871
+  },
+  {
+   "seed": 3,
+   "unsafe_frac": 0.967741935483871,
+   "top_template": "BUS_NOSYNC",
+   "top_frac": 0.5161290322580645
+  },
+  {
+   "seed": 4,
+   "unsafe_frac": 0.12903225806451613,
+   "top_template": "MUX_HOLD",
+   "top_frac": 0.8709677419354839
+  }
+ ],
+ "confirmation": {
+  "CrossExplain (5-seed ens)": {
+   "fpr": 0.967741935483871,
+   "ci_lo": 0.9,
+   "ci_hi": 1.0,
+   "n_flagged": 30,
+   "n": 31
+  },
+  "CrossExplain (released)": {
+   "fpr": 0.967741935483871,
+   "ci_lo": 0.9,
+   "ci_hi": 1.0,
+   "n_flagged": 30,
+   "n": 31
+  },
+  "GCN ablation": {
+   "fpr": 0.032258064516129004,
+   "ci_lo": 0.0,
+   "ci_hi": 0.09999999999999998,
+   "n_flagged": 1,
+   "n": 31
+  },
+  "GraphSAGE ablation": {
+   "fpr": 0.7741935483870968,
+   "ci_lo": 0.5806451612903225,
+   "ci_hi": 0.9375,
+   "n_flagged": 24,
+   "n": 31
+  },
+  "single-task ablation": {
+   "fpr": 0.8064516129032258,
+   "ci_lo": 0.6333333333333333,
+   "ci_hi": 0.9375,
+   "n_flagged": 25,
+   "n": 31
+  },
+  "Random Forest": {
+   "fpr": 0.935483870967742,
+   "ci_lo": 0.8333333333333334,
+   "ci_hi": 1.0,
+   "n_flagged": 29,
+   "n": 31
+  },
+  "Logistic regression": {
+   "fpr": 0.8709677419354839,
+   "ci_lo": 0.71875,
+   "ci_hi": 1.0,
+   "n_flagged": 27,
+   "n": 31
+  },
+  "matcher, textbook": {
+   "fpr": 1.0,
+   "ci_lo": 1.0,
+   "ci_hi": 1.0,
+   "n_flagged": 31,
+   "n": 31
+  },
+  "matcher, domain-aware": {
+   "fpr": 0.6774193548387097,
+   "ci_lo": 0.4666666666666667,
+   "ci_hi": 0.8709677419354839,
+   "n_flagged": 21,
+   "n": 31
+  }
+ },
+ "matcher_vs_best_learned": {
+  "delta": -0.6451612903225807,
+  "boot_mean": -0.6435704949836861,
+  "ci_lo": -0.84375,
+  "ci_hi": -0.4193548387096774,
+  "p_value": 0.0,
+  "significant": true,
+  "n_clusters": 16,
+  "B": 10000
+ },
+ "n_conf": 31,
+ "n_designs": 16
+}

@@ -1,0 +1,140 @@
+{
+ "n_configs": 18,
+ "rows": [
+  {
+   "group": "depth",
+   "tag": "1 layer",
+   "gen": 0.998766954377312,
+   "real": 0.6575496177852584,
+   "note": "31k params"
+  },
+  {
+   "group": "depth",
+   "tag": "2 layers",
+   "gen": 1.0,
+   "real": 0.6618231633695552,
+   "note": "40k params"
+  },
+  {
+   "group": "depth",
+   "tag": "3 layers",
+   "gen": 0.998766954377312,
+   "real": 0.5992852501624432,
+   "note": "48k params"
+  },
+  {
+   "group": "depth",
+   "tag": "4 layers",
+   "gen": 0.9995899958999589,
+   "real": 0.621322610690838,
+   "note": "56k params"
+  },
+  {
+   "group": "depth",
+   "tag": "5 layers",
+   "gen": 1.0,
+   "real": 0.6983705949223191,
+   "note": "65k params"
+  },
+  {
+   "group": "depth",
+   "tag": "6 layers",
+   "gen": 1.0,
+   "real": 0.5794636078788632,
+   "note": "73k params"
+  },
+  {
+   "group": "depth",
+   "tag": "7 layers",
+   "gen": 1.0,
+   "real": 0.6645002241147467,
+   "note": "82k params"
+  },
+  {
+   "group": "features",
+   "tag": "full (27 features)",
+   "gen": 1.0,
+   "real": 0.6983705949223191,
+   "note": ""
+  },
+  {
+   "group": "features",
+   "tag": "minus cell_type_onehot",
+   "gen": 0.9995899958999589,
+   "real": 0.6019123698862262,
+   "note": ""
+  },
+  {
+   "group": "features",
+   "tag": "minus is_ff_flag",
+   "gen": 1.0,
+   "real": 0.6033851904498672,
+   "note": ""
+  },
+  {
+   "group": "features",
+   "tag": "minus domain_flags",
+   "gen": 0.9962917068525595,
+   "real": 0.5956672991777356,
+   "note": ""
+  },
+  {
+   "group": "features",
+   "tag": "minus fanin_fanout",
+   "gen": 1.0,
+   "real": 0.6025112443778111,
+   "note": ""
+  },
+  {
+   "group": "features",
+   "tag": "minus seed_flag",
+   "gen": 1.0,
+   "real": 0.5497608482683108,
+   "note": ""
+  },
+  {
+   "group": "features",
+   "tag": "minus dist_to_seed",
+   "gen": 0.998766954377312,
+   "real": 0.6714713860078141,
+   "note": ""
+  },
+  {
+   "group": "cone",
+   "tag": "bwd=2, fwd=3",
+   "gen": 1.0,
+   "real": 0.7297453703703705,
+   "note": "15.9 nodes"
+  },
+  {
+   "group": "cone",
+   "tag": "bwd=4, fwd=3",
+   "gen": 0.9962871287128713,
+   "real": 0.7325396825396825,
+   "note": "20.7 nodes"
+  },
+  {
+   "group": "cone",
+   "tag": "bwd=6, fwd=3",
+   "gen": 1.0,
+   "real": 0.706896551724138,
+   "note": "29.1 nodes"
+  },
+  {
+   "group": "cone",
+   "tag": "bwd=8, fwd=3",
+   "gen": 1.0,
+   "real": 0.636583400483481,
+   "note": "36.3 nodes"
+  }
+ ],
+ "gen_min": 0.9962871287128713,
+ "gen_max": 1.0,
+ "gen_range": 0.003712871287128716,
+ "gen_sd": 0.0012008245181313708,
+ "real_min": 0.5497608482683108,
+ "real_max": 0.7325396825396825,
+ "real_range": 0.18277883427137165,
+ "real_sd": 0.05412870544724603,
+ "n_at_ceiling": 13
+}

@@ -1,0 +1,101 @@
+{
+ "total_bytes": 146800073,
+ "n_entries": 14,
+ "entries": [
+  {
+   "path": "crossexplain",
+   "bytes": 80953,
+   "what": "generator, model, training, eval"
+  },
+  {
+   "path": "journal/scripts",
+   "bytes": 385620,
+   "what": "every j-script, including the checkers"
+  },
+  {
+   "path": "journal/jlib.py",
+   "bytes": 11388,
+   "what": "clustered bootstrap, loaders"
+  },
+  {
+   "path": "journal/readouts.py",
+   "bytes": 7501,
+   "what": "readout variants (pooling order)"
+  },
+  {
+   "path": "journal/grouping.py",
+   "bytes": 4833,
+   "what": "name-blind crossing grouping"
+  },
+  {
+   "path": "journal/corpus_tools.py",
+   "bytes": 12711,
+   "what": "clocks, sv2v, blackbox guard"
+  },
+  {
+   "path": "journal/strong_matcher.py",
+   "bytes": 11756,
+   "what": "domain-aware rule engine"
+  },
+  {
+   "path": "journal/wrappers.py",
+   "bytes": 16662,
+   "what": "two-clock wrappers"
+  },
+  {
+   "path": "journal/corpus/patches",
+   "bytes": 2618,
+   "what": "documented source patches"
+  },
+  {
+   "path": "data/dataset",
+   "bytes": 22072631,
+   "what": "the five benchmark splits"
+  },
+  {
+   "path": "results",
+   "bytes": 2464797,
+   "what": "released checkpoints and conference results"
+  },
+  {
+   "path": "journal/results",
+   "bytes": 324103,
+   "what": "every result JSON the paper cites"
+  },
+  {
+   "path": "requirements.txt",
+   "bytes": 63,
+   "what": "pinned dependencies"
+  },
+  {
+   "path": "journal/corpus/netlists",
+   "bytes": 121404437,
+   "what": "41 netlists, 23 accepted designs"
+  }
+ ],
+ "accepted_designs": [
+  "axis_async_adapter",
+  "axis_async_fifo",
+  "eth_axis_async",
+  "ot_prim_fifo_async",
+  "ot_prim_fifo_async_simple",
+  "ot_prim_fifo_async_sram_adapter",
+  "ot_prim_pulse_sync",
+  "ot_prim_reg_cdc",
+  "ot_prim_reg_cdc_arb",
+  "ot_prim_sync_reqack",
+  "ot_prim_sync_reqack_data",
+  "pcie_dma_psdpram_async",
+  "pulp_cdc_2phase",
+  "pulp_cdc_2phase_clearable",
+  "pulp_cdc_4phase",
+  "pulp_cdc_fifo_2phase",
+  "pulp_cdc_fifo_gray",
+  "pulp_cdc_fifo_gray_clearable",
+  "pulp_cdc_reset_ctrlr",
+  "wb2axip_afifo",
+  "wb2axip_apbxclk",
+  "wb2axip_axixclk",
+  "wb2axip_wbxclk"
+ ]
+}

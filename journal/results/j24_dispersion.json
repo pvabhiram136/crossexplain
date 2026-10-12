@@ -1,0 +1,150 @@
+{
+ "arch": "gcn",
+ "epochs": 40,
+ "seed": 0,
+ "n_configs": 12,
+ "rows": [
+  {
+   "pooling": "global_first",
+   "node_perm": null,
+   "threads": 1,
+   "test_id": 1.0,
+   "test_real": 0.7123287671232876,
+   "wrapped": 1.0,
+   "conf": 0.10256410256410256
+  },
+  {
+   "pooling": "global_first",
+   "node_perm": null,
+   "threads": 4,
+   "test_id": 1.0,
+   "test_real": 0.725,
+   "wrapped": 0.8095238095238095,
+   "conf": 0.10256410256410256
+  },
+  {
+   "pooling": "global_first",
+   "node_perm": 1,
+   "threads": 1,
+   "test_id": 1.0,
+   "test_real": 0.6808510638297872,
+   "wrapped": 1.0,
+   "conf": 1.0
+  },
+  {
+   "pooling": "global_first",
+   "node_perm": 1,
+   "threads": 4,
+   "test_id": 1.0,
+   "test_real": 0.6666666666666666,
+   "wrapped": 1.0,
+   "conf": 0.20512820512820512
+  },
+  {
+   "pooling": "global_first",
+   "node_perm": 2,
+   "threads": 1,
+   "test_id": 1.0,
+   "test_real": 0.7901234567901235,
+   "wrapped": 1.0,
+   "conf": 0.6410256410256411
+  },
+  {
+   "pooling": "global_first",
+   "node_perm": 2,
+   "threads": 4,
+   "test_id": 1.0,
+   "test_real": 0.7032967032967034,
+   "wrapped": 1.0,
+   "conf": 0.38461538461538464
+  },
+  {
+   "pooling": "seed_first",
+   "node_perm": null,
+   "threads": 1,
+   "test_id": 1.0,
+   "test_real": 0.7045454545454546,
+   "wrapped": 1.0,
+   "conf": 0.9743589743589743
+  },
+  {
+   "pooling": "seed_first",
+   "node_perm": null,
+   "threads": 4,
+   "test_id": 1.0,
+   "test_real": 0.7272727272727273,
+   "wrapped": 1.0,
+   "conf": 0.7948717948717948
+  },
+  {
+   "pooling": "seed_first",
+   "node_perm": 1,
+   "threads": 1,
+   "test_id": 1.0,
+   "test_real": 0.6597938144329897,
+   "wrapped": 1.0,
+   "conf": 1.0
+  },
+  {
+   "pooling": "seed_first",
+   "node_perm": 1,
+   "threads": 4,
+   "test_id": 1.0,
+   "test_real": 0.7042253521126761,
+   "wrapped": 1.0,
+   "conf": 1.0
+  },
+  {
+   "pooling": "seed_first",
+   "node_perm": 2,
+   "threads": 1,
+   "test_id": 1.0,
+   "test_real": 0.7032967032967034,
+   "wrapped": 1.0,
+   "conf": 1.0
+  },
+  {
+   "pooling": "seed_first",
+   "node_perm": 2,
+   "threads": 4,
+   "test_id": 1.0,
+   "test_real": 0.7272727272727273,
+   "wrapped": 1.0,
+   "conf": 1.0
+  }
+ ],
+ "summary": {
+  "test_id": {
+   "min": 1.0,
+   "max": 1.0,
+   "range": 0.0,
+   "mean": 1.0,
+   "sd": 0.0,
+   "n_distinct": 1
+  },
+  "test_real": {
+   "min": 0.6597938144329897,
+   "max": 0.7901234567901235,
+   "range": 0.13032964235713385,
+   "mean": 0.7087227863866539,
+   "sd": 0.033882654087795235,
+   "n_distinct": 10
+  },
+  "wrapped": {
+   "min": 0.8095238095238095,
+   "max": 1.0,
+   "range": 0.19047619047619047,
+   "mean": 0.9841269841269842,
+   "sd": 0.054985739922821505,
+   "n_distinct": 2
+  },
+  "conf": {
+   "min": 0.10256410256410256,
+   "max": 1.0,
+   "range": 0.8974358974358975,
+   "mean": 0.6837606837606837,
+   "sd": 0.38052735496675005,
+   "n_distinct": 7
+  }
+ }
+}

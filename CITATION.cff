@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: >-
+  CrossExplain: benchmark, third-party corpus and analysis artifact for
+  graph-neural-network clock-domain-crossing analysis
+message: >-
+  If you use this benchmark, corpus or code, please cite the accompanying
+  paper. If you use the third-party corpus, please also credit the upstream
+  projects it is built from; fetch_corpus.py lists them with pinned commits.
+type: software
+authors:
+  - family-names: Abhiram
+    given-names: Pedada Venkata
+    affiliation: >-
+      Department of Electronics and Communication Engineering, Amrita School of
+      Engineering, Amrita Vishwa Vidyapeetham, Coimbatore, India
+  - family-names: Vasanth
+    given-names: S. Muthu
+    affiliation: >-
+      Department of Electronics and Communication Engineering, Amrita School of
+      Engineering, Amrita Vishwa Vidyapeetham, Coimbatore, India
+  - family-names: M
+    given-names: Vivyn
+    affiliation: >-
+      Department of Electronics and Communication Engineering, Amrita School of
+      Engineering, Amrita Vishwa Vidyapeetham, Coimbatore, India
+  - family-names: Somasundaram
+    given-names: K.
+    affiliation: >-
+      Department of Mathematics, Amrita School of Physical Sciences, Amrita
+      Vishwa Vidyapeetham, Coimbatore, India
+keywords:
+  - clock-domain crossing
+  - graph neural networks
+  - benchmark validity
+  - electronic design automation
+  - reproducibility
+  - floating-point non-associativity
+license: MIT
+repository-code: 'ARTIFACT-URL-PENDING'

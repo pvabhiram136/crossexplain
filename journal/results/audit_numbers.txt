@@ -1,0 +1,1081 @@
+==============================================================================
+PART 1 - every numeric literal in the paper, with context
+==============================================================================
+
+L  47  ['2']
+      ...Vivyn M\IEEEauthorrefmark{1}, K.~Somasundaram\IEEEauthorrefmark{2}} \IEEEauthorblockA{%
+
+L  51  ['2']
+      ...Engineering, Amrita School of Engineering}\\ \IEEEauthorrefmark{2}\textit{Department of Mathematics, Amrita School of Physical Sciences}\\
+
+L  76  ['1.000$']
+      ...UART/SPI/FIFO/handshake designs as an out-of-distribution (OOD) test set. CrossExplain attains $F_1=1.000$ on held-out generated designs including near-miss hard negatives, classifies hazard type at $0.985$ to $1.000$
+
+L  77  ['$0.985$', '$1.000$']
+      ...CrossExplain attains $F_1=1.000$ on held-out generated designs including near-miss hard negatives, classifies hazard type at $0.985$ to $1.000$ accuracy, and localizes hazard logic at $\mathrm{IoU}=0.92$ to $0.93$, at
+
+L  78  ['$0.93$', '0.92$']
+      ...near-miss hard negatives, classifies hazard type at $0.985$ to $1.000$ accuracy, and localizes hazard logic at $\mathrm{IoU}=0.92$ to $0.93$, at $0.26$~ms per crossing on a laptop CPU. On the real OOD designs a
+
+L  79  ['$0.26$']
+      ...accuracy, and localizes hazard logic at $\mathrm{IoU}=0.92$ to $0.93$, at $0.26$~ms per crossing on a laptop CPU. On the real OOD designs a five-seed ensemble reaches $F_1=0.781$ at a false-positive rate of
+
+L  80  ['0.781$']
+      ...$0.26$~ms per crossing on a laptop CPU. On the real OOD designs a five-seed ensemble reaches $F_1=0.781$ at a false-positive rate of $0.194$, the best operating point among the methods we evaluate. We are
+
+L  81  ['$0.194$']
+      ...five-seed ensemble reaches $F_1=0.781$ at a false-positive rate of $0.194$, the best operating point among the methods we evaluate. We are equally explicit about what the benchmark cannot show. A domain-aware
+
+L  89  ['$43.0$']
+      ...since the errors are predominantly false positives on safe real crossings whose subgraphs are markedly larger than any seen in training ($43.0$ versus $29.1$ nodes), and we quantify the corpus size needed to resolve
+
+L  90  ['$29.1$']
+      ...whose subgraphs are markedly larger than any seen in training ($43.0$ versus $29.1$ nodes), and we quantify the corpus size needed to resolve the remaining differences. We further show that message-passing
+
+L  93  ['$0.20$']
+      ...aggregation is non-deterministic on multi-threaded CPUs ($|\Delta F_1|$ up to $0.20$ at a fixed seed) and report all results from a bit-reproducible configuration.
+
+L 251  ['$3$', '$9$']
+      ...per-domain filler logic such as LFSRs and counters so that graph structure varies, then inserts $3$ to $9$ crossings drawn from the template set with randomized bus widths, synchronizer depths, and
+
+L 260  ['$38$', '$39$']
+      ...\texttt{MUX\_UNSYNC\_QUAL} reproduces the safe \texttt{MUX\_HOLD} structure almost exactly, at $38$ nodes after synthesis against $39$, but taps the load qualifier from the raw asynchronous toggle rather than the
+
+L 273  ['4']
+      ...\centering\tabfont \begin{tabular}{@{}llp{4.6cm}@{}} \toprule
+
+L 285  ['$3$']
+      ...\texttt{SINGLE\_FF} & unsafe & one sync stage, consumed immediately \\ \texttt{COMB\_BEFORE\_SYNC} & unsafe & glitchy cloud (depth $1$ to $3$) before sync \\ \texttt{RECONV} & unsafe & two parallel syncs reconverging \\
+
+L 289  ['2']
+      ...\texttt{MUX\_UNSYNC\_QUAL}$^\dagger$ & unsafe & \texttt{MUX\_HOLD} shape, unsynchronized qualifier \\ \texttt{SYNC2\_LEAK}$^\dagger$ & unsafe & 2-FF chain whose stage-0 output leaks \\ \bottomrule
+
+L 311  ['$160$', '435$']
+      ...\subsection{Data Splits} Training uses $1{,}435$ labeled crossings from $160$ designs at levels O0 and O2, with $193$ crossings from $20$ designs held out for validation.
+
+L 312  ['$193$', '$20$']
+      ...Training uses $1{,}435$ labeled crossings from $160$ designs at levels O0 and O2, with $193$ crossings from $20$ designs held out for validation. Evaluation uses \texttt{test\_id} ($735$ crossings from $40$ unseen
+
+L 313  ['$40$', '$735$']
+      ...and O2, with $193$ crossings from $20$ designs held out for validation. Evaluation uses \texttt{test\_id} ($735$ crossings from $40$ unseen designs at all four levels, so that O1 and O3 are unseen
+
+L 315  ['$16$', '$512$']
+      ...designs at all four levels, so that O1 and O3 are unseen configurations), \texttt{test\_big} ($512$ crossings from $16$ four-clock designs with $7$ to $9$ crossings each, giving structural
+
+L 316  ['$7$', '$9$']
+      ...configurations), \texttt{test\_big} ($512$ crossings from $16$ four-clock designs with $7$ to $9$ crossings each, giving structural OOD), and \texttt{test\_real} ($68$ labeled samples from twelve
+
+L 317  ['$68$']
+      ...four-clock designs with $7$ to $9$ crossings each, giving structural OOD), and \texttt{test\_real} ($68$ labeled samples from twelve hand-written designs, being $17$ distinct crossings each evaluated at the
+
+L 318  ['$17$']
+      ...OOD), and \texttt{test\_real} ($68$ labeled samples from twelve hand-written designs, being $17$ distinct crossings each evaluated at the four optimization levels). The hand-written set comprises a Cummings-style
+
+L 343  ['$3$', '$6$']
+      ...convention. Each crossing yields an induced subgraph consisting of a $6$-hop backward cone, $3$-hop forward context, and any sibling cells sharing the same prefix.
+
+L 372  ['$64', '845$']
+      ...the effective receptive field is set by the six-hop extraction rather than by the number of message-passing layers. The model has $64{,}845$ parameters.
+
+L 428  ['2']
+      ...\toprule \multirow{2}{*}{\textbf{Method}} & \textbf{test\_id} & \textbf{test\_big} & \multicolumn{2}{c}{\textbf{test\_real}} \\
+
+L 429  ['2']
+      ...\multirow{2}{*}{\textbf{Method}} & \textbf{test\_id} & \textbf{test\_big} & \multicolumn{2}{c}{\textbf{test\_real}} \\ \cmidrule(l){4-5}
+
+L 430  ['4', '5']
+      ...& \multicolumn{2}{c}{\textbf{test\_real}} \\ \cmidrule(l){4-5} & $F_1$ & $F_1$ & $F_1$ & FPR \\
+
+L 433  ['0.444', '0.667', '0.824', '0.878']
+      ...\midrule Structural matcher, textbook & 0.878 & 0.824 & 0.667 & 0.444 \\ Structural matcher, domain-aware & 1.000 & 1.000 & 0.762 & 0.556 \\
+
+L 434  ['0.556', '0.762', '1.000']
+      ...Structural matcher, textbook & 0.878 & 0.824 & 0.667 & 0.444 \\ Structural matcher, domain-aware & 1.000 & 1.000 & 0.762 & 0.556 \\ Random Forest (flat) & 0.996 & 1.000 & 0.667 & 0.500 \\
+
+L 435  ['0.500', '0.667', '0.996', '1.000']
+      ...Structural matcher, domain-aware & 1.000 & 1.000 & 0.762 & 0.556 \\ Random Forest (flat) & 0.996 & 1.000 & 0.667 & 0.500 \\ GCN (multi-task) & 1.000 & 1.000 & 0.712 & 0.417 \\
+
+L 436  ['0.417', '0.712', '1.000']
+      ...Random Forest (flat) & 0.996 & 1.000 & 0.667 & 0.500 \\ GCN (multi-task) & 1.000 & 1.000 & 0.712 & 0.417 \\ GraphSAGE (multi-task) & 1.000 & 1.000 & 0.688 & 0.806 \\
+
+L 437  ['0.688', '0.806', '1.000']
+      ...GCN (multi-task) & 1.000 & 1.000 & 0.712 & 0.417 \\ GraphSAGE (multi-task) & 1.000 & 1.000 & 0.688 & 0.806 \\ GAT, single-task & 1.000 & 1.000 & 0.610 & 0.250 \\
+
+L 438  ['0.250', '0.610', '1.000']
+      ...GraphSAGE (multi-task) & 1.000 & 1.000 & 0.688 & 0.806 \\ GAT, single-task & 1.000 & 1.000 & 0.610 & 0.250 \\ CrossExplain (single) & 1.000 & 1.000 & 0.746 & 0.278 \\
+
+L 439  ['0.278', '0.746', '1.000']
+      ...GAT, single-task & 1.000 & 1.000 & 0.610 & 0.250 \\ CrossExplain (single) & 1.000 & 1.000 & 0.746 & 0.278 \\ \ours{CrossExplain-Ens (5 seeds)} & \ours{1.000} & \ours{1.000}
+
+L 440  ['1.000', '5']
+      ...CrossExplain (single) & 1.000 & 1.000 & 0.746 & 0.278 \\ \ours{CrossExplain-Ens (5 seeds)} & \ours{1.000} & \ours{1.000} & \ours{0.781} & \ours{0.194} \\
+
+L 441  ['0.194', '0.781']
+      ...\ours{CrossExplain-Ens (5 seeds)} & \ours{1.000} & \ours{1.000} & \ours{0.781} & \ours{0.194} \\ \bottomrule
+
+L 450  ['0.781$']
+      ...therefore do not separate methods at all, and the real designs are the only discriminating test. There the five-seed ensemble reaches $F_1=0.781$ at an FPR of $0.194$, the highest $F_1$ and by some margin the lowest FPR
+
+L 451  ['$0.194$']
+      ...only discriminating test. There the five-seed ensemble reaches $F_1=0.781$ at an FPR of $0.194$, the highest $F_1$ and by some margin the lowest FPR of any method, and it is the only family that additionally names,
+
+L 456  ['0.019$', '0.115$', '0.33$', '0.91$']
+      ...designs, the ensemble's margin over the domain-aware matcher is $+0.019$~$F_1$ ($p=0.91$) and over flat ML is $+0.115$ ($p=0.33$). Section~\ref{sec:limits} treats this as the paper's central limitation.
+
+L 458  ['$1.000$']
+      ...Section~\ref{sec:limits} treats this as the paper's central limitation. The domain-aware matcher also attains recall $1.000$ on the real designs, missing no hazard, where CrossExplain misses seven of $32$; the two
+
+L 459  ['$32$']
+      ...The domain-aware matcher also attains recall $1.000$ on the real designs, missing no hazard, where CrossExplain misses seven of $32$; the two methods sit at different operating points rather than one dominating.
+
+L 464  ['$0.610$', '$0.746$']
+      ...removing the type and localization losses drops real-design $F_1$ from $0.746$ to $0.610$. Supervising where the hazard is and what it is therefore forces the encoder to learn genuine synchronizer structure
+
+L 469  ['$32$']
+      ...\emph{Selection protocol.} We held out five real designs, comprising $32$ crossings, purely for model selection and tested on the remaining seven. Choosing the seed by this small target-domain
+
+L 471  ['0.681$']
+      ...on the remaining seven. Choosing the seed by this small target-domain subset yields $F_1=0.681$ on the held-out designs, whereas the seed chosen by generated validation reaches $F_1=0.811$. A small
+
+L 472  ['0.811$']
+      ...subset yields $F_1=0.681$ on the held-out designs, whereas the seed chosen by generated validation reaches $F_1=0.811$. A small target-domain validation set therefore misleads selection, and with
+
+L 483  ['$0.000$']
+      ...\caption{Per-template detection accuracy on \texttt{test\_id}. The textbook rule set scores exactly $0.000$ on \texttt{MUX\_HOLD}, giving systematic false positives, and on \texttt{BUS\_NOSYNC}, giving
+
+L 486  ['$1.000$']
+      ...systematic false negatives. A domain-aware rule set closes both to $1.000$, matching CrossExplain on every template. The generated split does not separate the three methods.}
+
+L 494  ['$52$']
+      ...combinational logic before a capture flip-flop fires on a crossing that is in fact qualifier-safe, producing $52$ false positives out of $52$ instances. On \texttt{BUS\_NOSYNC}, every bit individually resembles a
+
+L 497  ['$48$']
+      ...clean two-flip-flop synchronizer while the reconstructed word is incoherent, producing $48$ false negatives out of $48$.
+
+L 502  ['$1.000$']
+      ...domain-aware matcher of Section~\ref{sec:setup}. It closes both cases completely, reaching $1.000$ on \texttt{MUX\_HOLD} and on \texttt{BUS\_NOSYNC} and $F_1=1.000$ on \texttt{test\_id} and
+
+L 503  ['1.000$']
+      ...completely, reaching $1.000$ on \texttt{MUX\_HOLD} and on \texttt{BUS\_NOSYNC} and $F_1=1.000$ on \texttt{test\_id} and \texttt{test\_big}, which is exactly CrossExplain's score. \emph{The two
+
+L 511  ['0.004$', '0.73$']
+      ...subgraph statistics is statistically indistinguishable from the GNN on \texttt{test\_id} ($+0.004$~$F_1$, $p=0.73$) and identical on \texttt{test\_big}; and a depth sweep from one to seven message-passing
+
+L 513  ['$1.000$']
+      ...\texttt{test\_big}; and a depth sweep from one to seven message-passing layers finds no separation, a single layer already reaching $1.000$ on \texttt{MUX\_HOLD} and $0.986$ on \texttt{MUX\_UNSYNC\_QUAL}. Because the
+
+L 514  ['$0.986$']
+      ...layers finds no separation, a single layer already reaching $1.000$ on \texttt{MUX\_HOLD} and $0.986$ on \texttt{MUX\_UNSYNC\_QUAL}. Because the readout mean-pools the whole extracted subgraph, the receptive field is
+
+L 522  ['$1.000$']
+      ...written with knowledge of the twelve templates, and that knowledge does not survive the move to real circuits: the matcher that scores $1.000$ on generated \texttt{GRAY2} scores $0.000$ on the Gray-coded pointer
+
+L 523  ['$0.000$']
+      ...not survive the move to real circuits: the matcher that scores $1.000$ on generated \texttt{GRAY2} scores $0.000$ on the Gray-coded pointer crossings of the real FIFOs, at every optimization level, because its
+
+L 526  ['$0.750$']
+      ...encoding proxy does not recognize a pointer incrementer. The learned model degrades on the same crossings but less sharply, to $0.750$. Both approaches lose accuracy on real designs, by different mechanisms, and
+
+L 535  ['0.86']
+      ...\centering \includegraphics[width=0.86\columnwidth]{fig_qualhold_v2.png} \caption{What synthesis actually breaks. On \texttt{MUX\_HOLD}, a rule
+
+L 545  ['1.000$']
+      ...CrossExplain holds $F_1=1.000$ across O0 to O3, including levels absent from training. The textbook matcher's $F_1$ is essentially flat, between
+
+L 547  ['$0.877$', '$0.880$']
+      ...from training. The textbook matcher's $F_1$ is essentially flat, between $0.877$ and $0.880$, which we originally read as evidence that its failures are systematic rather than optimization-induced. That reading
+
+L 549  ['$182$', '$189$']
+      ...failures are systematic rather than optimization-induced. That reading was too generous to the experiment: for $182$ of $189$ \texttt{test\_id} crossings the O2 and O3 netlists are structurally identical, so those two
+
+L 560  ['$1.000$']
+      ...makes the held data register resemble a synchronizer stage that leaks. A rule set written against the unoptimized shape scores $1.000$ at O0 and $0.000$ at O1 to O3; our domain-aware matcher recovers it only because we
+
+L 561  ['$0.000$']
+      ...A rule set written against the unoptimized shape scores $1.000$ at O0 and $0.000$ at O1 to O3; our domain-aware matcher recovers it only because we added a second rule for the optimized shape after observing the failure.
+
+L 571  ['$0.985$', '$1.000$']
+      ...Hazard-type accuracy is $0.985$ on \texttt{test\_id} and $1.000$ on \texttt{test\_big}, the only confusion of note being
+
+L 573  ['$6$', '$60$']
+      ...\texttt{test\_big}, the only confusion of note being \texttt{RECONV} predicted as \texttt{COMB\_BEFORE\_SYNC} in $6$ of $60$ instances. On real unsafe crossings it falls to $0.500$. Localization IoU
+
+L 574  ['$0.500$']
+      ...\texttt{RECONV} predicted as \texttt{COMB\_BEFORE\_SYNC} in $6$ of $60$ instances. On real unsafe crossings it falls to $0.500$. Localization IoU against the construction cone is $0.921$ on \texttt{test\_id}, $0.934$ on
+
+L 575  ['$0.921$', '$0.934$']
+      ...instances. On real unsafe crossings it falls to $0.500$. Localization IoU against the construction cone is $0.921$ on \texttt{test\_id}, $0.934$ on \texttt{test\_big}, and $0.616$ on \texttt{test\_real}. Localization
+
+L 576  ['$0.616$']
+      ...against the construction cone is $0.921$ on \texttt{test\_id}, $0.934$ on \texttt{test\_big}, and $0.616$ on \texttt{test\_real}. Localization therefore transfers to real designs considerably better than type
+
+L 589  ['$0.234$', '$0.251$', '$0.378$', '$0.387$', '$0.405$']
+      ...the unsafe probability on every split. Edge removal reduces it by $0.378$, $0.387$, and $0.234$, and feature zeroing by $0.405$, $0.251$, and $0.442$, on \texttt{test\_id}, \texttt{test\_big}, and
+
+L 590  ['$0.442$']
+      ...$0.378$, $0.387$, and $0.234$, and feature zeroing by $0.405$, $0.251$, and $0.442$, on \texttt{test\_id}, \texttt{test\_big}, and \texttt{test\_real} respectively. The highlighted evidence is therefore
+
+L 599  ['$0.588$', '$0.746$']
+      ...Single-model real-design $F_1$ spans $0.588$ to $0.746$ across seeds (Table~\ref{tab:seeds}). We diagnose this rather than merely report it.
+
+L 603  ['$68$']
+      ...\begin{table}[t] \caption{Per-seed operating points on \texttt{test\_real} ($68$ samples, $17$ crossings, $12$ designs) with $95\%$ confidence intervals from a
+
+L 604  ['$12$', '$17$', '$95']
+      ...\caption{Per-seed operating points on \texttt{test\_real} ($68$ samples, $17$ crossings, $12$ designs) with $95\%$ confidence intervals from a percentile bootstrap that resamples \emph{designs}. Resampling rows
+
+L 613  ['95']
+      ...\textbf{Seed} & \textbf{P} & \textbf{R} & \textbf{FPR} & $\bm{F_1}$ & \textbf{95\% CI} \\ \midrule
+
+L 615  ['0.394', '0.545', '0.690', '0.694', '0.857', '0.938']
+      ...\midrule 0 & 0.545 & 0.938 & 0.694 & 0.690 & [0.394,\,0.857] \\ 1 & 0.808 & 0.656 & 0.139 & 0.724 & [0.372,\,0.928] \\
+
+L 616  ['0.139', '0.372', '0.656', '0.724', '0.808', '0.928']
+      ...0 & 0.545 & 0.938 & 0.694 & 0.690 & [0.394,\,0.857] \\ 1 & 0.808 & 0.656 & 0.139 & 0.724 & [0.372,\,0.928] \\ 2 & 0.525 & 0.969 & 0.778 & 0.681 & [0.353,\,0.872] \\
+
+L 617  ['0.353', '0.525', '0.681', '0.778', '0.872', '0.969', '2']
+      ...1 & 0.808 & 0.656 & 0.139 & 0.724 & [0.372,\,0.928] \\ 2 & 0.525 & 0.969 & 0.778 & 0.681 & [0.353,\,0.872] \\ 3 & 0.714 & 0.781 & 0.278 & 0.746 & [0.444,\,0.927] \\
+
+L 618  ['0.278', '0.444', '0.714', '0.746', '0.781', '0.927', '3']
+      ...2 & 0.525 & 0.969 & 0.778 & 0.681 & [0.353,\,0.872] \\ 3 & 0.714 & 0.781 & 0.278 & 0.746 & [0.444,\,0.927] \\ 4 & 0.789 & 0.469 & 0.111 & 0.588 & [0.216,\,0.821] \\
+
+L 619  ['0.111', '0.216', '0.469', '0.588', '0.789', '0.821', '4']
+      ...3 & 0.714 & 0.781 & 0.278 & 0.746 & [0.444,\,0.927] \\ 4 & 0.789 & 0.469 & 0.111 & 0.588 & [0.216,\,0.821] \\ \midrule
+
+L 621  ['0.194', '0.781']
+      ...\midrule \ours{Ensemble} & \ours{0.781} & \ours{0.781} & \ours{0.194} & \ours{0.781} & \ours{[0.500,\,0.952]} \\
+
+L 622  ['0.500', '0.781', '0.952']
+      ...\ours{Ensemble} & \ours{0.781} & \ours{0.781} & \ours{0.194} & \ours{0.781} & \ours{[0.500,\,0.952]} \\ \bottomrule
+
+L 628  ['$0.525$']
+      ...\emph{(a) Most of the spread is measurement noise.} The mean design-clustered CI width is $0.525$ per seed against a seed-to-seed spread of $0.158$, and every interval overlaps every other. The binding
+
+L 629  ['$0.158$']
+      ...design-clustered CI width is $0.525$ per seed against a seed-to-seed spread of $0.158$, and every interval overlaps every other. The binding quantity is the number of independent designs, twelve, rather than the
+
+L 631  ['$68$']
+      ...quantity is the number of independent designs, twelve, rather than the $68$ rows: because clustered interval width falls roughly as the inverse square root of the number of designs, resolving the observed
+
+L 633  ['$40$']
+      ...square root of the number of designs, resolving the observed between-method differences would need on the order of $40$ designs. This is a property of the test set rather than of the method, and it is the
+
+L 638  ['$17$', '$68$']
+      ...\emph{(b) Errors are borderline rather than blind spots.} Across five seeds, $17$ of $68$ samples are correct in every run and only $1$ of $68$ is wrong in every run, while the remaining $50$ flip. The model is
+
+L 639  ['$50$', '$68$']
+      ...seeds, $17$ of $68$ samples are correct in every run and only $1$ of $68$ is wrong in every run, while the remaining $50$ flip. The model is rarely confidently wrong; it is uncertain, which is exactly the regime
+
+L 646  ['$0.80$', '$1.00$']
+      ...accuracy splits sharply by label (Table~\ref{tab:realtemplate}). Unsafe templates transfer well, between $0.80$ and $1.00$, while safe templates are over-flagged, between $0.53$ and $0.64$. Per-design accuracy shows
+
+L 647  ['$0.53$', '$0.64$']
+      ...templates transfer well, between $0.80$ and $1.00$, while safe templates are over-flagged, between $0.53$ and $0.64$. Per-design accuracy shows the same asymmetry: the deliberately broken designs score highest, with
+
+L 649  ['$1.00$']
+      ...the same asymmetry: the deliberately broken designs score highest, with \texttt{r\_pulse\_bad} and \texttt{r\_spi\_bad} both at $1.00$, and the correct ones score lowest, with \texttt{r\_spi\_good} at $0.40$ and
+
+L 650  ['$0.40$']
+      ...\texttt{r\_pulse\_bad} and \texttt{r\_spi\_bad} both at $1.00$, and the correct ones score lowest, with \texttt{r\_spi\_good} at $0.40$ and \texttt{r\_pulse\_good} at $0.45$. Table~\ref{tab:seeds} confirms the
+
+L 651  ['$0.45$']
+      ...correct ones score lowest, with \texttt{r\_spi\_good} at $0.40$ and \texttt{r\_pulse\_good} at $0.45$. Table~\ref{tab:seeds} confirms the mechanism, since recall spans $0.47$ to $0.97$ while FPR spans $0.11$ to
+
+L 652  ['$0.11$', '$0.47$', '$0.97$']
+      ...\texttt{r\_pulse\_good} at $0.45$. Table~\ref{tab:seeds} confirms the mechanism, since recall spans $0.47$ to $0.97$ while FPR spans $0.11$ to $0.78$. The seeds therefore occupy different points on one
+
+L 653  ['$0.78$']
+      ...mechanism, since recall spans $0.47$ to $0.97$ while FPR spans $0.11$ to $0.78$. The seeds therefore occupy different points on one precision-recall trade-off, and averaging selects a better operating
+
+L 668  ['1.000', '4']
+      ...\midrule \texttt{COMB\_BEFORE\_SYNC} & unsafe & 4 & 1.000 & 1.000 \\ \texttt{SINGLE\_FF} & unsafe & 8 & 1.000 & 0.825 \\
+
+L 669  ['0.825', '1.000', '8']
+      ...\texttt{COMB\_BEFORE\_SYNC} & unsafe & 4 & 1.000 & 1.000 \\ \texttt{SINGLE\_FF} & unsafe & 8 & 1.000 & 0.825 \\ \texttt{NO\_SYNC} & unsafe & 8 & 1.000 & 0.800 \\
+
+L 670  ['0.800', '1.000', '8']
+      ...\texttt{SINGLE\_FF} & unsafe & 8 & 1.000 & 0.825 \\ \texttt{NO\_SYNC} & unsafe & 8 & 1.000 & 0.800 \\ \texttt{BUS\_NOSYNC} & unsafe & 12 & 0.333 & 0.617 \\
+
+L 671  ['0.333', '0.617', '12']
+      ...\texttt{NO\_SYNC} & unsafe & 8 & 1.000 & 0.800 \\ \texttt{BUS\_NOSYNC} & unsafe & 12 & 0.333 & 0.617 \\ \midrule
+
+L 673  ['0.000', '0.637', '16']
+      ...\midrule \texttt{MUX\_HOLD} & safe & 16 & 0.000 & 0.637 \\ \texttt{GRAY2} & safe & 12 & 1.000 & 0.600 \\
+
+L 674  ['0.600', '1.000', '12']
+      ...\texttt{MUX\_HOLD} & safe & 16 & 0.000 & 0.637 \\ \texttt{GRAY2} & safe & 12 & 1.000 & 0.600 \\ \texttt{SYNC2} & safe & 8 & 1.000 & 0.525 \\
+
+L 675  ['0.525', '1.000', '8']
+      ...\texttt{GRAY2} & safe & 12 & 1.000 & 0.600 \\ \texttt{SYNC2} & safe & 8 & 1.000 & 0.525 \\ \bottomrule
+
+L 681  ['$43.0$']
+      ...\emph{(d) The mechanism is a measurable structural shift.} Real crossing subgraphs are far larger than anything in training, at $43.0$ nodes, $64.8$ edges, and $4.82$ capture flip-flops, against $29.1$,
+
+L 682  ['$29.1$', '$4.82$', '$64.8$']
+      ...crossing subgraphs are far larger than anything in training, at $43.0$ nodes, $64.8$ edges, and $4.82$ capture flip-flops, against $29.1$, $39.3$, and $2.73$ for training and $25.3$, $34.3$, and $2.57$ for
+
+L 683  ['$2.57$', '$2.73$', '$25.3$', '$34.3$', '$39.3$']
+      ...nodes, $64.8$ edges, and $4.82$ capture flip-flops, against $29.1$, $39.3$, and $2.73$ for training and $25.3$, $34.3$, and $2.57$ for \texttt{test\_id}. Real safe crossings are embedded in wide, busy logic
+
+L 688  ['$0.58$', '$0.69$', '$0.72$']
+      ...size: accuracy bucketed by subgraph size relative to the training distribution is flat to rising, at $0.58$, $0.69$, and $0.72$ for the $\leq$p50, p50 to p90, and $>$p90 buckets. The driver is therefore
+
+L 702  ['0.20$']
+      ...CPU backend accumulates in non-deterministic order. At a fixed seed, repeated runs produced models differing by up to $|\Delta F_1| = 0.20$ on the real split, with per-sample prediction differences up to $1.0$. Part
+
+L 703  ['$1.0$']
+      ...repeated runs produced models differing by up to $|\Delta F_1| = 0.20$ on the real split, with per-sample prediction differences up to $1.0$. Part of what a naive implementation reports as seed variance is therefore
+
+L 715  ['$0.26$']
+      ...\subsection{Runtime} Inference costs $0.26$~ms per crossing on a laptop CPU with a $64{,}845$-parameter model, which is cheap enough to run on every
+
+L 716  ['$64', '845$']
+      ...Inference costs $0.26$~ms per crossing on a laptop CPU with a $64{,}845$-parameter model, which is cheap enough to run on every synthesis iteration inside a continuous-integration loop.
+
+L 724  ['$17$', '$68$']
+      ...Our real-design evaluation is under-powered, and this is the dominant limitation rather than one of several. The $68$ labeled samples are $17$ crossings from twelve designs, and clustering the bootstrap by design
+
+L 726  ['$0.158$', '$0.525$']
+      ...crossings from twelve designs, and clustering the bootstrap by design gives a mean interval width of $0.525$ against a seed spread of $0.158$. Under a paired design-clustered test, \emph{no} pairwise difference
+
+L 729  ['0.019$', '0.91$']
+      ...between methods on \texttt{test\_real} is significant, including the ensemble's $+0.019$ over the domain-aware matcher ($p=0.91$) and its $+0.115$ over flat ML ($p=0.33$). We therefore report the ordering in
+
+L 730  ['0.115$', '0.33$']
+      ...ensemble's $+0.019$ over the domain-aware matcher ($p=0.91$) and its $+0.115$ over flat ML ($p=0.33$). We therefore report the ordering in Table~\ref{tab:detection} as a point estimate and explicitly decline to
+
+L 751  ['$0.534$']
+      ...over-splits multi-bit crossings and degrades real-design $F_1$ to $0.534$, so the pipeline as evaluated does assume the convention. The detection confidence, while well calibrated in distribution (expected
+
+L 753  ['$0.013$', '$0.022$']
+      ...detection confidence, while well calibrated in distribution (expected calibration error $0.013$ to $0.022$), is not calibrated on real designs ($0.267$), where its ranking of its own correctness is no better than
+
+L 754  ['$0.267$']
+      ...calibration error $0.013$ to $0.022$), is not calibrated on real designs ($0.267$), where its ranking of its own correctness is no better than chance; the calibrated-confidence claim holds in distribution only.
+
+L 766  ['$0.93$']
+      ...It saturates the generated benchmark including near-miss hard negatives, localizes hazard logic at an IoU of approximately $0.93$, returns attention evidence that survives structural intervention, and reaches the
+
+L 768  ['0.781$']
+      ...attention evidence that survives structural intervention, and reaches the best operating point of any method we tried on real designs, $F_1=0.781$ at an FPR of $0.194$.
+
+L 769  ['$0.194$']
+      ...best operating point of any method we tried on real designs, $F_1=0.781$ at an FPR of $0.194$.
+
+L 783  ['00']
+      ...%----------------------------------------------------------------------------- \begin{thebibliography}{00}
+
+L 787  ['2011', '23', '28', '35', '5']
+      ...R. Ginosar, ``Metastability and synchronizers: A tutorial,'' \emph{IEEE Des. Test Comput.}, vol. 28, no. 5, pp. 23--35, Sep./Oct. 2011.
+
+L 792  ['2008', '56']
+      ...techniques using SystemVerilog,'' in \emph{Proc. Synopsys Users Group (SNUG)}, Boston, MA, USA, 2008, pp. 1--56.
+
+L 809  ['2006']
+      ...crossing signals and jitter using SystemVerilog assertions,'' in \emph{Proc. Design Verification Conf. (DVCon)}, San Jose, CA, USA, 2006, pp. 1--7.
+
+L 810  ['7']
+      ...\emph{Proc. Design Verification Conf. (DVCon)}, San Jose, CA, USA, 2006, pp. 1--7.
+
+L 815  ['2023']
+      ...clustering and classification,'' Real Intent Inc., Sunnyvale, CA, USA, White Paper, 2023.
+
+L 820  ['2002', '23']
+      ...FIFO design,'' in \emph{Proc. Synopsys Users Group (SNUG)}, San Jose, CA, USA, 2002, pp. 1--23.
+
+L 824  ['34', '6']
+      ...C. Dike and E. Burton, ``Miller and noise effects in a synchronizing flip-flop,'' \emph{IEEE J. Solid-State Circuits}, vol. 34, no. 6, pp. 849--855, Jun. 1999.
+
+L 825  ['1999', '849', '855']
+      ...flip-flop,'' \emph{IEEE J. Solid-State Circuits}, vol. 34, no. 6, pp. 849--855, Jun. 1999.
+
+L 830  ['14', '2017']
+      ...convolutional networks,'' in \emph{Proc. Int. Conf. Learn. Represent. (ICLR)}, Toulon, France, 2017, pp. 1--14.
+
+L 835  ['1024', '1034', '2017']
+      ...learning on large graphs,'' in \emph{Proc. Adv. Neural Inf. Process. Syst. (NeurIPS)}, Long Beach, CA, USA, 2017, pp. 1024--1034.
+
+L 840  ['12', '2018']
+      ...and Y. Bengio, ``Graph attention networks,'' in \emph{Proc. Int. Conf. Learn. Represent. (ICLR)}, Vancouver, BC, Canada, 2018, pp. 1--12.
+
+L 845  ['2435', '2448', '41', '8']
+      ...engineering of gate-level netlists,'' \emph{IEEE Trans. Comput.-Aided Design Integr. Circuits Syst.}, vol. 41, no. 8, pp. 2435--2448, Aug. 2022.
+
+L 846  ['2022']
+      ...Design Integr. Circuits Syst.}, vol. 41, no. 8, pp. 2435--2448, Aug. 2022.
+
+L 851  ['2022', '667', '672']
+      ...gates,'' in \emph{Proc. 59th ACM/IEEE Design Autom. Conf. (DAC)}, San Francisco, CA, USA, 2022, pp. 667--672.
+
+L 856  ['2020']
+      ...inference for transferable power estimation,'' in \emph{Proc. 57th ACM/IEEE Design Autom. Conf. (DAC)}, San Francisco, CA, USA, 2020, pp. 1--6.
+
+L 857  ['6']
+      ...ACM/IEEE Design Autom. Conf. (DAC)}, San Francisco, CA, USA, 2020, pp. 1--6.
+
+L 862  ['2021', '26', '46', '5']
+      ...automation: A survey,'' \emph{ACM Trans. Design Autom. Electron. Syst.}, vol. 26, no. 5, pp. 1--46, Jun. 2021.
+
+L 867  ['2003', '286', '291']
+      ...verification using Bayesian networks,'' in \emph{Proc. 40th ACM/IEEE Design Autom. Conf. (DAC)}, Anaheim, CA, USA, 2003, pp. 286--291.
+
+L 873  ['2023', '5']
+      ...detection,'' in \emph{Proc. IEEE Int. Symp. Circuits Syst. (ISCAS)}, Monterey, CA, USA, 2023, pp. 1--5.
+
+L 879  ['1504', '1509', '2021']
+      ...\emph{Proc. Design Autom. Test Europe Conf. (DATE)}, Grenoble, France, 2021, pp. 1504--1509.
+
+L 884  ['2023', '45', '5', '5782', '5799']
+      ...networks: A taxonomic survey,'' \emph{IEEE Trans. Pattern Anal. Mach. Intell.}, vol. 45, no. 5, pp. 5782--5799, May 2023.
+
+L 890  ['2019', '9240', '9251']
+      ...\emph{Proc. Adv. Neural Inf. Process. Syst. (NeurIPS)}, Vancouver, BC, Canada, 2019, pp. 9240--9251.
+
+L 895  ['2020', '5898', '5910']
+      ...neural networks,'' in \emph{Proc. Adv. Neural Inf. Process. Syst. (NeurIPS)}, Vancouver, BC, Canada, 2020, pp. 5898--5910.
+
+(144 lines carry numeric claims)
+
+==============================================================================
+PART 2 - ground truth
+==============================================================================
+
+--- detection F1 / FPR, all methods, all splits (results.json) ---
+  test_id    pattern_matcher        F1=0.8778 FPR=0.1585 acc=0.8639 P=0.8735 R=0.8821
+  test_id    random_forest          F1=0.9963 FPR=0.0091 acc=0.9959 P=0.9927 R=1.0000
+  test_id    crossexplain_gat       F1=1.0000 FPR=0.0000 acc=1.0000 P=1.0000 R=1.0000
+  test_id    ablation_sage          F1=1.0000 FPR=0.0000 acc=1.0000 P=1.0000 R=1.0000
+  test_id    ablation_gcn           F1=1.0000 FPR=0.0000 acc=1.0000 P=1.0000 R=1.0000
+  test_id    ablation_singletask    F1=1.0000 FPR=0.0000 acc=1.0000 P=1.0000 R=1.0000
+  test_id    crossexplain_ens3      F1=1.0000 FPR=0.0000 acc=1.0000 P=1.0000 R=1.0000
+  test_big   pattern_matcher        F1=0.8235 FPR=0.2830 acc=0.7891 P=0.8077 R=0.8400
+  test_big   random_forest          F1=1.0000 FPR=0.0000 acc=1.0000 P=1.0000 R=1.0000
+  test_big   crossexplain_gat       F1=1.0000 FPR=0.0000 acc=1.0000 P=1.0000 R=1.0000
+  test_big   ablation_sage          F1=1.0000 FPR=0.0000 acc=1.0000 P=1.0000 R=1.0000
+  test_big   ablation_gcn           F1=1.0000 FPR=0.0000 acc=1.0000 P=1.0000 R=1.0000
+  test_big   ablation_singletask    F1=1.0000 FPR=0.0000 acc=1.0000 P=1.0000 R=1.0000
+  test_big   crossexplain_ens3      F1=1.0000 FPR=0.0000 acc=1.0000 P=1.0000 R=1.0000
+  test_real  pattern_matcher        F1=0.6667 FPR=0.4444 acc=0.6471 P=0.6000 R=0.7500
+  test_real  random_forest          F1=0.6667 FPR=0.5000 acc=0.6324 P=0.5814 R=0.7812
+  test_real  crossexplain_gat       F1=0.7463 FPR=0.2778 acc=0.7500 P=0.7143 R=0.7812
+  test_real  ablation_sage          F1=0.6882 FPR=0.8056 acc=0.5735 P=0.5246 R=1.0000
+  test_real  ablation_gcn           F1=0.7123 FPR=0.4167 acc=0.6912 P=0.6341 R=0.8125
+  test_real  ablation_singletask    F1=0.6102 FPR=0.2500 acc=0.6618 P=0.6667 R=0.5625
+  test_real  crossexplain_ens3      F1=0.7812 FPR=0.1944 acc=0.7941 P=0.7812 R=0.7812
+
+--- type acc / loc IoU / xai / runtime ---
+  test_id    type=0.9852579852579852 iou=0.9214693430944686
+  test_big   type=1.0 iou=0.9338604235801418
+  test_real  type=0.5 iou=0.6163047473270065
+  test_id    fid_edge=0.3783 fid_feat=0.4052 sparsity=0.1922
+  test_big   fid_edge=0.3870 fid_feat=0.2511 sparsity=0.1887
+  test_real  fid_edge=0.2344 fid_feat=0.4416 sparsity=0.2067
+  runtime {'sec_per_1k_crossings': 0.2577034632364909, 'n_params': 64845}
+
+--- confusion, test_id GAT (for the RECONV claim) ---
+  [[136, 0, 0, 0, 0], [0, 119, 0, 0, 0], [0, 0, 44, 0, 0], [0, 0, 6, 54, 0], [0, 0, 0, 0, 48]]
+
+--- per-template test_id (results.json) ---
+  BUS_NOSYNC         n=  48 pm=0.000 gnn=1.000
+  COMB_BEFORE_SYNC   n=  44 pm=1.000 gnn=1.000
+  GRAY2              n=  92 pm=1.000 gnn=1.000
+  MUX_HOLD           n=  52 pm=0.000 gnn=1.000
+  MUX_UNSYNC_QUAL    n=  72 pm=1.000 gnn=1.000
+  NO_SYNC            n=  64 pm=1.000 gnn=1.000
+  RECONV             n=  60 pm=1.000 gnn=1.000
+  SINGLE_FF          n=  45 pm=1.000 gnn=1.000
+  SYNC2              n=  86 pm=1.000 gnn=1.000
+  SYNC2_DEEPSRC      n=  36 pm=1.000 gnn=1.000
+  SYNC2_LEAK         n=  74 pm=1.000 gnn=1.000
+  SYNC3              n=  62 pm=1.000 gnn=1.000
+
+--- robustness by level ---
+  O0 n= 189 pm_F1=0.8804 gnn_F1=1.0000
+  O1 n= 182 pm_F1=0.8768 gnn_F1=1.0000
+  O2 n= 182 pm_F1=0.8768 gnn_F1=1.0000
+  O3 n= 182 pm_F1=0.8768 gnn_F1=1.0000
+
+--- selection protocols / seed variance ---
+  selected_by_generated_val    F1=0.8108 n=36
+  selected_by_tiny_real_val    F1=0.6809 n=36
+  seed0 P=0.545 R=0.938 FPR=0.694 F1=0.6897
+  seed1 P=0.808 R=0.656 FPR=0.139 F1=0.7241
+  seed2 P=0.525 R=0.969 FPR=0.778 F1=0.6813
+  seed3 P=0.714 R=0.781 FPR=0.278 F1=0.7463
+  seed4 P=0.789 R=0.469 FPR=0.111 F1=0.5882
+
+--- error_analysis.json ---
+  ci_width_mean=0.2518 seed_spread=0.1580
+  always_right=17 always_wrong=1 unstable=50
+  structural_stats={'train': 29.14, 'test_id': 25.26, 'test_real': 42.96}
+  accuracy_by_size={'<=p50_train': 0.58, 'p50-p90_train': 0.6875, '>p90_train': 0.72}
+  per_template_real={'BUS_NOSYNC': 0.617, 'COMB_BEFORE_SYNC': 1.0, 'GRAY2': 0.6, 'MUX_HOLD': 0.637, 'NO_SYNC': 0.8, 'SINGLE_FF': 0.825, 'SYNC2': 0.525}
+  matcher_real   ={'BUS_NOSYNC': 0.333, 'COMB_BEFORE_SYNC': 1.0, 'GRAY2': 1.0, 'MUX_HOLD': 0.0, 'NO_SYNC': 1.0, 'SINGLE_FF': 1.0, 'SYNC2': 1.0}
+
+--- j01 clustered stats ---
+  crossexplain_ens       F1=0.7812 design CI=[0.500,0.952] w=0.453
+  crossexplain_single    F1=0.7463 design CI=[0.444,0.927] w=0.482
+  pattern_matcher        F1=0.6667 design CI=[0.316,0.900] w=0.584
+  random_forest          F1=0.6667 design CI=[0.407,0.833] w=0.427
+  ens_vs_pattern_matcher_f1          d=+0.1146 CI=[-0.056,+0.284] p=0.170
+  ens_vs_pattern_matcher_accuracy    d=+0.1471 CI=[-0.069,+0.342] p=0.192
+  ens_vs_random_forest_f1            d=+0.1146 CI=[-0.112,+0.349] p=0.339
+  ens_vs_random_forest_accuracy      d=+0.1618 CI=[-0.066,+0.368] p=0.173
+  O0_ens_vs_pattern_matcher_f1       d=+0.2083 CI=[-0.167,+0.593] p=0.276
+  O0_ens_vs_random_forest_f1         d=+0.2917 CI=[+0.006,+0.565] p=0.049
+  per-seed design CI widths: [0.463, 0.556, 0.519, 0.482, 0.604]
+  MEAN design CI width = 0.5249
+    seed0 F1=0.6897 CI=[0.394,0.857]
+    seed1 F1=0.7241 CI=[0.372,0.928]
+    seed2 F1=0.6813 CI=[0.353,0.872]
+    seed3 F1=0.7463 CI=[0.444,0.927]
+    seed4 F1=0.5882 CI=[0.216,0.821]
+  effective_n: {'train': (1435, 723, 160), 'val': (193, 97, 20), 'test_id': (735, 189, 40), 'test_big': (512, 128, 16), 'test_real': (68, 17, 12)}
+  identical O2==O3: test_id=182/182 test_big=128/128
+  test_id: vs matcher d=+0.1222 p=0.000 | vs RF d=+0.0037 p=0.713
+  test_big: vs matcher d=+0.1765 p=0.000 | vs RF d=+0.0000 p=1.000
+  power: [{'designs': 12, 'half_width': 0.17, 'detects_observed_delta': False}, {'designs': 20, 'half_width': 0.132, 'detects_observed_delta': False}, {'designs': 30, 'half_width': 0.108, 'detects_observed_delta': True}, {'designs': 40, 'half_width': 0.093, 'detects_observed_delta': True}, {'designs': 50, 'half_width': 0.083, 'detects_observed_delta': True}]
+
+--- j02 calibration ---
+  val        ECE=0.0223 meanconf=0.980 acc=0.995
+  test_id    ECE=0.0130 meanconf=0.987 acc=1.000
+  test_big   ECE=0.0147 meanconf=0.985 acc=1.000
+  test_real  ECE=0.2671 meanconf=0.741 acc=0.794
+  error-detection AUC=0.4828
+  fitted temperatures=[1.0, 0.5, 0.75, 1.0, 0.5]
+  oracle T on test_real={'T_oracle': 0.9999999999999998, 'ece_before': 0.26710789647761796, 'ece_after': 0.2671079553011474, 'f1_before': 0.78125, 'f1_after': 0.78125}
+
+--- j03 depth ---
+  depth 1: test_id=0.9988 real=0.658 MUX_HOLD=1.000 MUX_UNSYNC_QUAL=0.986
+  depth 2: test_id=1.0000 real=0.662 MUX_HOLD=1.000 MUX_UNSYNC_QUAL=1.000
+  depth 3: test_id=0.9988 real=0.599 MUX_HOLD=1.000 MUX_UNSYNC_QUAL=1.000
+  depth 4: test_id=0.9996 real=0.621 MUX_HOLD=1.000 MUX_UNSYNC_QUAL=1.000
+  depth 5: test_id=1.0000 real=0.698 MUX_HOLD=1.000 MUX_UNSYNC_QUAL=1.000
+  depth 6: test_id=1.0000 real=0.579 MUX_HOLD=1.000 MUX_UNSYNC_QUAL=1.000
+  depth 7: test_id=1.0000 real=0.665 MUX_HOLD=1.000 MUX_UNSYNC_QUAL=1.000
+
+--- j04 strong matcher ---
+  fit: {'gray_xor_ratio': 0.7, 'strong_train_acc': 0.9986062717770035, 'original_train_acc': 0.8341463414634146}
+  test_id    matcher_original   F1=0.8778 FPR=0.1585 R=0.8821 tp=359 fn=48
+  test_id    matcher_strong     F1=1.0000 FPR=0.0000 R=1.0000 tp=407 fn=0
+  test_id    random_forest      F1=0.9963 FPR=0.0091 R=1.0000 tp=407 fn=0
+  test_id    crossexplain_ens   F1=1.0000 FPR=0.0000 R=1.0000 tp=407 fn=0
+  test_id    paired_ens_vs_matcher_strong     d=+0.0000 p=1.000
+  test_id    paired_ens_vs_random_forest      d=+0.0037 p=0.731
+  test_id    paired_ens_vs_matcher_original   d=+0.1222 p=0.000
+  test_big   matcher_original   F1=0.8235 FPR=0.2830 R=0.8400 tp=252 fn=48
+  test_big   matcher_strong     F1=1.0000 FPR=0.0000 R=1.0000 tp=300 fn=0
+  test_big   random_forest      F1=1.0000 FPR=0.0000 R=1.0000 tp=300 fn=0
+  test_big   crossexplain_ens   F1=1.0000 FPR=0.0000 R=1.0000 tp=300 fn=0
+  test_big   paired_ens_vs_matcher_strong     d=+0.0000 p=1.000
+  test_big   paired_ens_vs_random_forest      d=+0.0000 p=1.000
+  test_big   paired_ens_vs_matcher_original   d=+0.1765 p=0.000
+  test_real  matcher_original   F1=0.6667 FPR=0.4444 R=0.7500 tp=24 fn=8
+  test_real  matcher_strong     F1=0.7619 FPR=0.5556 R=1.0000 tp=32 fn=0
+  test_real  random_forest      F1=0.6667 FPR=0.5000 R=0.7812 tp=25 fn=7
+  test_real  crossexplain_ens   F1=0.7812 FPR=0.1944 R=0.7812 tp=25 fn=7
+  test_real  paired_ens_vs_matcher_strong     d=+0.0193 p=0.913
+  test_real  paired_ens_vs_random_forest      d=+0.1146 p=0.328
+  test_real  paired_ens_vs_matcher_original   d=+0.1146 p=0.172
+  --- per-template test_id ---
+    BUS_NOSYNC         n= 48 unsafe orig=0.000 strong=1.000 ens=1.000
+    COMB_BEFORE_SYNC   n= 44 unsafe orig=1.000 strong=1.000 ens=1.000
+    GRAY2              n= 92 safe   orig=1.000 strong=1.000 ens=1.000
+    MUX_HOLD           n= 52 safe   orig=0.000 strong=1.000 ens=1.000
+    MUX_UNSYNC_QUAL    n= 72 unsafe orig=1.000 strong=1.000 ens=1.000
+    NO_SYNC            n= 64 unsafe orig=1.000 strong=1.000 ens=1.000
+    RECONV             n= 60 unsafe orig=1.000 strong=1.000 ens=1.000
+    SINGLE_FF          n= 45 unsafe orig=1.000 strong=1.000 ens=1.000
+    SYNC2              n= 86 safe   orig=1.000 strong=1.000 ens=1.000
+    SYNC2_DEEPSRC      n= 36 safe   orig=1.000 strong=1.000 ens=1.000
+    SYNC2_LEAK         n= 74 unsafe orig=1.000 strong=1.000 ens=1.000
+    SYNC3              n= 62 safe   orig=1.000 strong=1.000 ens=1.000
+  --- per-template test_real ---
+    BUS_NOSYNC         n= 12 unsafe orig=0.333 strong=1.000 ens=0.500
+    COMB_BEFORE_SYNC   n=  4 unsafe orig=1.000 strong=1.000 ens=1.000
+    GRAY2              n= 12 safe   orig=1.000 strong=0.000 ens=0.750
+    MUX_HOLD           n= 16 safe   orig=0.000 strong=0.500 ens=0.812
+    NO_SYNC            n=  8 unsafe orig=1.000 strong=1.000 ens=1.000
+    SINGLE_FF          n=  8 unsafe orig=1.000 strong=1.000 ens=0.875
+    SYNC2              n=  8 safe   orig=1.000 strong=1.000 ens=0.875
+
+--- j05_name_blind ---
+{
+ "test_real": {
+  "n_named": 68,
+  "n_blind_labeled": 265,
+  "group_ratio": 3.9558823529411766,
+  "seed_purity": 0.9969811320754717,
+  "blind": {
+   "crossexplain": {
+    "accuracy": 0.6377358490566037,
+    "precision": 0.5238095238095238,
+    "recall": 0.5445544554455446,
+    "f1": 0.5339805825242719,
+    "false_positive_rate": 0.3048780487804878,
+    "tp": 55,
+    "fp": 50,
+    "tn": 114,
+    "fn": 46
+   },
+   "pattern_matcher": {
+    "accuracy": 0.5283018867924528,
+    "precision": 0.4318181818181818,
+    "recall": 0.7524752475247525,
+    "f1": 0.5487364620938628,
+    "false_positive_rate": 0.6097560975609756,
+    "tp": 76,
+    "fp": 100,
+    "tn": 64,
+    "fn": 25
+   },
+   "random_forest": {
+    "accuracy": 0.39622641509433965,
+    "precision": 0.3487179487179487,
+    "recall": 0.6732673267326733,
+    "f1": 0.45945945945945943,
+    "false_positive_rate": 0.774390243902439,
+    "tp": 68,
+    "fp": 127,
+    "tn": 37,
+    "fn": 33
+   }
+  },
+  "named_reference": {
+   "crossexplain": {
+    "accuracy": 0.7941176470588235,
+    "precision": 0.78125,
+    "recall": 0.78125,
+    "f1": 0.78125,
+    "false_positive_rate": 0.19444444444444445,
+    "tp": 25,
+    "fp": 7,
+    "tn": 29,
+    "fn": 7
+   }
+  },
+  "blind_ci_design": {
+   "point": 0.5339805825242719,
+   "ci_lo": 0.2092895476616407,
+   "ci_hi": 0.8121220492214969,
+   "width": 0.6028325015598561,
+   "n_clusters": 12,
+   "B": 2000
+  }
+ },
+ "test_id": {
+  "n_named": 735,
+  "n_blind_labeled": 1588,
+  "group_ratio": 2.160544217687075,
+  "seed_purity": 0.9959068010075567,
+  "blind": {
+   "crossexplain": {
+    "accuracy": 0.8986146095717884,
+    "precision": 0.9887640449438202,
+    "recall": 0.8214702450408401,
+    "f1": 0.8973868706182282,
+    "false_positive_rate": 0.01094391244870041,
+    "tp": 704,
+    "fp": 8,
+    "tn": 723,
+    "fn": 153
+   },
+   "pattern_matcher": {
+    "accuracy": 0.7103274559193955,
+    "precision": 0.7305458768873403,
+    "recall": 0.733955659276546,
+    "f1": 0.7322467986030267,
+    "false_positive_rate": 0.3173734610123119,
+    "tp": 629,
+    "fp": 232,
+    "tn": 499,
+    "fn": 228
+   },
+   "random_forest": {
+    "accuracy": 0.7292191435768262,
+    "precision": 0.6877748460861918,
+    "recall": 0.912485414235706,
+    "f1": 0.7843530591775325,
+    "false_positive_rate": 0.4856361149110807,
+    "tp": 782,
+    "fp": 355,
+    "tn": 376,
+    "fn": 75
+   }
+  },
+  "named_reference": {
+   "crossexplain": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "false_positive_rate": 0.0,
+    "tp": 407,
+    "fp": 0,
+    "tn": 328,
+    "fn": 0
+   }
+  },
+  "blind_ci_design": {
+   "point": 0.8973868706182282,
+   "ci_lo": 0.8732701575253757,
+   "ci_hi": 0.9243169731660781,
+   "width": 0.05104681564070235,
+   "n_clusters": 40,
+   "B": 2000
+  }
+ }
+}
+
+--- j06_paper_figures ---
+{
+ "per_template_test_id": {
+  "BUS_NOSYNC": {
+   "textbook rules": 0.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "COMB_BEFORE_SYNC": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "GRAY2": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "MUX_HOLD": {
+   "textbook rules": 0.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "MUX_UNSYNC_QUAL": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "NO_SYNC": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "RECONV": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "SINGLE_FF": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "SYNC2": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "SYNC2_DEEPSRC": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "SYNC2_LEAK": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  },
+  "SYNC3": {
+   "textbook rules": 1.0,
+   "domain-aware rules": 1.0,
+   "CrossExplain": 1.0
+  }
+ },
+ "mux_hold_by_level": {
+  "O0": {
+   "rules_unoptimized_shape_only": 1.0,
+   "rules_both_shapes": 1.0,
+   "crossexplain": 1.0
+  },
+  "O1": {
+   "rules_unoptimized_shape_only": 0.0,
+   "rules_both_shapes": 1.0,
+   "crossexplain": 1.0
+  },
+  "O2": {
+   "rules_unoptimized_shape_only": 0.0,
+   "rules_both_shapes": 1.0,
+   "crossexplain": 1.0
+  },
+  "O3": {
+   "rules_unoptimized_shape_only": 0.0,
+   "rules_both_shapes": 1.0,
+   "crossexplain": 1.0
+  }
+ }
+}
+
+--- j07_opencdc ---
+{
+ "test_real": {
+  "unmodified_ff_count": 0,
+  "crossing_discovery_recall": 0.8823529411764706,
+  "n_flagged_capture_ffs": 252,
+  "n_our_capture_ffs": 328,
+  "detector": {
+   "accuracy": 0.35294117647058826,
+   "precision": 0.4,
+   "recall": 0.75,
+   "f1": 0.5217391304347827,
+   "false_positive_rate": 1.0,
+   "tp": 24,
+   "fp": 36,
+   "tn": 0,
+   "fn": 8
+  },
+  "detector_ci_design": {
+   "point": 0.5217391304347827,
+   "ci_lo": 0.125,
+   "ci_hi": 0.7826863354037262,
+   "width": 0.6576863354037262,
+   "n_clusters": 12,
+   "B": 2000
+  },
+  "flag_rate": 0.8823529411764706,
+  "unsafe_base_rate": 0.47058823529411764
+ },
+ "test_id": {
+  "unmodified_ff_count": 0,
+  "crossing_discovery_recall": 0.8448979591836735,
+  "n_flagged_capture_ffs": 1494,
+  "n_our_capture_ffs": 1891,
+  "detector": {
+   "accuracy": 0.3986394557823129,
+   "precision": 0.4718196457326892,
+   "recall": 0.7199017199017199,
+   "f1": 0.5700389105058365,
+   "false_positive_rate": 1.0,
+   "tp": 293,
+   "fp": 328,
+   "tn": 0,
+   "fn": 114
+  },
+  "detector_ci_design": {
+   "point": 0.5700389105058365,
+   "ci_lo": 0.48907258324142555,
+   "ci_hi": 0.6442810771563413,
+   "width": 0.15520849391491576,
+   "n_clusters": 40,
+   "B": 2000
+  },
+  "flag_rate": 0.8448979591836735,
+  "unsafe_base_rate": 0.5537414965986395
+ }
+}
+
+--- j08_grouping ---
+{
+ "test_real": {
+  "n_true_crossings": 68,
+  "n_named_rows": 68,
+  "shipped": {
+   "groups": 269,
+   "ratio_vs_truth": 3.9558823529411766,
+   "pair_precision": 0.3333333333333333,
+   "pair_recall": 0.31018518518518523,
+   "pair_f1": 0.3203125,
+   "detection": {
+    "accuracy": 0.6377358490566037,
+    "precision": 0.5238095238095238,
+    "recall": 0.5445544554455446,
+    "f1": 0.5339805825242719,
+    "false_positive_rate": 0.3048780487804878,
+    "tp": 55,
+    "fp": 50,
+    "tn": 114,
+    "fn": 46
+   },
+   "ci_design": {
+    "point": 0.5339805825242719,
+    "ci_lo": 0.2090339892665474,
+    "ci_hi": 0.8094213939678073,
+    "width": 0.60038740470126,
+    "n_clusters": 12,
+    "B": 1500
+   },
+   "n_labeled": 265
+  },
+  "improved": {
+   "groups": 64,
+   "ratio_vs_truth": 0.9411764705882353,
+   "pair_precision": 0.8859355044699874,
+   "pair_recall": 0.9791666666666666,
+   "pair_f1": 0.9010416666666666,
+   "detection": {
+    "accuracy": 0.78125,
+    "precision": 0.71875,
+    "recall": 0.8214285714285714,
+    "f1": 0.7666666666666666,
+    "false_positive_rate": 0.25,
+    "tp": 23,
+    "fp": 9,
+    "tn": 27,
+    "fn": 5
+   },
+   "ci_design": {
+    "point": 0.7666666666666666,
+    "ci_lo": 0.5263157894736842,
+    "ci_hi": 0.9124595469255663,
+    "width": 0.3861437574518821,
+    "n_clusters": 12,
+    "B": 1500
+   },
+   "n_labeled": 64
+  },
+  "name_based_reference_f1": 0.78125
+ },
+ "test_id": {
+  "n_true_crossings": 735,
+  "n_named_rows": 735,
+  "shipped": {
+   "groups": 1588,
+   "ratio_vs_truth": 2.160544217687075,
+   "pair_precision": 0.684375,
+   "pair_recall": 0.31905254289464413,
+   "pair_f1": 0.35808146756305465,
+   "detection": {
+    "accuracy": 0.8986146095717884,
+    "precision": 0.9887640449438202,
+    "recall": 0.8214702450408401,
+    "f1": 0.8973868706182282,
+    "false_positive_rate": 0.01094391244870041,
+    "tp": 704,
+    "fp": 8,
+    "tn": 723,
+    "fn": 153
+   },
+   "ci_design": {
+    "point": 0.8973868706182282,
+    "ci_lo": 0.8730510325387242,
+    "ci_hi": 0.9242467431371202,
+    "width": 0.051195710598396005,
+    "n_clusters": 40,
+    "B": 1500
+   },
+   "n_labeled": 1588
+  },
+  "improved": {
+   "groups": 593,
+   "ratio_vs_truth": 0.8068027210884354,
+   "pair_precision": 0.7498179846971549,
+   "pair_recall": 0.95625,
+   "pair_f1": 0.8130008534170392,
+   "detection": {
+    "accuracy": 0.9713322091062394,
+    "precision": 0.9523809523809523,
+    "recall": 0.9968847352024922,
+    "f1": 0.9741248097412482,
+    "false_positive_rate": 0.058823529411764705,
+    "tp": 320,
+    "fp": 16,
+    "tn": 256,
+    "fn": 1
+   },
+   "ci_design": {
+    "point": 0.9741248097412482,
+    "ci_lo": 0.9480976430976432,
+    "ci_hi": 0.9932539863222023,
+    "width": 0.04515634322455908,
+    "n_clusters": 40,
+    "B": 1500
+   },
+   "n_labeled": 593
+  },
+  "name_based_reference_f1": 1.0
+ }
+}
+
+--- j09_ablations ---
+{
+ "feature_groups": [
+  {
+   "tag": "full (27 features)",
+   "test_id_f1_mean": 1.0,
+   "test_real_f1_mean": 0.6983705949223191,
+   "test_real_f1_ens": 0.6756756756756757
+  },
+  {
+   "tag": "minus cell_type_onehot",
+   "test_id_f1_mean": 0.9995899958999589,
+   "test_real_f1_mean": 0.6019123698862262,
+   "test_real_f1_ens": 0.6461538461538462
+  },
+  {
+   "tag": "minus is_ff_flag",
+   "test_id_f1_mean": 1.0,
+   "test_real_f1_mean": 0.6033851904498672,
+   "test_real_f1_ens": 0.65625
+  },
+  {
+   "tag": "minus domain_flags",
+   "test_id_f1_mean": 0.9962917068525595,
+   "test_real_f1_mean": 0.5956672991777356,
+   "test_real_f1_ens": 0.5945945945945946
+  },
+  {
+   "tag": "minus fanin_fanout",
+   "test_id_f1_mean": 1.0,
+   "test_real_f1_mean": 0.6025112443778111,
+   "test_real_f1_ens": 0.6493506493506493
+  },
+  {
+   "tag": "minus seed_flag",
+   "test_id_f1_mean": 1.0,
+   "test_real_f1_mean": 0.5497608482683108,
+   "test_real_f1_ens": 0.5507246376811593
+  },
+  {
+   "tag": "minus dist_to_seed",
+   "test_id_f1_mean": 0.998766954377312,
+   "test_real_f1_mean": 0.6714713860078141,
+   "test_real_f1_ens": 0.7042253521126761
+  }
+ ],
+ "hops": [
+  {
+   "tag": "bwd=2, fwd=3",
+   "mean_train_nodes": 15.85644599303136,
+   "test_id_f1_mean": 1.0,
+   "test_real_f1_mean": 0.7297453703703705,
+   "test_real_f1_ens": 0.6753246753246752
+  },
+  {
+   "tag": "bwd=4, fwd=3",
+   "mean_train_nodes": 20.698954703832754,
+   "test_id_f1_mean": 0.9962871287128713,
+   "test_real_f1_mean": 0.7325396825396825,
+   "test_real_f1_ens": 0.7999999999999999
+  },
+  {
+   "tag": "bwd=6, fwd=3",
+   "mean_train_nodes": 29.14425087108014,
+   "test_id_f1_mean": 1.0,
+   "test_real_f1_mean": 0.706896551724138,
+   "test_real_f1_ens": 0.6885245901639345
+  },
+  {
+   "tag": "bwd=8, fwd=3",
+   "mean_train_nodes": 36.32891986062718,
+   "test_id_f1_mean": 1.0,
+   "test_real_f1_mean": 0.636583400483481,
+   "test_real_f1_ens": 0.631578947368421
+  }
+ ]
+}
+
+==============================================================================
+PART 3 - citations
+==============================================================================
+  cited: 23   bibitems: 23
+  cited but no bibitem : none
+  bibitem never cited  : none

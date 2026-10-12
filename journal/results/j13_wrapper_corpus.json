@@ -1,0 +1,1722 @@
+{
+ "designs": [
+  {
+   "design": "w_uart16550_sync2_held_pin_sync2",
+   "core": "uart16550",
+   "styles": [
+    "sync2_held",
+    "pin_sync2"
+   ],
+   "expected": 2,
+   "levels": {
+    "O0": {
+     "status": "ok",
+     "n_cells": 8146,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "SYNC2"
+     ],
+     "mean_nodes": 231.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O1": {
+     "status": "ok",
+     "n_cells": 112,
+     "found": 1,
+     "templates": [
+      "MUX_HOLD"
+     ],
+     "mean_nodes": 75.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O2": {
+     "status": "ok",
+     "n_cells": 89,
+     "found": 1,
+     "templates": [
+      "MUX_HOLD"
+     ],
+     "mean_nodes": 72.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O3": {
+     "status": "ok",
+     "n_cells": 89,
+     "found": 1,
+     "templates": [
+      "MUX_HOLD"
+     ],
+     "mean_nodes": 72.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    }
+   }
+  },
+  {
+   "design": "w_uart16550_bus_nosync_pin_nosync",
+   "core": "uart16550",
+   "styles": [
+    "bus_nosync",
+    "pin_nosync"
+   ],
+   "expected": 2,
+   "levels": {
+    "O0": {
+     "status": "ok",
+     "n_cells": 8142,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 245.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O1": {
+     "status": "ok",
+     "n_cells": 736,
+     "found": 1,
+     "templates": [
+      "BUS_NOSYNC"
+     ],
+     "mean_nodes": 182.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O2": {
+     "status": "ok",
+     "n_cells": 397,
+     "found": 1,
+     "templates": [
+      "BUS_NOSYNC"
+     ],
+     "mean_nodes": 169.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O3": {
+     "status": "ok",
+     "n_cells": 392,
+     "found": 1,
+     "templates": [
+      "BUS_NOSYNC"
+     ],
+     "mean_nodes": 167.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    }
+   }
+  },
+  {
+   "design": "w_uart16550_sync2_held_pin_nosync",
+   "core": "uart16550",
+   "styles": [
+    "sync2_held",
+    "pin_nosync"
+   ],
+   "expected": 2,
+   "levels": {
+    "O0": {
+     "status": "ok",
+     "n_cells": 8178,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 233.5,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O1": {
+     "status": "ok",
+     "n_cells": 112,
+     "found": 1,
+     "templates": [
+      "MUX_HOLD"
+     ],
+     "mean_nodes": 75.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O2": {
+     "status": "ok",
+     "n_cells": 89,
+     "found": 1,
+     "templates": [
+      "MUX_HOLD"
+     ],
+     "mean_nodes": 72.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O3": {
+     "status": "ok",
+     "n_cells": 89,
+     "found": 1,
+     "templates": [
+      "MUX_HOLD"
+     ],
+     "mean_nodes": 72.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    }
+   }
+  },
+  {
+   "design": "w_uart16550_bus_nosync_pin_sync2",
+   "core": "uart16550",
+   "styles": [
+    "bus_nosync",
+    "pin_sync2"
+   ],
+   "expected": 2,
+   "levels": {
+    "O0": {
+     "status": "ok",
+     "n_cells": 8110,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "SYNC2"
+     ],
+     "mean_nodes": 242.5,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O1": {
+     "status": "ok",
+     "n_cells": 736,
+     "found": 1,
+     "templates": [
+      "BUS_NOSYNC"
+     ],
+     "mean_nodes": 182.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O2": {
+     "status": "ok",
+     "n_cells": 397,
+     "found": 1,
+     "templates": [
+      "BUS_NOSYNC"
+     ],
+     "mean_nodes": 169.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O3": {
+     "status": "ok",
+     "n_cells": 392,
+     "found": 1,
+     "templates": [
+      "BUS_NOSYNC"
+     ],
+     "mean_nodes": 167.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    }
+   }
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_sync2",
+   "core": "i2c_master",
+   "styles": [
+    "sync2_held",
+    "pin_sync2"
+   ],
+   "expected": 2,
+   "levels": {
+    "O0": {
+     "status": "ok",
+     "n_cells": 6845,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "SYNC2"
+     ],
+     "mean_nodes": 425.5,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O1": {
+     "status": "ok",
+     "n_cells": 1534,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "SYNC2"
+     ],
+     "mean_nodes": 289.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O2": {
+     "status": "ok",
+     "n_cells": 1396,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "SYNC2"
+     ],
+     "mean_nodes": 282.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O3": {
+     "status": "ok",
+     "n_cells": 1396,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "SYNC2"
+     ],
+     "mean_nodes": 282.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    }
+   }
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_nosync",
+   "core": "i2c_master",
+   "styles": [
+    "bus_nosync",
+    "pin_nosync"
+   ],
+   "expected": 2,
+   "levels": {
+    "O0": {
+     "status": "ok",
+     "n_cells": 6867,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 425.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O1": {
+     "status": "ok",
+     "n_cells": 1537,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 292.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O2": {
+     "status": "ok",
+     "n_cells": 1399,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 285.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O3": {
+     "status": "ok",
+     "n_cells": 1399,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 285.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    }
+   }
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_nosync",
+   "core": "i2c_master",
+   "styles": [
+    "sync2_held",
+    "pin_nosync"
+   ],
+   "expected": 2,
+   "levels": {
+    "O0": {
+     "status": "ok",
+     "n_cells": 6877,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 427.5,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O1": {
+     "status": "ok",
+     "n_cells": 1537,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 291.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O2": {
+     "status": "ok",
+     "n_cells": 1399,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 284.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O3": {
+     "status": "ok",
+     "n_cells": 1399,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 284.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    }
+   }
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_sync2",
+   "core": "i2c_master",
+   "styles": [
+    "bus_nosync",
+    "pin_sync2"
+   ],
+   "expected": 2,
+   "levels": {
+    "O0": {
+     "status": "ok",
+     "n_cells": 6835,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "SYNC2"
+     ],
+     "mean_nodes": 423.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O1": {
+     "status": "ok",
+     "n_cells": 1534,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "SYNC2"
+     ],
+     "mean_nodes": 290.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O2": {
+     "status": "ok",
+     "n_cells": 1396,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "SYNC2"
+     ],
+     "mean_nodes": 283.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O3": {
+     "status": "ok",
+     "n_cells": 1396,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "SYNC2"
+     ],
+     "mean_nodes": 283.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    }
+   }
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_sync2",
+   "core": "simple_spi",
+   "styles": [
+    "sync2_held",
+    "pin_sync2"
+   ],
+   "expected": 2,
+   "levels": {
+    "O0": {
+     "status": "ok",
+     "n_cells": 1218,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "SYNC2"
+     ],
+     "mean_nodes": 270.5,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O1": {
+     "status": "ok",
+     "n_cells": 577,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "SYNC2"
+     ],
+     "mean_nodes": 186.5,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O2": {
+     "status": "ok",
+     "n_cells": 591,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "SYNC2"
+     ],
+     "mean_nodes": 222.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O3": {
+     "status": "ok",
+     "n_cells": 590,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "SYNC2"
+     ],
+     "mean_nodes": 222.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    }
+   }
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_nosync",
+   "core": "simple_spi",
+   "styles": [
+    "bus_nosync",
+    "pin_nosync"
+   ],
+   "expected": 2,
+   "levels": {
+    "O0": {
+     "status": "ok",
+     "n_cells": 1241,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 284.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O1": {
+     "status": "ok",
+     "n_cells": 580,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 212.5,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O2": {
+     "status": "ok",
+     "n_cells": 594,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 266.5,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O3": {
+     "status": "ok",
+     "n_cells": 593,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 266.5,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    }
+   }
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_nosync",
+   "core": "simple_spi",
+   "styles": [
+    "sync2_held",
+    "pin_nosync"
+   ],
+   "expected": 2,
+   "levels": {
+    "O0": {
+     "status": "ok",
+     "n_cells": 1250,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 285.5,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O1": {
+     "status": "ok",
+     "n_cells": 580,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 211.5,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O2": {
+     "status": "ok",
+     "n_cells": 594,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 265.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O3": {
+     "status": "ok",
+     "n_cells": 593,
+     "found": 2,
+     "templates": [
+      "MUX_HOLD",
+      "NO_SYNC"
+     ],
+     "mean_nodes": 265.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    }
+   }
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_sync2",
+   "core": "simple_spi",
+   "styles": [
+    "bus_nosync",
+    "pin_sync2"
+   ],
+   "expected": 2,
+   "levels": {
+    "O0": {
+     "status": "ok",
+     "n_cells": 1209,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "SYNC2"
+     ],
+     "mean_nodes": 268.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O1": {
+     "status": "ok",
+     "n_cells": 577,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "SYNC2"
+     ],
+     "mean_nodes": 187.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O2": {
+     "status": "ok",
+     "n_cells": 591,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "SYNC2"
+     ],
+     "mean_nodes": 223.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    },
+    "O3": {
+     "status": "ok",
+     "n_cells": 590,
+     "found": 2,
+     "templates": [
+      "BUS_NOSYNC",
+      "SYNC2"
+     ],
+     "mean_nodes": 223.0,
+     "clocks": [
+      "clk_bus",
+      "clk_sys"
+     ]
+    }
+   }
+  }
+ ],
+ "samples": [
+  {
+   "design": "w_uart16550_sync2_held_pin_sync2",
+   "level": "O0",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 448,
+   "n_edges": 722,
+   "n_seeds": 36,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_sync2_held_pin_sync2",
+   "level": "O0",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_sync2_held_pin_sync2",
+   "level": "O1",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 75,
+   "n_edges": 133,
+   "n_seeds": 6,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_sync2_held_pin_sync2",
+   "level": "O2",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 72,
+   "n_edges": 130,
+   "n_seeds": 6,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_sync2_held_pin_sync2",
+   "level": "O3",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 72,
+   "n_edges": 130,
+   "n_seeds": 6,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_bus_nosync_pin_nosync",
+   "level": "O0",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 471,
+   "n_edges": 726,
+   "n_seeds": 38,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_bus_nosync_pin_nosync",
+   "level": "O0",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 19,
+   "n_edges": 18,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_bus_nosync_pin_nosync",
+   "level": "O1",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 182,
+   "n_edges": 279,
+   "n_seeds": 10,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_bus_nosync_pin_nosync",
+   "level": "O2",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 169,
+   "n_edges": 268,
+   "n_seeds": 10,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_bus_nosync_pin_nosync",
+   "level": "O3",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 167,
+   "n_edges": 264,
+   "n_seeds": 10,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_sync2_held_pin_nosync",
+   "level": "O0",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 448,
+   "n_edges": 722,
+   "n_seeds": 36,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_sync2_held_pin_nosync",
+   "level": "O0",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 19,
+   "n_edges": 18,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_sync2_held_pin_nosync",
+   "level": "O1",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 75,
+   "n_edges": 133,
+   "n_seeds": 6,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_sync2_held_pin_nosync",
+   "level": "O2",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 72,
+   "n_edges": 130,
+   "n_seeds": 6,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_sync2_held_pin_nosync",
+   "level": "O3",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 72,
+   "n_edges": 130,
+   "n_seeds": 6,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_bus_nosync_pin_sync2",
+   "level": "O0",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 471,
+   "n_edges": 726,
+   "n_seeds": 38,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_bus_nosync_pin_sync2",
+   "level": "O0",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_bus_nosync_pin_sync2",
+   "level": "O1",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 182,
+   "n_edges": 279,
+   "n_seeds": 10,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_bus_nosync_pin_sync2",
+   "level": "O2",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 169,
+   "n_edges": 268,
+   "n_seeds": 10,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_uart16550_bus_nosync_pin_sync2",
+   "level": "O3",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 167,
+   "n_edges": 264,
+   "n_seeds": 10,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_sync2",
+   "level": "O0",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 837,
+   "n_edges": 1404,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_sync2",
+   "level": "O0",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_sync2",
+   "level": "O1",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 564,
+   "n_edges": 982,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_sync2",
+   "level": "O1",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_sync2",
+   "level": "O2",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 550,
+   "n_edges": 946,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_sync2",
+   "level": "O2",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_sync2",
+   "level": "O3",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 550,
+   "n_edges": 946,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_sync2",
+   "level": "O3",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_nosync",
+   "level": "O0",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 832,
+   "n_edges": 1382,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_nosync",
+   "level": "O0",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 18,
+   "n_edges": 16,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_nosync",
+   "level": "O1",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 566,
+   "n_edges": 975,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_nosync",
+   "level": "O1",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 18,
+   "n_edges": 22,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_nosync",
+   "level": "O2",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 552,
+   "n_edges": 939,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_nosync",
+   "level": "O2",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 18,
+   "n_edges": 22,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_nosync",
+   "level": "O3",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 552,
+   "n_edges": 939,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_nosync",
+   "level": "O3",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 18,
+   "n_edges": 22,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_nosync",
+   "level": "O0",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 837,
+   "n_edges": 1404,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_nosync",
+   "level": "O0",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 18,
+   "n_edges": 16,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_nosync",
+   "level": "O1",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 564,
+   "n_edges": 982,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_nosync",
+   "level": "O1",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 18,
+   "n_edges": 22,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_nosync",
+   "level": "O2",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 550,
+   "n_edges": 946,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_nosync",
+   "level": "O2",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 18,
+   "n_edges": 22,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_nosync",
+   "level": "O3",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 550,
+   "n_edges": 946,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_sync2_held_pin_nosync",
+   "level": "O3",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 18,
+   "n_edges": 22,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_sync2",
+   "level": "O0",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 832,
+   "n_edges": 1382,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_sync2",
+   "level": "O0",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_sync2",
+   "level": "O1",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 566,
+   "n_edges": 975,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_sync2",
+   "level": "O1",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_sync2",
+   "level": "O2",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 552,
+   "n_edges": 939,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_sync2",
+   "level": "O2",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_sync2",
+   "level": "O3",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 552,
+   "n_edges": 939,
+   "n_seeds": 56,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_i2c_master_bus_nosync_pin_sync2",
+   "level": "O3",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_sync2",
+   "level": "O0",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 527,
+   "n_edges": 862,
+   "n_seeds": 33,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_sync2",
+   "level": "O0",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_sync2",
+   "level": "O1",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 359,
+   "n_edges": 628,
+   "n_seeds": 32,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_sync2",
+   "level": "O1",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_sync2",
+   "level": "O2",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 430,
+   "n_edges": 846,
+   "n_seeds": 59,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_sync2",
+   "level": "O2",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_sync2",
+   "level": "O3",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 430,
+   "n_edges": 846,
+   "n_seeds": 59,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_sync2",
+   "level": "O3",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_nosync",
+   "level": "O0",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 522,
+   "n_edges": 841,
+   "n_seeds": 33,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_nosync",
+   "level": "O0",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 46,
+   "n_edges": 55,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_nosync",
+   "level": "O1",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 360,
+   "n_edges": 622,
+   "n_seeds": 32,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_nosync",
+   "level": "O1",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 65,
+   "n_edges": 82,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_nosync",
+   "level": "O2",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 432,
+   "n_edges": 842,
+   "n_seeds": 59,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_nosync",
+   "level": "O2",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 101,
+   "n_edges": 141,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_nosync",
+   "level": "O3",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 432,
+   "n_edges": 842,
+   "n_seeds": 59,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_nosync",
+   "level": "O3",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 101,
+   "n_edges": 141,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_nosync",
+   "level": "O0",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 527,
+   "n_edges": 862,
+   "n_seeds": 33,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_nosync",
+   "level": "O0",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 44,
+   "n_edges": 54,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_nosync",
+   "level": "O1",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 359,
+   "n_edges": 628,
+   "n_seeds": 32,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_nosync",
+   "level": "O1",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 64,
+   "n_edges": 87,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_nosync",
+   "level": "O2",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 430,
+   "n_edges": 846,
+   "n_seeds": 59,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_nosync",
+   "level": "O2",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 100,
+   "n_edges": 147,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_nosync",
+   "level": "O3",
+   "cid": 0,
+   "template": "MUX_HOLD",
+   "label_safe": 1,
+   "n_nodes": 430,
+   "n_edges": 846,
+   "n_seeds": 59,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_sync2_held_pin_nosync",
+   "level": "O3",
+   "cid": 1,
+   "template": "NO_SYNC",
+   "label_safe": 0,
+   "n_nodes": 100,
+   "n_edges": 147,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_sync2",
+   "level": "O0",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 522,
+   "n_edges": 841,
+   "n_seeds": 33,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_sync2",
+   "level": "O0",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_sync2",
+   "level": "O1",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 360,
+   "n_edges": 622,
+   "n_seeds": 32,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_sync2",
+   "level": "O1",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_sync2",
+   "level": "O2",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 432,
+   "n_edges": 842,
+   "n_seeds": 59,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_sync2",
+   "level": "O2",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_sync2",
+   "level": "O3",
+   "cid": 0,
+   "template": "BUS_NOSYNC",
+   "label_safe": 0,
+   "n_nodes": 432,
+   "n_edges": 842,
+   "n_seeds": 59,
+   "semi_synthetic": true
+  },
+  {
+   "design": "w_simple_spi_bus_nosync_pin_sync2",
+   "level": "O3",
+   "cid": 1,
+   "template": "SYNC2",
+   "label_safe": 1,
+   "n_nodes": 14,
+   "n_edges": 15,
+   "n_seeds": 1,
+   "semi_synthetic": true
+  }
+ ]
+}

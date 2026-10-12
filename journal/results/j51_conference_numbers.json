@@ -1,0 +1,10 @@
+{
+ "n_numerals": 516,
+ "n_orphans": 0,
+ "variants_identical": true,
+ "variant_digests": {
+  "crossexplain_ieee.tex": "88751d643b6c",
+  "crossexplain_ieee_single.tex": "88751d643b6c"
+ },
+ "orphans": []
+}

@@ -1,0 +1,90 @@
+{
+ "verified": [
+  {
+   "key": "torralba2011",
+   "verified": true,
+   "date": "2026-08-23",
+   "source": "ACM DL 10.1109/CVPR.2011.5995347; CMU Robotics Institute publication record",
+   "confirmed": "Torralba & Efros, CVPR 2011, pp. 1521-1528, Colorado Springs",
+   "changed": "added month (Jun.)"
+  },
+  {
+   "key": "recht2019",
+   "verified": true,
+   "date": "2026-08-23",
+   "source": "dblp conf/icml/RechtRSS19; ICML 2019 virtual proceedings",
+   "confirmed": "Recht, Roelofs, Schmidt, Shankar; ICML 2019, pp. 5389-5400; Long Beach",
+   "changed": "qualified as 36th ICML"
+  },
+  {
+   "key": "liao2021",
+   "verified": true,
+   "date": "2026-08-23",
+   "source": "datasets-benchmarks-proceedings.neurips.cc, 2021 round 2",
+   "confirmed": "Liao, Taori, Raji, Schmidt; NeurIPS Datasets and Benchmarks Track, 2021",
+   "changed": "venue name corrected to 'NeurIPS Track Datasets and Benchmarks'"
+  },
+  {
+   "key": "nondeterminism",
+   "verified": true,
+   "date": "2026-08-23",
+   "source": "proceedings.mlsys.org 2022 paper 427e0e886ebf87538afdf0badb805b7f",
+   "confirmed": "Zhuang, Zhang, Song, Hooker; MLSys 2022; Santa Clara, CA, Aug 29 - Sep 1 2022",
+   "changed": "added location"
+  },
+  {
+   "key": "higham2002",
+   "verified": true,
+   "date": "2026-08-23",
+   "source": "SIAM catalogue; nhigham.com book page; ISBN 0-89871-521-0",
+   "confirmed": "Higham, Accuracy and Stability of Numerical Algorithms, 2nd ed., SIAM, 2002",
+   "changed": "none"
+  },
+  {
+   "key": "sv2v",
+   "verified": true,
+   "date": "2026-08-23",
+   "source": "github.com/zachjs/sv2v; LICENSE file in the vendored copy at journal/tools/sv2v-Windows/LICENSE",
+   "confirmed": "'sv2v: SystemVerilog to Verilog'; BSD 3-Clause; Copyright 2019-2024 Zachary Snow, 2011-2015 Tom Hawkins",
+   "changed": "added licence; access date"
+  }
+ ],
+ "inherited": [
+  "ginosar2011",
+  "cummings2008",
+  "commercial",
+  "litterick2006",
+  "meridianml",
+  "cummings",
+  "kipf2017gcn",
+  "hamilton2017sage",
+  "velickovic2018gat",
+  "gnnre",
+  "trojansaint",
+  "trojangnn",
+  "xaisurvey",
+  "sanchez2020",
+  "yosys"
+ ],
+ "inherited_resolved": [
+  {
+   "key": "trojansaint",
+   "verified": true,
+   "date": "2026-08-23",
+   "source": "dblp conf/iscas/LashenAKS23, DOI 10.1109/ISCAS46773.2023.10181403",
+   "confirmed": "Lashen, Alrahis, Knechtel, Sinanoglu; ISCAS 2023; pp. 1-5 correct as printed",
+   "changed": "none -- the flagged page range was right"
+  },
+  {
+   "key": "sanchez2020",
+   "verified": true,
+   "date": "2026-08-23",
+   "source": "dblp conf/nips/Sanchez-Lengeling20",
+   "confirmed": "Sanchez-Lengeling et al.; NeurIPS 2020",
+   "changed": "TWO CORRECTIONS. (1) page range 5898-5910 could not be confirmed -- dblp lists no pages for this paper -- so it is dropped rather than kept unsupported. (2) the venue was given as Vancouver, BC; NeurIPS 2020 was held virtually. Both fixes applied to paper/crossexplain_ieee.tex, paper/crossexplain_ieee_single.tex and the journal draft."
+  }
+ ],
+ "outstanding": [],
+ "n_total": 21,
+ "all_verified": true
+}

@@ -1,0 +1,10 @@
+{
+ "n_checks": 28,
+ "n_pass": 28,
+ "n_accepted": 21,
+ "n_clk_prefix": 8,
+ "n_name_excluded": 13,
+ "n_tried_total": 33,
+ "n_second_pass": 8,
+ "failures": []
+}

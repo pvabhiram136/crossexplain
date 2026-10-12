@@ -1,0 +1,100 @@
+{
+ "transfer": {
+  "GNN-gat": {
+   "conf_fpr": 0.9354838709677419,
+   "test_id_f1": 1.0
+  },
+  "GNN-gcn": {
+   "conf_fpr": 1.0,
+   "test_id_f1": 1.0
+  },
+  "GNN-sage": {
+   "conf_fpr": 0.967741935483871,
+   "test_id_f1": 1.0
+  },
+  "RandomForest": {
+   "conf_fpr": 0.9354838709677419,
+   "test_id_f1": 0.996328029375765
+  },
+  "LogisticReg": {
+   "conf_fpr": 0.8709677419354839,
+   "test_id_f1": 0.8641655886157827
+  },
+  "matcher-textbook": {
+   "conf_fpr": 1.0,
+   "test_id_f1": 0.8777506112469438
+  },
+  "matcher-domain": {
+   "conf_fpr": 0.6774193548387096,
+   "test_id_f1": 1.0
+  },
+  "always-safe": {
+   "conf_fpr": 0.0,
+   "test_id_f1": 0.0
+  }
+ },
+ "n_conf": 31,
+ "knn_unsafe_fraction": 1.0,
+ "knn_templates": {
+  "MUX_UNSYNC_QUAL": 155
+ },
+ "feature_shifts": [
+  {
+   "feature": "$_DFF_P_",
+   "gen_safe": 0.43299105763435364,
+   "gen_unsafe": 0.40288132429122925,
+   "found_safe": 0.03609824925661087,
+   "shift": -0.39689281582832336
+  },
+  {
+   "feature": "is_ff",
+   "gen_safe": 0.46136897802352905,
+   "gen_unsafe": 0.4267825186252594,
+   "found_safe": 0.21698014438152313,
+   "shift": -0.24438883364200592
+  },
+  {
+   "feature": "comb",
+   "gen_safe": 0.5386314988136292,
+   "gen_unsafe": 0.5732176303863525,
+   "found_safe": 0.7830199599266052,
+   "shift": 0.24438846111297607
+  },
+  {
+   "feature": "$_MUX_",
+   "gen_safe": 0.02387985587120056,
+   "gen_unsafe": 0.03248687833547592,
+   "found_safe": 0.23072119057178497,
+   "shift": 0.2068413347005844
+  },
+  {
+   "feature": "src_dom",
+   "gen_safe": 0.2737579643726349,
+   "gen_unsafe": 0.20973733067512512,
+   "found_safe": 0.09289836883544922,
+   "shift": -0.18085959553718567
+  },
+  {
+   "feature": "FF_OTHER",
+   "gen_safe": 0.028377840295433998,
+   "gen_unsafe": 0.023901265114545822,
+   "found_safe": 0.18088185787200928,
+   "shift": 0.15250401198863983
+  },
+  {
+   "feature": "$_XOR_",
+   "gen_safe": 0.3215723931789398,
+   "gen_unsafe": 0.288114070892334,
+   "found_safe": 0.17845042049884796,
+   "shift": -0.14312197268009186
+  },
+  {
+   "feature": "PORT_IN",
+   "gen_safe": 0.019924132153391838,
+   "gen_unsafe": 0.020048772916197777,
+   "found_safe": 0.09173235297203064,
+   "shift": 0.07180821895599365
+  }
+ ],
+ "n_shifts_toward_unsafe": 7
+}

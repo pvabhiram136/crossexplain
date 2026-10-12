@@ -1,0 +1,138 @@
+{
+ "rows": [
+  {
+   "method": "CrossExplain (5-seed ens.)",
+   "test_id_f1": 1.0,
+   "test_big_f1": 1.0,
+   "test_real_f1": 0.78125,
+   "wrapped_recall": 1.0,
+   "conf_fpr": 0.9743589743589743,
+   "conf_flagged": 38,
+   "conf_n": 39,
+   "ci": [
+    0.9210526315789473,
+    1.0
+   ]
+  },
+  {
+   "method": "CrossExplain (released)",
+   "test_id_f1": 1.0,
+   "test_big_f1": 1.0,
+   "test_real_f1": 0.7462686567164178,
+   "wrapped_recall": 1.0,
+   "conf_fpr": 0.9743589743589743,
+   "conf_flagged": 38,
+   "conf_n": 39,
+   "ci": [
+    0.9210526315789473,
+    1.0
+   ]
+  },
+  {
+   "method": "GCN ablation",
+   "test_id_f1": 1.0,
+   "test_big_f1": 1.0,
+   "test_real_f1": 0.7123287671232876,
+   "wrapped_recall": 1.0,
+   "conf_fpr": 0.10256410256410256,
+   "conf_flagged": 4,
+   "conf_n": 39,
+   "ci": [
+    0.0,
+    0.23076923076923078
+   ]
+  },
+  {
+   "method": "GraphSAGE ablation",
+   "test_id_f1": 1.0,
+   "test_big_f1": 1.0,
+   "test_real_f1": 0.6881720430107526,
+   "wrapped_recall": 0.8571428571428571,
+   "conf_fpr": 0.7435897435897436,
+   "conf_flagged": 29,
+   "conf_n": 39,
+   "ci": [
+    0.5641025641025641,
+    0.9
+   ]
+  },
+  {
+   "method": "single-task ablation",
+   "test_id_f1": 1.0,
+   "test_big_f1": 1.0,
+   "test_real_f1": 0.6101694915254238,
+   "wrapped_recall": 0.7142857142857143,
+   "conf_fpr": 0.7948717948717948,
+   "conf_flagged": 31,
+   "conf_n": 39,
+   "ci": [
+    0.631578947368421,
+    0.925
+   ]
+  },
+  {
+   "method": "Random Forest",
+   "test_id_f1": 0.996328029375765,
+   "test_big_f1": 1.0,
+   "test_real_f1": 0.6666666666666666,
+   "wrapped_recall": 0.8095238095238095,
+   "conf_fpr": 0.9487179487179487,
+   "conf_flagged": 37,
+   "conf_n": 39,
+   "ci": [
+    0.8648648648648649,
+    1.0
+   ]
+  },
+  {
+   "method": "Logistic regression",
+   "test_id_f1": 0.8641655886157827,
+   "test_big_f1": 0.7849056603773584,
+   "test_real_f1": 0.6,
+   "wrapped_recall": 0.7619047619047619,
+   "conf_fpr": 0.7948717948717948,
+   "conf_flagged": 31,
+   "conf_n": 39,
+   "ci": [
+    0.6153846153846154,
+    0.9487179487179487
+   ]
+  },
+  {
+   "method": "matcher, textbook",
+   "test_id_f1": 0.8777506112469438,
+   "test_big_f1": 0.8235294117647058,
+   "test_real_f1": 0.6666666666666665,
+   "wrapped_recall": 1.0,
+   "conf_fpr": 1.0,
+   "conf_flagged": 39,
+   "conf_n": 39,
+   "ci": [
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "method": "matcher, domain-aware",
+   "test_id_f1": 1.0,
+   "test_big_f1": 1.0,
+   "test_real_f1": 0.761904761904762,
+   "wrapped_recall": 1.0,
+   "conf_fpr": 0.6923076923076923,
+   "conf_flagged": 27,
+   "conf_n": 39,
+   "ci": [
+    0.5,
+    0.8717948717948718
+   ]
+  }
+ ],
+ "spearman_rho": -0.3744387624692208,
+ "spearman_p": 0.32079513048338537,
+ "n_at_ceiling": 6,
+ "n_at_ceiling_big": 7,
+ "gen_range": 0.13583441138421726,
+ "real_range": 0.8974358974358975,
+ "best_on_benchmark": "CrossExplain (5-seed ens.)",
+ "best_on_real": "GCN ablation"
+}
