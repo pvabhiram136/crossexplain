@@ -36,4 +36,6 @@ keywords:
   - reproducibility
   - floating-point non-associativity
 license: MIT
-repository-code: 'ARTIFACT-URL-PENDING'
+repository-code: 'https://github.com/pvabhiram136/crossexplain'
+version: 1.0.0
+date-released: '2026-10-12'
